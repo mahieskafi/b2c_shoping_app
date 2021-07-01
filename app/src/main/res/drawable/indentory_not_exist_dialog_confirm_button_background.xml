@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <solid android:color="@color/inventory_not_exist_dialog_confirmbutton_back_color"/>
+    <corners android:radius="@dimen/inventory_not_exist_dialog_confirm_button_radius"/>
+
+</shape>

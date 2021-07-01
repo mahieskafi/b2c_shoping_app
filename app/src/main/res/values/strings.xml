@@ -1,0 +1,355 @@
+<resources>
+    <string name="app_name">Eways</string>
+
+
+    <string name="hello">Eways Android</string>
+
+    <string name="percent">%s%%</string>
+
+    <string name="rialstring">%s ریال</string>
+
+    <string name="date_format">%d %s</string>
+
+    <string name="changes_dialog_title">تغییرات اخیر</string>
+
+    <!--BottomNavigationView-->
+    <string name="bottomnav_tab1_title">باشگاه</string>
+    <string name="bottomnav_tab2_title">سفر</string>
+    <string name="bottomnav_tab3_title">شارژ و اینترنت</string>
+    <string name="bottomnav_tab4_title">قبض</string>
+    <string name="bottomnav_tab5_title">فروشگاه</string>
+    <string name="bottomnav_tab6_title">خانه</string>
+
+
+    <!-- Login Page -->
+    <string name="login_sign_up_text">ثبت نام</string>
+    <string name="login_do_not_have_account">حساب کاربری ندارید؟</string>
+    <string name="login_password_hint">رمز عبور</string>
+    <string name="login_username_hint">نام کاربری</string>
+    <string name="login_button_text">ورود</string>
+
+    <!-- verification page -->
+    <string name="login_otp_title">کد تایید ارسال شده به شماره موبایل:</string>
+    <string name="login_otp_sub_title_text1">کد 8 رقمی ارسال شده به شماره </string>
+    <string name="login_otp_sub_title_text2">را در زیر وارد کنید:</string>
+    <string name="login_otp_error_text">رمز وارد شده صحیح نیست!</string>
+    <string name="login_otp_timer_title">ارسال مجدد کد</string>
+    <string name="login_otp_password_error">رمز عبور وارد شده صحیح نیست!</string>
+    <string name="login_otp_or">یا</string>
+    <string name="login_otp_password_input_hint_text">رمز عبور</string>
+    <string name="login_phone_number_input_hint_text">شماره تلفن خود را وارد نمایید</string>
+    <string name="login_phone_number_button_text">ارسال کد تایید</string>
+    <string name="login_phone_number_error">شماره موبایل وارد شده صحیح نمی باشد!</string>
+    <string name="otp_sms_resource_phonenumber">98200064004</string>
+    <string name="otp_sms_resource_phonenumber2">+98200064004</string>
+
+
+    <string name="login_failed_message">خطایی رخ داده است</string>
+
+
+    <string name="login_remember_me_text">مرا به خاطر بسپار</string>
+    <string name="login_forget_password_text">رمز عبور خود را فراموش کرده اید؟</string>
+    <string name="login_reset_password_text">رمز عبور خود را فراموش کرده ام</string>
+    <string name="login_recovery_password_text">بازیابی رمز عبور</string>
+    <string name="login_confirm_button_text">ثبت</string>
+    <string name="login_confirm_button_text2">تایید</string>
+    <string name="login_verification_code_hint">کد فعال سازی پیامک ‌شده را وارد نمایید</string>
+    <string name="login_reset_password_first_input_hint">رمز جدید</string>
+    <string name="login_reset_password_second_input_hint">تکرار رمز جدید</string>
+    <string name="login_verification_code_recend">ارسال مجدد کد فعال سازی</string>
+    <string name="reset_password_confirm_not_match">تکرار رمز جدید با رمز جدید همخوانی ندارد</string>
+
+
+    <!--ShopItem-->
+    <string name="shop_item_quick_buy_text">خرید سریع</string>
+
+
+    <string name="store_page_title">فروشگاه</string>
+    <string name="store_page_category_title">دسته‌بندی‌ها</string>
+    <string name="store_page_search_title">جستجو</string>
+    <string name="inventory_not_exist_dialog_confirm_button_text">تایید</string>
+    <string name="inventory_not_exist_dialog_description">شما به این کالا دسترسی ندارید</string>
+
+
+    <!--CategoryItemView-->
+    <string name="categoryitem_seeall_text">همه</string>
+
+
+    <!--StoreFragment-->
+    <string name="category_title_all">همه موارد</string>
+    <string name="category_title_main_page">صفحه اصلی</string>
+
+
+    <!--StoreFilterHeaderView-->
+    <string name="storefilter_title_sortby">مرتب‌سازی</string>
+    <string name="storefilter_subtitle_sortby">پرفروش‌ترین، ارزانترین …</string>
+    <string name="storefilter_title_filter">فیلتر</string>
+    <string name="storefilter_subtitle_filter">قیمت، برند، دسته‌بندی</string>
+    <string name="storefilter_title_changeview">تغییر نمایش</string>
+
+
+    <string name="five_hundred_thousand">500 هزار</string>
+    <string name="one_million">1 میلیون</string>
+    <string name="one_hundred_thousand">100 هزار</string>
+    <string name="one_thousand">1 هزار</string>
+    <string name="fifty_million">50 میلیون</string>
+    <string name="ten_million">10 میلیون</string>
+    <string name="upper">به بالا</string>
+
+
+    <!--LoyaltyScoreView-->
+    <string name="loyaltyscore_title">امتیاز وفاداری کل</string>
+    <string name="productdetail_guaranteecontainer_guarantee_title">گارانتی:</string>
+    <string name="productdetail_guaranteecontainer_seller_title">فروشنده:</string>
+    <string name="productdetail_title_fragment">جزییات محصول</string>
+    <string name="productdetail_notfound_error">برای این محصول جزییات وجود ندارد</string>
+
+
+    <!--CounterView-->
+    <string name="counterview_error_maxcount">تعداد انتخاب شده نمی تواند از %s بیشتر باشد</string>
+
+    <!-- Filter Toolbar-->
+    <string name="filter_toolbar_cancel_all_text">لغو همه فیلترها</string>
+    <string name="filter_toolbar_title">فیلترها</string>
+
+
+    <!-- Filter Header-->
+    <string name="filter_header_search_hint">جستجو در نتایج</string>
+    <string name="filter_header_title_availability_text">نمایش کالا:</string>
+    <string name="filter_header_title_availability_option1">همه کالاها</string>
+    <string name="filter_header_title_availability_option2">کالاهای موجود</string>
+    <string name="filter_header_title_cost">قیمت</string>
+    <string name="filter_header_title_cost_currency">(ریال): </string>
+    <string name="filter_header_cost_item_higher"> به بالا  </string>
+
+    <!-- Sort Dialog-->
+    <string name="filter_sort_dialog_title">مرتب سازی بر اساس : </string>
+    <string name="filter_sort_item_selling">پرفروش‌ترین</string>
+    <string name="filter_sort_item_price">ارزان‌ترین</string>
+    <string name="filter_sort_item_time">جدیدترین</string>
+    <string name="filter_sort_item_most_seen">پربازدیدترین</string>
+    <string name="filter_sort_item_most_expensive">گران‌ترین</string>
+
+    <string name="filter_button_text">اعمال فیلتر</string>
+
+
+    <!--ClubFragment-->
+    <string name="fragment_club_title">باشگاه</string>
+    <string name="club_item_buy_error_text">امتیاز شما کافی نیست!</string>
+    <string name="club_item_unavailable_error_text">ناموجود</string>
+    <string name="club_item_buy_text">خرید</string>
+    <string name="club_item_price_suffix">ریال</string>
+    <string name="club_item_point_text">امتیاز:</string>
+
+    <string name="shop_cart_item_remove_text">حذف کالا</string>
+    <string name="shop_cart_item_count_text">تعداد:</string>
+    <string name="shop_cart_item_final_price_text">مبلغ قابل پرداخت:</string>
+    <string name="shop_cart_item_final_price_suffix_text">ریال</string>
+    <string name="shop_cart_item_minOrder_message">امکان انتخاب کمتر وجود ندارد.</string>
+    <string name="shop_cart_item_max_order_message">امکان انتخاب بیشتر وجود ندارد.</string>
+    <string name="shop_cart_item_unit_price_text">قیمت واحد:</string>
+    <string name="shop_cart_item_stock_error_text">موجودی این کالا از تعداد درخواستی کمتر می باشد</string>
+    <string name="shop_cart_item_unit_price_suffix_text">ریال</string>
+    <string name="shop_cart_item_total_price_text">قیمت کل:</string>
+    <string name="shop_cart_item_total_price_suffix_text">ریال</string>
+    <string name="shop_cart_item_discount_text">تخفیف:</string>
+    <string name="shop_cart_item_discount_suffix_text">ریال</string>
+    <string name="shop_cart_item_point_text">امتیاز:</string>
+    <string name="shop_cart_item_point_suffix_text">ریال</string>
+
+
+    <!-- order summary view -->
+    <string name="order_summary_total_score_text">مجموع کل امتیاز:</string>
+    <string name="order_summary_total_cost_text">مجموع مبلغ:</string>
+    <string name="order_summary_total_price_text">مجموع کل قیمت سبد خرید:</string>
+    <string name="order_summary_total_discount_text">مجموع کل تخفیف:</string>
+    <string name="order_summary_delivery_price_text">هزینه </string>
+    <string name="order_summary_button_text">ادامه</string>
+    <string name="order_summary_buy_button_text">پرداخت</string>
+    <string name="shop_cart_product_list_fragment_title">بررسی سبد خرید</string>
+    <string name="shoo_cart_top_item_title">کالا در سبد خرید</string>
+    <string name="shoo_cart_top_item_delete_title">حذف همه کالا ها</string>
+    <string name="shop_cart_product_list_next_level_error_message">در حال به روز رسانی لیست. لطفا لحظاتی دیگر تلاش نمایید</string>
+    <string name="shop_cart_product_list_next_level_empty_list_error_message">سبد خرید شما خالی است.</string>
+    <string name="shop_cart_product_list_next_level_has_lack_error_message">کالایی ناموجود در سبد خرید شما وجود دارد!</string>
+    <string name="shop_cart_empty_list_message">سبد خرید خالی می باشد.</string>
+    <string name="shop_cart_item_count_error">موجودی این کالا از تعداد درخواستی کمتر می‌باشد.</string>
+    <string name="shop_cart_product_list_next_level_has_less_count_error_message">کالایی با تعداد درخواستی بیشتر از موجودی در سبد خرید شما وجود دارد</string>
+
+    <string name="shop_cart_address_province_dialog_title">انتخاب استان</string>
+    <string name="shop_cart_address_city_dialog_title">انتخاب شهر</string>
+
+    <string name="shop_cart_progress_bar_product_list_title">سبد خرید</string>
+    <string name="shop_cart_progress_bar_address_page_title">مشخصات ارسال</string>
+    <string name="shop_cart_progress_bar_payment_title">تایید و پرداخت</string>
+    <!-- shopCartPaymentMethod view -->
+    <string name="shop_cart_payment_method_item_pay_radio_text">پرداخت</string>
+    <string name="shop_cart_payment_method_item_pay_from_dargah_radio_text">پرداخت از درگاه</string>
+    <string name="shop_cart_payment_method_item_discount_text">کد تخفیف دارم:</string>
+    <string name="shop_cart_payment_method_item_discount_hint">کد تخفیف</string>
+    <string name="shop_cart_payment_method_item_submit_discount">ثبت</string>
+    <string name="shop_cart_payment_method_item_deposit_message">سپرده شما کافی نیست !</string>
+    <string name="shop_cart_payment_method_item_add_deposit_message">افزایش سپرده</string>
+    <string name="shop_cart_payment_coupon_code_error">کد تخفیف وارد شده معتبر نمی باشد</string>
+    <string name="shop_cart_payment_coupon_error_persian_letter">کد را انگلیسی وارد کنید</string>
+    <string name="shop_cart_payment_coupon_code_success">کد تخفیف  با موفقیت ثبت شد</string>
+
+
+    <!-- add address view -->
+    <string name="add_address_view_add_button_text">افزودن آدرس</string>
+    <string name="address_detail_view_receiver_name_text">نام تحویل گیرنده</string>
+    <string name="address_detail_view_receiver_mobile_text">موبایل</string>
+    <string name="address_detail_view_receiver_phone_text">شماره ثابت</string>
+    <string name="address_detail_view_receiver_post_code_text">کدپستی</string>
+    <string name="address_detail_view_receiver_address_text">آدرس</string>
+    <string name="address_detail_view_receiver_state_text">استان</string>
+    <string name="address_detail_view_receiver_city_text">شهر</string>
+    <string name="address_detail_view_delivery_type_text">روش ارسال</string>
+    <string name="default_address_name">نشانی اول</string>
+
+
+    <!-- shop cart -->
+    <string name="address_detail_title_text">مشخصات تحویل گیرنده</string>
+    <string name="shop_cart_address_fragment_title">درج مشخصات ارسال سفارش</string>
+    <string name="delivery_detail_title_text">نحوه ارسال سفارش</string>
+    <string name="select_address_button_text">تغییر آدرس</string>
+    <string name="description_box_hint">توضیحات خود را وارد نمایید</string>
+
+    <!--CreateAddressFragment-->
+    <string name="addressdialog_toolbar_title">افزودن نشانی جدید </string>
+    <string name="addressdialog_toolbar_title2">ویرایش نشانی </string>
+
+    <string name="addressdialog_addressname_title">عنوان آدرس :</string>
+    <string name="addressdialog_addressname_empty_error">عنوان آدرس  را وارد نمایید</string>
+    <string name="addressdialog_receivername_title">نام تحویل‌گیرنده :</string>
+    <string name="addressdialog_receivername_empty_error">نام تحویل گیرنده را وارد نمایید</string>
+    <string name="addressdialog_fixname_title">شماره ثابت :</string>
+    <string name="addressdialog_phone_empty_error">شماره ثابت را وارد نمایید</string>
+    <string name="addressdialog_phonenumber_title">موبایل :</string>
+    <string name="addressdialog_mobile_empty_error">موبایل را وارد نمایید</string>
+    <string name="addressdialog_postalcode_title">کد پستی :</string>
+    <string name="addressdialog_postalcode_empty_error">کد پستی را وارد نمایید</string>
+    <string name="addressdialog_province_title">استان :</string>
+    <string name="addressdialog_state_empty_error">استان را وارد نمایید</string>
+    <string name="addressdialog_city_title">شهر :</string>
+    <string name="addressdialog_city_empty_error">شهر را وارد نمایید</string>
+
+    <string name="address_confirm_button_text">تایید</string>
+    <string name="address_cancel_button_text">انصراف</string>
+
+    <string name="addressdialog_empty_error">ورود اطلاعات خواسته شده ضروری است</string>
+    <string name="address_list_dialog_title">نشانی ها:</string>
+    <string name="shop_cart_remove_product_dialog_all_title">آیا از حذف کردن کالاها از سبد خرید خود اطمینان دارید؟</string>
+    <string name="shop_cart_remove_product_dialog_single_title">آیا از حذف کردن این کالا از سبد خرید خود اطمینان دارید؟</string>
+    <string name="shop_cart_remove_product_dialog_remove">حذف کن</string>
+    <string name="shop_cart_remove_product_dialog_keep">نگه دار</string>
+    <string name="shop_cart_payment_dialog_cancel_button_text">انصراف</string>
+    <string name="shop_cart_payment_dialog_payment_button_text">تایید و پرداخت</string>
+    <string name="shop_cart_payment_dialog_deposit_is_less_increase_deposit_text1">حداقل مبلغ جهت پرداخت در درگاه بانکی\n</string>
+    <string name="shop_cart_payment_dialog_deposit_is_less_increase_deposit_text2">مابقی مبلغ </string>
+    <string name="shop_cart_payment_dialog_deposit_is_less_increase_deposit_text4"> ریال می‌باشد.</string>
+    <string name="shop_cart_payment_dialog_deposit_is_less_increase_deposit_text3">ریال به سپرده شما افزوده خواهد شد. </string>
+    <string name="shop_cart_payment_dialog_deposit_is_less_title">به دلیل کافی نبودن سپرده می‌بایست \n مابقی مبلغ را از طریق درگاه بانکی پرداخت نمایید.</string>
+    <string name="shop_cart_payment_dialog_deposit_is_less_description">مابقی مبلغ: </string>
+    <string name="shop_cart_dargah_is_not_valid">درگاه بانکی موقتا غیرفعال میباشد. لطفا دقایقی دیگر تلاش نمایید. </string>
+
+
+    <!--delivery view-->
+    <string name="delivery_title">نحوه ارسال سفارش</string>
+    <string name="shop_cart_confirmation_fragment_title">تایید و پرداخت</string>
+    <string name="shop_cart_confirmation_info_summary_title">خلاصه مشخصات</string>
+    <string name="shop_cart_confirmation_pay_title">پرداخت</string>
+    <string name="item_no_data_shop_cart_card_text">هنوز هیچ کالایی در سبد خرید شما موجود نیست!</string>
+    <string name="item_no_data_shop_cart_title">سبد خرید شما خالی می باشد!</string>
+    <string name="shop_cart_confirmation_not_enough_deposit"> سپرده شما برای پرداخت این سفارش کافی نیست.</string>
+    <string name="shop_cart_deposit_title">مبلغ سپرده</string>
+    <string name="shop_cart_switch_title">استفاده از سپرده</string>
+
+    <!--Order Transaction Detail-->
+    <string name="order_transaction_detail_title">جزییات سفارش</string>
+    <string name="order_transaction_detail_delivery_title">وضعیت ارسال:</string>
+    <string name="order_transaction_detail_factor_title">اطلاعات ارسال</string>
+    <string name="order_transaction_detail_delivery_info_title">اطلاعات ارسال</string>
+    <string name="order_transaction_detail_product_list_title">کالاهای سفارش</string>
+
+    <string name="order_transaction_detail_order_code">شماره سفارش:</string>
+    <string name="order_transaction_detail_order_date">تاریخ ثبت سفارش:</string>
+    <string name="order_transaction_detail_order_time">زمان ثبت سفارش:</string>
+    <string name="order_transaction_detail_order_status">وضعیت سفارش:</string>
+    <string name="order_transaction_detail_order_price">مبلغ:</string>
+
+    <string name="order_transaction_detail_factor_total_price">جمع سبد خرید:</string>
+    <string name="order_transaction_detail_factor_delivery_price">هزینه ارسال:</string>
+    <string name="order_transaction_detail_factor_total_point">امتیاز:</string>
+    <string name="order_transaction_detail_factor_price">مبلغ قابل پرداخت:</string>
+
+    <string name="order_transaction_detail_delivery_info_text1">این سفارش به </string>
+    <string name="order_transaction_detail_delivery_info_text2"> تحویل گیرنده: </string>
+    <string name="order_transaction_detail_delivery_info_text3"> آدرس: </string>
+    <string name="order_transaction_detail_post_code_title"> کد پستی: </string>
+    <string name="order_transaction_detail_delivery_info_text4">نوع ارسال:</string>
+    <string name="order_transaction_detail_delivery_final_price_title_success">مبلغ پرداختی:</string>
+    <string name="order_transaction_detail_delivery_final_price_title_failed">مبلغ نهایی:</string>
+
+    <!--order transaction product-->
+    <string name="order_transaction_product_item_product_id_text">کد کالا:</string>
+    <string name="order_transaction_product_item_count_text">تعداد:</string>
+    <string name="order_transaction_product_item_unit_price_text">قیمت واحد:</string>
+    <string name="order_transaction_product_item_total_price_text">قیمت کل:</string>
+    <string name="order_transaction_product_item_final_price_text">مبلغ قابل پرداخت:</string>
+    <string name="order_transaction_product_item_discount_text">تخفیف:</string>
+    <string name="order_transaction_detail_more_items_button_text">نمایش کالاهای بیشتر</string>
+    <string name="store_main_page_category_more_text">بیشتر</string>
+    <string name="shop_cart_item_lack_text">ناموجود</string>
+    <string name="shop_cart_product_list_is_updating_error_message">در حال به روز رسانی لیست. لطفا لحظاتی دیگر تلاش نمایید</string>
+
+
+    <!--Shop Receipt-->
+    <string name="shop_receipt_page_title">رسید سبد خرید</string>
+    <string name="shop_receipt_button_detail_title">پیگیری سفارش</string>
+    <string name="shop_receipt_button_main_page_title">صفحه اصلی</string>
+    <string name="shop_receipt_credit_title">سپرده جدید شما</string>
+    <string name="shop_receipt_order_number_title"> شماره سفارش </string>
+    <string name="shop_receipt_order_price_title">مبلغ سفارش </string>
+    <string name="shop_receipt_result_description_unknown_state">متاسفانه وضعیت سفارش شما نامشخص است</string>
+    <string name="shop_receipt_result_description_success_state">سفارش شما با موفقیت ثبت شد</string>
+    <string name="shop_receipt_result_description_failed_state">متاسفانه سفارش شما ثبت نشد</string>
+    <string name="shop_receipt_result_detail_page_title">جزییات رسید سبد خرید</string>
+    <string name="paying_price_invalid">مبلغ پرداختی شما مجاز نمی باشد</string>
+
+
+    <!-- Landing-->
+    <string name="landing_service_list_title_text">سرویس‌ها</string>
+    <string name="landing_service_phonenumber_title_text">خرید شارژ و بسته اینترنت</string>
+    <string name="landing_service_item_inactive_description_text">به‌زودی</string>
+    <string name="landing_charge_error_text">  سرویس شارژ و بسته اینترنت موقتاً غیر فعال می‌باشد! \n
+    لطفاً لحظاتی دیگر تلاش نمایید</string>
+
+    <string name="landing_update_service_title">نسخه جدید اپلیکیشن ایویز ارائه شده‌است</string>
+    <string name="landing_update_service_update_available_description">با دانلود این نسخه از امکانات جدید نرم‌افزار استفاده نمایید</string>
+    <string name="landing_update_service_force_update_description">برای استفاده از اپلیکیشن لازم است
+ نسخه جدید را بر روی گوشی یا تبلت خود
+ نصب نمایید
+</string>
+    <string name="landing_update_available_main_button_text">دریافت</string>
+    <string name="landing_update_available_second_button_text">انصراف</string>
+    <string name="landing_update_force_second_button_text">خروج</string>
+
+    <string name="update_description">از شکیبایی شما تا اتمام دانلود نرم‌افزار\n
+ سپاس‌گزاریم</string>
+
+    <string name="mobile_list_brand_item_special_title_text">سبدهای ویژه</string>
+
+
+    <string name="follow_order_page_title">پیگیری سفارش</string>
+    <string name="follow_order_list_header_detail_title"> جزییات </string>
+    <string name="follow_order_list_header_amount_title"> مبلغ سفارش  </string>
+    <string name="follow_order_list_header_status_title"> وضعیت سفارش  </string>
+    <string name="follow_order_list_header_id_title"> شماره سفارش </string>
+    <string name="follow_order_list_detail_delivery_status_title">وضعیت ا رسال :</string>
+    <string name="follow_order_list_detail_payment_status_title">نحوه پرداخت :</string>
+    <string name="follow_order_list_detail_delivery_type_title">نوع ا رسال :</string>
+    <string name="follow_order_list_detail_date_title">تاریخ ایجاد :</string>
+    <string name="follow_order_list_detail_time_title">ساعت :</string>
+    <string name="follow_order_list_detail_button_text">جزییات بیشتر</string>
+</resources>

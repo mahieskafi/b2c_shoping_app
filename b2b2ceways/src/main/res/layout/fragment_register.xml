@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource"
+    android:background="@color/login_page_background_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/register_button">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical">
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/name_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input_height"
+                android:layout_marginTop="@dimen/login_register_name_margin_top"
+                android:elevation="@dimen/login_input_elevation_size"
+                custom:font="@font/iran_yekan" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/name_error_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_register_password_alert_text_margin_top"
+                android:gravity="right" />
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/family_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input_height"
+                android:layout_marginTop="@dimen/login_register_family_input_margin_top"
+                android:elevation="@dimen/login_input_elevation_size"
+
+                custom:font="@font/iran_yekan" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/family_error_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_register_password_alert_text_margin_top"
+                android:gravity="right" />
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/gender_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input_height"
+                android:layout_marginTop="@dimen/login_register_gender_input_margin_top"
+                android:elevation="@dimen/login_input_elevation_size"
+
+                custom:font="@font/iran_yekan" />
+
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/password_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input_height"
+                android:layout_marginTop="@dimen/login_register_input_elements_margin_top"
+                android:elevation="@dimen/login_input_elevation_size"
+
+                custom:font="@font/iran_yekan" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txt_password_alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_register_password_alert_text_margin_top"
+                android:gravity="right" />
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/re_password_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input_height"
+                android:layout_marginTop="@dimen/login_register_re_password_input_margin_top"
+                android:elevation="@dimen/login_input_elevation_size"
+
+                custom:font="@font/iran_yekan" />
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/presenter_code_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_input_height"
+                android:layout_marginTop="@dimen/login_register_input_elements_margin_top"
+                android:layout_marginBottom="@dimen/login_presenter_code_input_margin_bottom"
+                android:elevation="@dimen/login_input_elevation_size"
+
+                custom:font="@font/iran_yekan" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.srp.eways.ui.view.button.ButtonElement
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/login_register_button_element_margin_top"
+        android:layout_marginBottom="@dimen/login_button_margin_bottom"
+
+        custom:button_font="@font/iran_yekan_light" />
+</RelativeLayout>

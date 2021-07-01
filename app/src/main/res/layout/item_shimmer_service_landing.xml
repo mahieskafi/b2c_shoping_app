@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <View
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:background="@drawable/landing_shimmer_items_curve_background" />
+
+    <View
+        android:layout_width="59dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/landing_shimmer_items_background" />
+
+</LinearLayout>

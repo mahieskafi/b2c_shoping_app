@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="@dimen/club_item_image_margin_side"/>
+        <Span id="product_image" size="1w"/>
+        <Span size="@dimen/club_item_image_margin_side"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="@dimen/club_item_name_margin_side"/>
+        <Span id="product_name" size="1w"/>
+        <Span size="@dimen/club_item_name_margin_side"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="off_value" size="34dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="@dimen/club_item_price_margin_side"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="@dimen/club_item_price_margin_left"/>
+        <Span id="price" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="point" size="wrap"/>
+        <Span size="6dp"/>
+        <Span id="star_point" size="17dp"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="@dimen/club_item_price_margin_side"/>
+        <Span id="price_before_off" size="wrap"/>
+        <Span size="@dimen/club_item_price_margin_side"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="click_helper" size="100%"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="@dimen/club_item_divider_margin_side"/>
+        <Span id="divider" size="1w"/>
+        <Span size="@dimen/club_item_divider_margin_side"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="2dp"/>
+        <Span id="delete_product" size="28dp"/>
+        <Span size="8dp"/>
+        <Span id="product_count" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="buy_error_text" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="availability_error_text" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Vertical >
+        <Span id="off_value" size="34dp"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="@dimen/club_item_image_margin_side"/>
+        <Span id="product_image" size="@dimen/club_item_image_height"/>
+        <Span size="10dp"/>
+        <Span id="product_name" size="wrap"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="215dp"/>
+        <Span id="divider" size="@dimen/club_item_divider_height"/>
+    </Vertical>
+
+    <Vertical end="start@divider">
+        <Span id="click_helper" size="215dp"/>
+    </Vertical>
+
+    <Vertical start="end@product_name" >
+        <Span id="price_before_off" size="wrap"/>
+        <Span size="15dp"/>
+    </Vertical>
+
+    <Vertical start="end@price_before_off" end="start@divider">
+        <Span size="1w"/>
+        <Span id="point" size="wrap"/>
+        <Span size="5dp"/>
+    </Vertical>
+
+    <Vertical  start="start@point" end="end@point">
+        <Span size="1w"/>
+        <Span id="star_point" size="17dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@point" end="end@point">
+        <Span size="1w"/>
+        <Span id="price" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@point" end="end@point">
+        <Span size="1w"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="end@divider">
+        <Span size="9dp"/>
+        <Span id="delete_product" size="28dp"/>
+        <Span size="7dp"/>
+    </Vertical>
+
+    <Vertical start="end@divider" >
+        <Span size="11dp"/>
+        <Span id="product_count" size="26dp"/>
+        <Span size="7dp"/>
+    </Vertical>
+
+
+    <Vertical start="end@divider">
+        <Span size="@dimen/club_item_button_margin_top_down"/>
+        <Span id="buy_error_text" size="wrap"/>
+        <Span size="@dimen/club_item_button_margin_top_down"/>
+    </Vertical>
+
+    <Vertical start="end@divider">
+        <Span size="@dimen/club_item_button_margin_top_down"/>
+        <Span id="availability_error_text" size="wrap"/>
+        <Span size="@dimen/club_item_button_margin_top_down"/>
+    </Vertical>
+
+</Sequences>

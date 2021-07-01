@@ -1,0 +1,481 @@
+<resources>
+
+    <string name="phone_number_activity_title_login">لطفا شماره موبایل خود را جهت ارسال کد تایید وارد نمایید:</string>
+    <string name="phone_number_activity_title_out">لطفا جهت اعتبار سنجی پروفایل, شماره موبایل خود را برای ارسال کد تایید وارد نمایید:</string>
+    <string name="change_number_otf_activity">تغییر شماره موبایل</string>
+
+
+    <string name="app_name">MainEways</string>
+    <string name="date_format">%d %s</string>
+    <string name="rial"> ریال </string>
+    <string name="specialoffers_type_hint">انتخاب پیشنهاد ویژه</string>
+    <string name="specialoffers_type_title">بسته ویژه:</string>
+
+
+
+
+    <string name="receipt_for_shairing_title">رسید پرداخت قبض</string>
+    <string name="receipt_for_shairing_footer">در کنار شماست</string>
+
+
+    <string name="buycharge_transactiontype">"نوع تراکنش: "</string>
+    <string name="buycharge_mobilenumber">"شماره موبایل: "</string>
+    <string name="buycharge_chargetype">"نوع شارژ: "</string>
+    <string name="buycharge_internrttype">"نوع بسته: "</string>
+    <string name="buycharge_paymentamount">"مبلغ:  "</string>
+    <string name="buycharge_current_credit">"سپرده جدید شما: "</string>
+
+
+    <!-- Network Error Messages -->
+    <string name="network_error_no_internet">اتصال به اینترنت برقرار نمیباشد.</string>
+    <string name="network_error_authorization_failed">باید لاگین دوباره انجام شود.</string>
+    <string name="network_error_connection">خطا به هنگام تبادل اطلاعات با سرور</string>
+    <string name="network_error_server_problem">خطای داخلی سرور</string>
+    <string name="network_error_timeout">کیفیت اتصال با سرور ضعیف میباشد.</string>
+    <string name="network_error_unsupported_api">این نسخه از اپلیکیشن به روز نمیباشد.</string>
+    <string name="network_error_undefined">خطای نامشخص رخ داده است.</string>
+    <string name="network_error_connect_to_server">مشکل در برقراری ارتباط با سرور</string>
+
+
+    <!--ContactItemView-->
+    <color name="chargecontact_itemview_name_color">#231935</color>
+    <color name="chargecontact_itemview_phone_color">#939390</color>
+
+    <!--Eways contact tabbar-->
+    <string name="eways_contact_tab">لیست مخاطبین</string>
+    <string name="add_eways_contact_tab">افزودن مخاطب</string>
+    <string name="eways_contact_title_activity">دفترچه تلفن</string>
+    <string name="eways_edit_contact_title_activity">ویرایش اطلاعات مخاطب</string>
+
+    <string name="contact_remove_dialog_single_title">آیا از حذف کردن این شماره از لیست مخاطبین خود اطمینان دارید؟</string>
+    <string name="contact_remove_dialog_remove">حذف کن</string>
+    <string name="contact_remove_dialog_keep">نگه دار</string>
+
+    <!--Add contact form-->
+    <string name="add_eways_contact_form_name">نام :</string>
+    <string name="add_eways_contact_form_family">نام خانوادگی :</string>
+    <string name="add_eways_contact_form_number">شماره تلفن همراه :</string>
+    <string name="add_eways_contact_form_credit">اعتبار :</string>
+    <string name="add_eways_contact_form_description">توضیح :</string>
+    <string name="add_eways_contact_form_confirm_button">ثبت</string>
+    <string name="add_eways_contact_form_cancel_button">انصراف</string>
+    <string name="edit_eways_contact_form_confirm_button">تایید</string>
+
+
+    <!-- follow Order -->
+    <string name="follow_order_start_date_hint">از تاریخ</string>
+    <string name="follow_order_end_date_hint">تا تاریخ</string>
+    <string name="follow_order_start_sale_number_hint">از شماره خرید</string>
+    <string name="follow_order_end_sale_number_hint">تا شماره خرید</string>
+    <string name="follow_order_text_of_order_condition">وضعیت سفارش</string>
+    <string name="follow_order_search_button_title">جستجو</string>
+    <string name="follow_order_stat_date_input_error">تاریخ شروع را وارد نمایید</string>
+
+
+    <!-- sale Report-->
+    <string name="sale_report_start_date_hint">از تاریخ</string>
+    <string name="sale_report_end_date_hint">تا تاریخ</string>
+    <string name="sale_report_page_title">گزارش فروش</string>
+    <string name="sale_report_search_button_title">جستجو</string>
+    <string name="sale_report_list_header_product_title">محصول</string>
+    <string name="sale_report_list_header_count_title">تعداد</string>
+    <string name="sale_report_list_header_amount_title"> قیمت </string>
+    <string name="sale_report_stat_date_input_error">تاریخ شروع را وارد نمایید</string>
+
+    <string name="salereport_summary">جزییات فروش</string>
+    <string name="salereport_detail">خلاصه فروش</string>
+    <string name="salereport_toolbar_title">گزارش فروش</string>
+
+    <string name="sale_detail_report_item_bill_id_title">شناسه خرید:</string>
+
+    <string name="sale_datail_report_item_more_key_1">فروشگاه:</string>
+    <string name="sale_datail_report_item_more_key_2">مشتری:</string>
+    <string name="sale_datail_report_item_more_key_3">سود:</string>
+    <string name="sale_datail_report_item_more_key_4">استعلام:</string>
+    <string name="sale_datail_report_item_more_key_5">تعداد:</string>
+    <string name="sale_datail_report_item_more_key_6">نام کاربری:</string>
+    <string name="sale_datail_report_item_more_key_7">موبایل:</string>
+
+    <!-- Toolbar -->
+    <string name="toolbar_deposittitle">ســپـرده</string>
+    <string name="toolbar_deposittitle_rials">(ریال)</string>
+
+    <!--EmptyView-->
+    <string name="emptyview_text">داده‌ای برای نمایش وجود ندارد!</string>
+    <string name="retry_error_message">مشکلی پیش امده است</string>
+
+    <!--LoadingStateView-->
+    <string name="loadingstateview_retry_text">تلاش مجدد</string>
+    <string name="loadingstateview_loading_error_text">لطفا دوباره تلاش کنید</string>
+    <string name="loadingstateview_loading_connectiontimeout_error_text"> متاسفانه پاسخی دریافت نشد</string>
+    <string name="loadingstateview_loading_internetspeed_text"> در حال دریافت اطلاعات \n لطفاً منتظر بمانید</string>
+
+    <string name="loading_message"> در حال دریافت اطلاعات \n لطفا منتظر بمانید</string>
+
+
+    <!-- Charge Sale -->
+    <string name="chargesale_mobilenumber">شماره موبایل: </string>
+    <string name="chargesale_paymentdate">تاریخ تراکنش: </string>
+    <string name="chargesale_paymentid">شناسه پرداخت: </string>
+    <string name="chargesale_paymentamount">مبلغ پرداخت (ریال): </string>
+    <string name="minimum_chargeamount_irancell">حداقل مبلغ شارژ 5,000 ریال میباشد</string>
+    <string name="minimum_chargeamount_otheroperatror">حداقل مبلغ شارژ 10,000 ریال میباشد</string>
+
+
+
+    <!--operators-->
+    <string name="irancel">ایرانسل</string>
+    <string name="hamrahe_aval">همراه اول</string>
+    <string name="rightel_etebari">رایتل اعتباری</string>
+    <string name="rightel_daemi">رایتل داائمی</string>
+
+
+    <string name="internetpackage_option_type_hint">انتخاب نوع بسته</string>
+    <string name="topupoption_type_hint">انتخاب نوع شارژ</string>
+    <string name="topupoption_type_title">نوع شارژ:</string>
+    <string name="topupchoice_type_hint">انتخاب مبلغ</string>
+    <string name="topupchoice_type_title">انتخاب مبلغ</string>
+    <string name="internetpackage_choice_type_hint">انتخاب مشخصات بسته</string>
+    <string name="internetpackage_choice_type_title">بسته اینترنت:</string>
+    <string name="internetpackage_option_type_title">بسته اینترنت:</string>
+
+
+    <string name="toolbar_query_hint">جستجو در فروشگاه ایویز</string>
+
+    <!--Dialog-->
+    <string name="confirm_button_dialog_text">تایید</string>
+
+    <!--DialogChargeChoice-->
+    <string name="add_choice_dialog_amount_title">مبلغ قابل پرداخت </string>
+    <string name="add_choice_dialog_title">اضافه کردن مبلغ جدید</string>
+
+    <string name="exit_app_text">برای خروج دکمه بازگشت را دوباره بزنید</string>
+
+
+    <!--Navigation Drawer-->
+    <string name="navigation_drawer_title_1">اعتبار</string>
+    <string name="navigation_drawer_title_2">امتیاز</string>
+    <string name="navigation_drawer_title_3">درآمد</string>
+    <string name="navigation_drawer_title_4">افزایش سپرده</string>
+    <string name="navigation_drawer_home">خانه</string>
+    <string name="navigation_drawer_store">فروشگاه</string>
+    <string name="navigation_drawer_store_subitem1">پیگیری سفا رش</string>
+    <string name="navigation_drawer_title_6">تراکنش ها</string>
+    <string name="navigation_drawer_title_10">گزارش فروش</string>
+    <string name="navigation_drawer_title_7">پشتیبانی</string>
+    <string name="navigation_drawer_title_8">درباره ما</string>
+    <string name="navigation_drawer_title_9">خروج</string>
+    <string name="navigation_drawer_code_text">کد کاربر:</string>
+
+
+    <!--aboutus and contactus-->
+    <string name="about_us_description">شرکت بازار اینترنتی ایرانیان (iibazar.com) یکی از  فعالان حوزه IT و تجارت الکترونیک می‌باشد، این شرکت با هدایت دو پروژه اصلی خود تحت نام‌های eways و imbazar تلاش نموده همراه با گسترش دامنه مخاطبان خود در حوزه‌های B2B و B2C کیفیت خدمات الکترونیک را ارتقا داده و سطح جدیدی از دامنه انتظارات را در کاربران ایرانی در بحث تکنولوژی و توزیع و فروش الکترونیک ایجاد نماید و به واسطه تکامل این انتظارات، رشد سازمانی خود را رقم زند. \n
+ پروژه eways در حقیقت بخش B2B سازمان را تشکیل داده و در ارتباط مستقیم با کاربرانی می باشد که با استفاده از این سامانه، تعریف جدیدی از کسب و کار را برای خود ایجاد کرده‌اند.\n
+ پروژه imbazar ارتباط B2C شرکت را به واسطه استفاده از نرم افزار‌های موبایلی با کاربران برقرار می‌نماید.
+ </string>
+    <string name="about_us_title">درباره ما</string>
+    <string name="contact_us_title">پشتیبانی</string>
+    <string name="contact_us_phone_number">021-64004</string>
+    <string name="contact_us_email_id">support@eways.ir</string>
+    <string name="contact_us_phonenumber_company_title">شماره پشتیبانی شرکت</string>
+    <string name="contact_us_phonenumber_title">شماره تماس کارشناس</string>
+
+
+    <!--Survey-->
+    <string name="survey_title">نظرسنجی</string>
+    <string name="survey_icon_view_text">نظر سنجی</string>
+    <string name="item_point_selector_item_5_text">عالی</string>
+    <string name="item_point_selector_item_5_number">5</string>
+    <string name="item_point_selector_item_4_text">خیلی خوب</string>
+    <string name="item_point_selector_item_4_number">4</string>
+    <string name="item_point_selector_item_3_text">خوب</string>
+    <string name="item_point_selector_item_3_number">3</string>
+    <string name="item_point_selector_item_2_text">متوسط</string>
+    <string name="item_point_selector_item_2_number">2</string>
+    <string name="item_point_selector_item_1_text">ضعیف</string>
+    <string name="item_point_selector_item_1_number">1</string>
+    <string name="survey_multi_choice_max_limit_message">تعداد انتخاب های شما محدود است.</string>
+
+    <string name="poll">"{\"id\":\"1\",\"title\":\"\u062b\u0628\u062a \u0646\u0638\u0631 \u0634\u0645\u0627 \u062f\u0631 2 \u062f\u0642\u06cc\u0642\u0647:\",\"description\":\"\u0634\u0645\u0627 \u0628\u0627 \u062c\u0648\u0627\u0628 \u062f\u0627\u062f\u0646 \u0628\u0647 \u0633\u0648\u0627\u0644\u0627\u062a \u062f\u0631 \u0645\u062f\u062a \u0632\u0645\u0627\u0646 2 \u062f\u0642\u06cc\u0642\u0647 \u0628\u0647 \u0645\u0627 \u062f\u0631 \u062c\u0647\u062a \u0628\u0647\u0628\u0648\u062f \u062e\u062f\u0645\u0627\u062a\u0645\u0627\u0646 \u06a9\u0645\u06a9 \u062e\u0648\u0627\u0647\u06cc\u062f \u06a9\u0631\u062f.\",\"endTitle\":\"\u062e\u06cc\u0644\u06cc \u0645\u0645\u0646\u0648\u0646!\",\"endDescription\":\"\u0628\u0647 \u062a\u0634\u06a9\u0631 \u0641\u0631\u0627\u0648\u0627\u0646 \u0627\u0632 \u0634\u0645\u0627 \u06a9\u0647 \u0648\u0642\u062a \u06af\u0631\u0627\u0646\u0642\u062f\u0631\u062a\u0627\u0646 \u0631\u0627 \u062f\u0631 \u0627\u062e\u062a\u06cc\u0627\u0631 \u0645\u0627 \u0642\u0631\u0627\u0631 \u062f\u0627\u062f\u06cc\u062f. \n \u0646\u0638\u0631\u0627\u062a \u0634\u0645\u0627 \u0628\u0631\u0631\u0633\u06cc \u0634\u062f\u0647 \u0648 \u062f\u0631 \u062c\u0647\u062a \u0628\u0647\u0628\u0648\u062f \u062e\u062f\u0645\u0627\u062a \u0648 \u0637\u0631\u0627\u062d\u06cc \u0627\u067e\u0644\u06cc\u06a9\u06cc\u0634\u0646 \u0645\u0648\u0631\u062f \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u0642\u0631\u0627\u0631 \u0645\u06cc\u06af\u06cc\u0631\u062f.\",\"openEvent\":\"open_surve_1\",\"endEvent\":\"finish_survey_1\",\"questions\":[{\"text\":\"\u0686\u0642\u062f\u0631 \u0627\u0632 \u0627\u067e\u0644\u06cc\u06a9\u06cc\u0634\u0646 \u0645\u0627 \u0631\u0627\u0636\u06cc \u0647\u0633\u062a\u06cc\u062f\u061f\",\"type\":3,\"choices\":[{\"text\":\"1;\u0636\u0639\u06cc\u0641\",\"image\":\"\",\"event\":\"survey_1_q_0_ch_0\"},{\"text\":\"2;\u0645\u062a\u0648\u0633\u0637\",\"image\":\"\",\"event\":\"survey_1_q_0_ch_1\"},{\"text\":\"3;\u062e\u0648\u0628\",\"image\":\"\",\"event\":\"survey_1_q_0_ch_2\"},{\"text\":\"4;\u062e\u06cc\u0644\u06cc \u062e\u0648\u0628\",\"image\":\"\",\"event\":\"survey_1_q_0_ch_3\"},{\"text\":\"5;\u0639\u0627\u0644\u06cc\",\"image\":\"\",\"event\":\"survey_1_q_0_ch_4\"}]},{\"text\":\"\u0645\u0627\u0633\u062a \u0686\u0647 \u0631\u0646\u06af\u06cc \u0627\u0633\u062a\u061f\",\"type\":0,\"choices\":[{\"text\":\"\u0633\u06cc\u0627\u0647\",\"image\":\"\",\"event\":\"survey_1_q_1_ch_0\"},{\"text\":\"\u0632\u0631\u0634\u06a9\u06cc\",\"image\":\"\",\"event\":\"survey_1_q_1_ch_1\"},{\"text\":\"\u0633\u0641\u06cc\u062f\",\"image\":\"\",\"event\":\"survey_1_q_1_ch_2\"},{\"text\":\"\u0642\u0631\u0645\u0632\",\"image\":\"\",\"event\":\"survey_1_q_1_ch_3\"},{\"text\":\"\u0628\u0647 \u0645\u0627\u0633\u062a\u0634 \u0628\u0633\u062a\u06af\u06cc \u062f\u0627\u0631\u0647\",\"image\":\"\",\"event\":\"survey_1_q_1_ch_4\"}]},{\"text\":\"\u067e\u0631\u0627\u06cc\u062f \u0642\u0627\u0628\u0644 \u0631\u0642\u0627\u0628\u062a \u0628\u0627 \u062e\u0648\u0631\u062f\u0648 \u0647\u0627\u06cc \u06a9\u062f\u0627\u0645 \u0628\u0631\u0646\u062f \u062c\u0647\u0627\u06cc\u06cc \u0627\u0633\u062a\u061f\",\"type\":1,\"choices\":[{\"text\":\"\u0641\u0648\u0631\u062f\",\"image\":\"\",\"event\":\"survey_1_q_2_ch_0\"},{\"text\":\"\u0641\u0648\u0644\u06a9\u0633\",\"image\":\"\",\"event\":\"survey_1_q_2_ch_1\"},{\"text\":\"\u0628\u06cc \u0627\u0645 \u062f\u0628\u0644\u06cc\u0648\",\"image\":\"\",\"event\":\"survey_1_q_2_ch_2\"},{\"text\":\"\u0628\u0646\u0632\",\"image\":\"\",\"event\":\"survey_1_q_2_ch_3\"},{\"text\":\"\u0647\u0648\u0646\u062f\u0627\",\"image\":\"\",\"event\":\"survey_1_q_2_ch_4\"},{\"text\":\"\u0647\u06cc\u0686\u06a9\u062f\u0627\u0645 \u062a\u0648\u0627\u0646 \u0631\u0642\u0627\u0628\u062a \u0628\u0627 \u067e\u0631\u0627\u06cc\u062f \u0631\u0627 \u0646\u062f\u0627\u0631\u0646\u062f\",\"image\":\"\",\"event\":\"survey_1_q_2_ch_5\"}]},{\"text\":\"\u062f\u0648\u0633\u062a \u062f\u0627\u0631\u06cc\u062f \u06a9\u062f\u0648\u0645 \u0645\u0648\u0633 \u0631\u0648\u0648 \u062f\u0627\u0634\u062a\u0647 \u0628\u0627\u0634\u06cc\u062f\u061f\",\"type\":2,\"choices\":[{\"text\":\"\u0627\u06cc\u0646 \u06cc\u06a9\u06cc\",\"image\":\"https:\/\/panel.eways.co\/upload\/ProductPictures\/63734.jpg\",\"event\":\"survey_1_q_3_ch_0\"},{\"text\":\"\u0646\u0647 \u0627\u06cc\u0646 \u06cc\u06a9\u06cc\",\"image\":\"https:\/\/panel.eways.co\/upload\/ProductPictures\/63734.jpg\",\"event\":\"survey_1_q_3_ch_1\"}]}]}"</string>
+    <string name="survey_start_page_button_text">شروع کن</string>
+    <string name="survey_end_page_button_text">بازگشت</string>
+    <string name="survey_question_page_button_text">ادامه</string>
+
+
+    <string name="transaction_page_title">تراکنش ها</string>
+    <string name="transaction_tab_1">شارژ و اینترنت</string>
+    <string name="transaction_tab_2">افزایش سپرده</string>
+    <string name="transaction_tab_3">پرداخت قبض</string>
+    <string name="transaction_tab_4">خرید کالا</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_amount_text">12345</string>
+
+    <string name="charge_inquiry_title_text">unknown</string>
+    <string name="transaction_deposit_item_value_suffix_string">ریال</string>
+    <string name="transaction_charge_item_value_suffix_string">ریال</string>
+    <string name="transaction_deposit_item_tracking_suffix_string">شماره پیگیری</string>
+    <string name="deposit_transaction_type">افزایش سپرده</string>
+
+    <!--Receipt-->
+    <string name="receipt_transaction_success">پرداخت قبض با موفقیت انجام شد</string>
+    <string name="receipt_buy_charge">خرید شارژ با موفقیت انجام شد</string>
+    <string name="receipt_buy_charge_h1">رسید خرید شارژ</string>
+    <string name="receipt_increase_deposit">افزایش سپرده با موفقیت انجام شد</string>
+    <string name="receipt_increase_deposit_h1">رسید افزایش سپرده</string>
+    <string name="receipt_buy_internet">خرید بسته اینترنتی با موفقیت انجام شد</string>
+    <string name="receipt_buy_internet_h1">رسید بسته اینترنتی</string>
+    <string name="receipt_transaction_failed">عملیات با خطا مواجه شد</string>
+    <string name="receipt_go_home">بازگشت</string>
+    <string name="receipt_go_transaction">تراکنش ها</string>
+    <string name="receipt_title_fragment">رسید خرید</string>
+    <string name="receipt_increase_deposit_title_fragment">رسید افزایش سپرده</string>
+    <string name="receipt_transaction_title_fragment">جزییات تراکنش</string>
+
+
+    <string name="charge_inquiry_button_text">استعلام</string>
+    <string name="charge_inquiry_phone_number_hint">شماره موبایل</string>
+    <string name="charge_inquiry_start_date_hint">از تاریخ</string>
+    <string name="charge_inquiry_end_date_hint">تا تاریخ</string>
+    <string name="charge_inquiry_error_invalid">اطلاعات وارد شده صحیح نمی باشد</string>
+    <string name="charge_inquiry_selected_date_text">12/08/1398 تا</string>
+    <string name="charge_inquiry_selected_date_to_date_text">تا</string>
+    <string name="charge_inquiry_selected_date_from_date_text">از</string>
+
+
+    <!--SearchView-->
+    <string name="userphonebook_title">دفترچه تلفن</string>
+    <string name="userphonebook_searchview_hint">جستجوی نام یا شماره تلفن</string>
+    <string name="input_phonenumber_error">شماره وارد شده صحیح نیست.</string>
+
+    <string name="ewaysphonebook_contact_item_credit_text_title">اعتبار</string>
+    <string name="ewaysphonebook_contact_item_description_title">توضیح :</string>
+
+
+    <string name="postal_code_error">کد پستی وارد شده صحیح نیست.</string>
+
+    <!--BuyChargeFragment-->
+    <string name="buycharge_title">شارژ و اینترنت</string>
+    <string name="charge_buy_button_confirm_text">تایید</string>
+    <string name="loadingstateview_text_network_unavailable">لطفا اتصال اینترنت خود را بررسی کنید.</string>
+    <string name="buycharge_loadingstateview_text_problem_loading_chargedata">متاسفانه در برقراری ارتباط با سرور مشکلی پیش آمده است!</string>
+    <string name="buycharge_input_phonenumber_hint">شماره تلفن را وارد نمایید</string>
+    <string name="buycharge_loading_specialoffers">@string/loading_message</string>
+    <string name="buycharge_failed_specialoffers">خطا در بارگذاری اطلاعات</string>
+    <string name="buycharge_no_specialoffers">پیشنهادی برای این شماره وجود ندارد.</string>
+
+    <!--phoneAndOperatorsView-->
+    <string name="phoneandoperatorsview_transportswitch_title">ترابرد</string>
+    <string name="phoneandoperatorsview_transportoptions_title">اپراتور خود را انتخاب نمایید :</string>
+    <string name="phoneandoperatorsview_transportoptions_title_b">انتخاب اپراتور :</string>
+
+
+    <!--ChargeChoiceConfirmView-->
+    <string name="chargechoice_confirmview_button_title">تایید</string>
+    <string name="chargechoice_confirmview_choice_title">مبلغ قابل پرداخت: </string>
+
+    <string name="charge_choice_input_hint">انتخاب مبلغ</string>
+
+
+    <!--UserInputChoiceView-->
+    <string name="userinputchoice_hint">افزودن مبلغ دلخواه به مبالغ زیر</string>
+    <string name="login_wrong_username_password">نام کاربری یا رمز عبور اشتباه است</string>
+    <string name="userinputchoice_calculate_charge_dialog_title">محاسبه مبلغ شارژ مستقیم ایرانسل:</string>
+    <string name="userinputchoice_calculate_charge_dialog_amount_title"> مبلغ شارژ شده  </string>
+    <string name="userinputchoice_custom_amount_max_error">مبلغ وارد شده بیش از 5 میلیون ریال میباشد</string>
+    <string name="userinputchoice_custom_amount_min_error">مبلغ وارد شده کمتر از 1,000 ریال میباشد</string>
+
+
+    <!-- Confirm Transaction -->
+    <string name="confirm_transaction_title">اطلاعات پرداخت</string>
+    <string name="confirm_transaction_payment">پرداخت</string>
+    <string name="confirm_transaction_cancel">بازگشت</string>
+    <string name="confirm_transaction_paid_price_text">مبلغ قابل پرداخت:</string>
+
+
+    <!-- Buy Charge -->
+    <string name="buycharge_chargeamount">مبلغ شارژ (ریال):  </string>
+    <string name="buycharge_taxamount">مالیات (ریال):  </string>
+    <string name="buycharge_sum">جمع (ریال):  </string>
+
+
+    <!--credit-->
+    <string name="deposit_credit_title_fragment">افزایش سپرده</string>
+    <string name="deposit_value_credit_text_start">موجودی سپرده شما</string>
+    <string name="deposit_value_credit_text_end">:</string>
+    <string name="deposit_rial"> (ریال) </string>
+    <string name="increase_deposit_select_value_text">ورود یا انتخاب مبلغ مورد نظر</string>
+    <string name="deposit_error_invalid_amount">مبلغ نمی تواند کمتر از 10,000 ریال باشد</string>
+    <string name="deposit_amount_hint">ورود مبلغ</string>
+    <string name="deposit_payment">پرداخت</string>
+    <string name="deposit_payment_tab">پرداخت</string>
+    <string name="deposit_transaction_tab">تراکنش ها</string>
+    <string name="increase_deposit_bank_list_dialog_title">انتخاب درگاه پرداخت :</string>
+
+
+    <!-- receipt of increase deposit-->
+    <string name="receipt_increase_deposit_amount_title">مبلغ:</string>
+    <string name="receipt_increase_deposit_paymentid_title">شماره پیگیری:</string>
+    <string name="receipt_increase_deposit_transaction_type_title">نوع تراکنش:</string>
+    <string name="receipt_increase_deposit_transaction_type">افزایش سپرده</string>
+    <string name="receipt_increase_deposit_your_credit">سپرده جدید شما:</string>
+    <string name="receipt_deposit_your_credit">سپرده شما:</string>
+    <string name="deposit_transaction_payment_id_title">شناسه پرداخت</string>
+
+    <!--ChargeFragment-->
+    <string name="charge_weiredtab_tab1_title">شارژ و اینترنت</string>
+    <string name="charge_weiredtab_tab2_title">استعلام</string>
+    <string name="charge_weiredtab_tab3_title">تراکنش‌ها</string>
+    <string name="charge_b_tab1_title">شارژ و اینترنت</string>
+    <string name="charge_b_tab2_title">استعلام</string>
+    <string name="charge_b_tab3_title">تراکنش‌ها</string>
+    <string name="chargesale_transaction_type">"نوع تراکنش: "</string>
+    <string name="chargesale_operator_name">"اپراتور: "</string>
+    <string name="chargesale_payment_time">"زمان: "</string>
+
+
+    <!-- Bill Item -->
+    <string name="bill_item_price_suffix">ریال</string>
+    <string name="bill_item_number_title">"شناسه قبض "</string>
+
+
+    <!--Bill-->
+    <string name="bill_page_tabbar_tab_1_title">گزارش قبوض</string>
+    <string name="bill_page_tabbar_tab_2_title">قبوض در انتظار</string>
+    <string name="bill_page_tabbar_tab_3_title">استعلام بدهی</string>
+    <string name="bill_page_tabbar_tab_4_title">پرداخت قبض</string>
+
+    <!--Bill Types-->
+    <string name="bill_type_water">آب</string>
+    <string name="bill_type_electricity">برق</string>
+    <string name="bill_type_gas">گاز</string>
+    <string name="bill_type_mobile">تلفن همراه</string>
+    <string name="bill_type_phone">تلفن</string>
+    <string name="bill_type_tax">مالیات</string>
+    <string name="bill_driving_policy_penalty">جریمه راهنمایی رانندگی</string>
+    <string name="bill_type_municipality">عوارض شهرداری</string>
+
+    <!-- Bill Detail Dialog-->
+    <string name="bill_detail_dialog_title">جزییات قبض</string>
+    <string name="bill_detail_dialog_log_date_title">تاریخ ثبت</string>
+    <string name="bill_detail_dialog_bill_id_title">شناسه قبض</string>
+    <string name="bill_detail_dialog_payment_id_title">شناسه پرداخت</string>
+    <string name="bill_detail_dialog_bill_type_title">نوع قبض</string>
+    <string name="bill_detail_dialog_price_title">مبلغ</string>
+    <string name="bill_detail_dialog_inquiry_number_title">شماره استعلام </string>
+
+    <!-- Bill Payment Summary View-->
+    <string name="bill_payment_summary_button_text">پرداخت</string>
+    <string name="bill_payment_summary_bill_price_title">مجموع کل مبلغ قبض‌ها</string>
+    <string name="bill_payment_summary_bill_count_title">تعداد قبض</string>
+    <string name="bill_payment_summary_bill_count_value_description">عدد</string>
+
+    <!-- Bill confirmation dialog-->
+    <string name="bill_confirm_delete_dialog_cancel_button_text">خیر</string>
+    <string name="bill_confirm_delete_dialog_confirm_button_text">بله</string>
+    <string name="bill_confirm_delete_dialog_text">آیا از حذف این قبض
+        \nمطمئن هستید؟</string>
+
+    <!-- Bill Payment-->
+    <string name="bill_payment_page_title">پرداخت قبض</string>
+    <string name="bill_payment_page_description">پرداخت قبض بوسیله اسکن بارکد و یا خواندن متن پیامک</string>
+    <string name="bill_payment_button_read_qr_title">اسکن بارکد</string>
+    <string name="bill_payment_button_read_sms_title">خواندن پیامک</string>
+    <string name="bill_payment_input_bill_id_hint">شناسه قبض</string>
+    <string name="bill_payment_input_pay_id_hint">شناسه پرداخت</string>
+    <string name="bill_payment_input_error"> شناسه قبض وارد شده صحیح نمی‌باشد</string>
+    <string name="bill_price_input_error"> شناسه پرداخت وارد شده صحیح نمی‌باشد</string>
+    <string name="bill_payment_sms_description">متن پیامک مربوط به قبض خود را در زیر وارد نمایید. شناسه قبض و شناسه پرداخت شما به صورت خودکار تشخیص داده خواهد شد.</string>
+    <string name="bill_payment_sms_title">محل ورود متن پیامک</string>
+    <string name="bill_payment_sms_button_text">خواندن متن پیامک</string>
+    <string name="bill_payment_sms_page_title">خواندن متن پیامک</string>
+    <string name="bill_payment_sms_paste_text">چسباندن</string>
+    <string name="bill_payment_sms_error">متاسفانه متن فوق حاوی اطلاعات قبض نمی‌باشد</string>
+    <string name="bill_payment_qr_page_title">اسکن بارکد</string>
+    <string name="bill_payment_qr_error">بارکد معتبر نمیباشد.</string>
+    <string name="bill_payment_pay_button_text">ادامه</string>
+
+    <string name="sms_bill_id_key_pattern1">شناسه قبض</string>
+    <string name="sms_pay_id_key_pattern1">شناسه پرداخت</string>
+    <string name="sms_bill_id_key_pattern2">ش ق</string>
+    <string name="sms_pay_id_key_pattern2">ش پ</string>
+    <string name="sms_bill_id_key_pattern3">ش‌ق</string>
+    <string name="sms_pay_id_key_pattern3">ش‌پ</string>
+    <string name="sms_bill_id_key_pattern4">ش قبض</string>
+    <string name="sms_pay_id_key_pattern4">ش پرداخت</string>
+
+    <string name="bill_inquiry_electricity_name">برق</string>
+    <string name="bill_inquiry_mobile_name">همراه</string>
+    <string name="bill_inquiry_phone_name">ثابت</string>
+    <string name="bill_inquiry_gas_name">گاز</string>
+    <string name="bill_inquiry_water_name">آب</string>
+    <string name="bill_inquiry_number_pre_phone_hint">پیش‌شماره</string>
+    <string name="bill_inquiry_number_normal_hint">شناسه قبض</string>
+    <string name="bill_inquiry_number_phone_hint">شماره تلفن ثابت</string>
+    <string name="bill_inquiry_number_mobile_hint">شماره تلفن همراه</string>
+    <string name="bill_inquiry_request_button_text">استعلام</string>
+    <string name="bill_inquiry_detail_choice_price_suffix">ریال</string>
+    <string name="bill_inquiry_detail_save_button_text">ذخیره</string>
+    <string name="bill_inquiry_detail_pay_button_text">ادامه</string>
+    <string name="bill_inquiry_detail_info_type_key">نوع قبض</string>
+    <string name="bill_inquiry_detail_info_id_key">شناسه قبض</string>
+    <string name="bill_inquiry_detail_info_pay_id_key">شناسه پرداخت</string>
+    <string name="bill_inquiry_detail_info_price_key">مبلغ</string>
+    <string name="bill_inquiry_detail_info_bill_type_key">نوع تراکنش</string>
+    <string name="bill_inquiry_detail_info_bill_type_value">پرداخت قبض</string>
+    <string name="bill_inquiry_detail_phone_key">تلفن ثابت</string>
+    <string name="bill_inquiry_detail_mobile_key">شماره همراه</string>
+    <string name="bill_inquiry_detail_last_term_title">پایان دوره</string>
+    <string name="bill_inquiry_detail_mid_term">میان دوره</string>
+    <string name="bill_inquiry_detail_save_button_description">ذخیره قبض به منزله پرداخت آن نمی باشد</string>
+    <string name="bill_inquiry_select_type_description">جهت استعلام قبض، سرویس مورد نظر خود را انتخاب نمایید</string>
+    <string name="bill_inquiry_save_success_dialog_text">قبض مورد نظر \n در لیست قبوض ثبت موقت \nذخیره شد</string>
+    <string name="bill_inquiry_save_success_dialog_return_text">بازگشت</string>
+    <string name="bill_inquiry_save_success_dialog_see_list_text">مشاهده لیست</string>
+    <string name="bill_report_item_bill_id_title">شناسه قبض</string>
+    <string name="bill_report_item_pay_text">پرداخت</string>
+    <string name="bill_report_item_waiting_text">در انتظار بررسی</string>
+    <string name="bill_report_item_more_key_1">شناسه پرداخت</string>
+    <string name="bill_report_item_more_key_serial">سریال</string>
+    <string name="bill_report_item_more_key_6">سریال </string>
+    <string name="bill_report_item_more_key_2">پیگیری موقت</string>
+    <string name="bill_report_item_more_key_3">شیوه پرداخت</string>
+    <string name="bill_report_item_more_key_4">شماره پیگیری</string>
+    <string name="bill_report_item_more_key_5">پیگیری استعلام شده</string>
+    <string name="bill_pay_receipt_title">رسید پرداخت قبض</string>
+    <string name="bill_receipt_multiple_item_bill_id_suffix">شناسه قبض</string>
+    <string name="bill_receipt_multiple_item_pay_id_suffix">شناسه پرداخت</string>
+    <string name="bill_receipt_single_add_description">افزودن قبض به دفترچه شناسه قبض</string>
+    <string name="bill_receipt_multiple_main_button_text">گزارش قبوض</string>
+    <string name="bill_receipt_multiple_secondary_button_text">صفحه اصلی</string>
+    <string name="bill_receipt_new_deposit_title">سپرده جدید شما</string>
+    <string name="bill_receipt_multiple_main_button_text_failed">تلاش مجدد</string>
+    <string name="bill_payment_type_info_count_suffix">" عدد"</string>
+    <string name="bill_payment_type_info_total_price_title">"جمع کل مبالغ"</string>
+    <string name="bill_payment_type_info_total_count_title">"تعداد کل قبوض"</string>
+    <string name="bill_receipt_save_result_error">ذخیره رسید با خطا مواجه شد</string>
+    <string name="bill_receipt_save_result_success">ذخیره رسید با موفقیت انجام شد</string>
+
+    <string name="bill_payment_type_deposit_payment_type_title">کسر از سپرده</string>
+    <string name="bill_payment_type_persian_bank_title">درگاه پارسیان</string>
+    <string name="bill_payment_type_saman_bank_title">درگاه سامان</string>
+    <string name="bill_payment_type_mellat_bank_title">درگاه ملت</string>
+    <string name="bill_payment_type_jiring_bank_title">جیرینگ</string>
+
+    <string name="bill_payment_type_notenough_credit_text">می‌توانید سپرده خود را افزایش دهید
+و یا از طریق درگاه پرداخت نمایید\n</string>
+    <string name="bill_payment_type_notenough_credit_return_text">بازگشت</string>
+    <string name="bill_payment_type_notenough_title">سپرده شما کافی نیست</string>
+    <string name="bill_payment_type_notenough_credit_increase_text">افزایش سپرده</string>
+    <string name="bill_payment_type_title_text">اطلاعات پرداخت </string>
+
+    <string name="receipt_bill_paymentid_title">شماره پیگیری</string>
+    <string name="receipt_bill_transaction_type_title">نوع تراکنش</string>
+    <string name="receipt_bill_id_title">شناسه قبض</string>
+    <string name="receipt_bill_pay_id_title">شناسه پرداخت</string>
+    <string name="receipt_bill_type_title">نوع قبض</string>
+    <string name="receipt_bill_price_title">مبلغ</string>
+    <string name="receipt_bill_status_success_description">پرداخت قبض با موفقیت انجام شد</string>
+    <string name="receipt_bill_status_unknown_description">وضعیت تراکنش نامشخص است</string>
+    <string name="receipt_bill_status_failed_description">متاسفانه تراکنش انجام نشد</string>
+</resources>

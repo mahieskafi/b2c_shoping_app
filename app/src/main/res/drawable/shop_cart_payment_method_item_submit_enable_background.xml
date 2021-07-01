@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="#fee9db"/>
+    <corners android:radius="@dimen/shop_cart_payment_method_item_submit_background_corner_radius"/>
+    <stroke
+        android:width="0.5dp"
+        android:color="#fccfae" />
+
+</shape>

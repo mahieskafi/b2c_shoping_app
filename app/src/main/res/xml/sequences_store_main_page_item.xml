@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="@dimen/store_main_page_item_more_helper_margin_left"/>
+        <Span id="more_helper" size="@dimen/store_main_page_item_more_helper_width"/>
+        <Span size="1w"/>
+        <Span id="title" size="wrap"/>
+        <Span size="@dimen/store_main_page_item_title_margin_right"/>
+    </Horizontal>
+
+
+    <Horizontal start="start@more_helper" end="end@more_helper">
+        <Span id="more_icon" size="@dimen/store_main_page_item_more_icon_width"/>
+        <Span size="1w"/>
+        <Span id="more_text" size="40dp" max="45dp"/>
+        <Span size="5dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="4dp"/>
+        <Span id="items" size="1w"/>
+        <Span size="4dp"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span id="more_helper" size="20dp"/>
+        <Span size="10dp"/>
+        <Span id="items" size="250dp"/>
+    </Vertical>
+
+    <Vertical start="start@more_helper" end="end@more_helper">
+        <Span size="1w"/>
+        <Span id="title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@more_helper" end="end@more_helper">
+        <Span size="1w"/>
+        <Span id="more_text" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@more_helper" end="end@more_helper">
+        <Span size="1w"/>
+        <Span id="more_icon" size="9dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+</Sequences>

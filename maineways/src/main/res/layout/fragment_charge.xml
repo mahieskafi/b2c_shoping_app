@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+        <com.srp.eways.ui.view.toolbar.WeiredToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/charge_fragment_toolbar_height"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:elevation="@dimen/toolbar_elevation"
+            />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/bill_page_tabbar_background"
+            android:elevation="4dp"
+            app:tabMode="fixed" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinate_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:elevation="@dimen/charge_fragment_banner_elevation">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/banner_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                >
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+                    android:fitsSystemWindows="true">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        custom:cardCornerRadius="16dp">
+
+                        <com.srp.eways.ui.banner.BannerListView
+                            android:id="@+id/banner"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center">
+
+                            <com.daimajia.slider.library.Indicators.PagerIndicator
+                                android:id="@+id/indicator"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="16dp"
+                                android:gravity="center"
+                                custom:selected_drawable="@drawable/banner_indicator_selected"
+                                custom:unselected_drawable="@drawable/banner_indicator_default" />
+                        </com.srp.eways.ui.banner.BannerListView>
+
+                    </androidx.cardview.widget.CardView>
+
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+                    android:fitsSystemWindows="true">
+
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            />
+
+
+    <com.srp.eways.ui.survey.SurveyIconView
+        android:id="@+id/go_survey"
+        android:layout_width="@dimen/survey_icon_width"
+        android:layout_height="@dimen/survey_icon_height"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>
+

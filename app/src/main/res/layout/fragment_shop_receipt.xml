@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <com.srp.eways.ui.view.toolbar.WeiredToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shop_receipt_toolbar_height"
+        android:elevation="@dimen/toolbar_elevation" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/shop_receipt_result_card_height"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/iv_result"
+                        android:layout_width="@dimen/shop_receipt_result_image_size"
+                        android:layout_height="@dimen/shop_receipt_result_image_size"
+                        app:srcCompat="@drawable/ic_credit_shop_receipt" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/tv_result_description"
+                        android:gravity="center_horizontal"
+                        android:lineSpacingExtra="9sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.srp.eways.ui.view.receipt.ReceiptListView
+                        android:id="@+id/result_receipt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/card_credit_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/shop_receipt_credit_card_height">
+
+                    <com.srp.eways.ui.view.receipt.ReceiptListView
+                        android:id="@+id/receipt_credit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                         />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/shop_receipt_button_margin_side"
+            android:layout_marginEnd="@dimen/shop_receipt_button_margin_side"
+            android:layout_marginBottom="@dimen/shop_receipt_button_margin_bottom"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/btn_main_page"
+                android:layout_width="@dimen/shop_receipt_button_mainpage_width"
+                android:layout_height="@dimen/shop_receipt_button_mainpage_height" />
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/btn_detail"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/shop_receipt_button_mainpage_height"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

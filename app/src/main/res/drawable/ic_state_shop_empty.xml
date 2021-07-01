@@ -1,0 +1,74 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="133.079dp"
+    android:height="155.467dp"
+    android:viewportWidth="133.079"
+    android:viewportHeight="155.467">
+  <path
+      android:pathData="M66.539,72.415m-66.539,0a66.539,66.539 0,1 1,133.078 0a66.539,66.539 0,1 1,-133.078 0">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:gradientRadius="74.92292"
+          android:centerX="66.539"
+          android:centerY="72.41501"
+          android:type="radial">
+        <item android:offset="0" android:color="#FFFFFFFF"/>
+        <item android:offset="1" android:color="#FFFEE9DB"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:pathData="M56.587,6m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0"
+      android:fillColor="#fff"
+      android:strokeColor="#00000000"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M56.587,6m-5.5,0a5.5,5.5 0,1 1,11 0a5.5,5.5 0,1 1,-11 0"
+      android:fillColor="#00000000"
+      android:strokeColor="#fee9db"/>
+  <group>
+    <clip-path
+        android:pathData="M66.54,5.876a66.539,66.539 0,0 1,66.539 66.539c0,29.8 -19.589,55.023 -47.238,63.634 -2.1,0.655 -7.254,4.271 -11.074,6.391 -4.62,1.88 -6.14,8.18 -71.113,13.027 0,0 -3.653,-64.791 -3.653,-83.052A66.539,66.539 0,0 1,66.54 5.876z"/>
+    <path
+        android:pathData="M99.898,86.069l-11.932,2.545L66.725,69.036a4.773,4.773 122.96,0 0,-6.47 7.02l16.275,14.997L38.221,99.224L46.965,78.891a4.769,4.769 122.96,1 0,-8.761 -3.77L26.791,101.662L16.184,103.924a4.107,4.107 122.96,0 0,-3.155 4.865l0.56,2.625a4.105,4.105 122.96,0 0,4.863 3.145l0.906,-0.193l9.527,26.883a8,8 49.065,0 0,9.494 6.094l58.917,-12.566a8,8 122.22,0 0,6.19 -9.439l-3.063,-28.262l1.747,-0.373a4.1,4.1 122.96,0 0,3.147 -4.853l-0.56,-2.625a4.105,4.105 122.96,0 0,-4.859 -3.156zM50.668,130.209a3.47,3.47 122.96,1 1,-6.787 1.448L40.261,114.684a3.47,3.47 122.96,0 1,6.787 -1.448zM68.298,126.449a3.483,3.483 122.96,0 1,-2.67 4.117,3.477 3.477,122.96 0,1 -4.117,-2.67L57.89,110.924a3.471,3.471 122.96,0 1,2.67 -4.117,3.477 3.477,122.96 0,1 4.117,2.67zM85.692,122.739a3.483,3.483 122.96,0 1,-2.67 4.117,3.477 3.477,122.96 0,1 -4.117,-2.67L75.285,107.214a3.471,3.471 122.96,0 1,2.67 -4.117,3.477 3.477,122.96 0,1 4.117,2.67z">
+      <aapt:attr name="android:fillColor">
+        <gradient 
+            android:startY="67.17329"
+            android:startX="57.688522"
+            android:endY="149.30846"
+            android:endX="61.212494"
+            android:type="linear">
+          <item android:offset="0" android:color="#FFFEE9DB"/>
+          <item android:offset="1" android:color="#FFFC7A1E"/>
+        </gradient>
+      </aapt:attr>
+    </path>
+  </group>
+  <path
+      android:pathData="M91.08,27.761m-4.755,1.546a5,5 112.405,1 1,9.51 -3.092a5,5 112.405,1 1,-9.51 3.092"
+      android:fillColor="#fff"
+      android:strokeColor="#00000000"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M91.08,27.761m-4.28,1.391a4.5,4.5 86.485,1 1,8.559 -2.783a4.5,4.5 86.485,1 1,-8.559 2.783"
+      android:fillColor="#00000000"
+      android:strokeColor="#febb8d"/>
+  <path
+      android:pathData="M70.227,29.927m-7.133,2.319a7.5,7.5 120.25,1 1,14.265 -4.638a7.5,7.5 120.25,1 1,-14.265 4.638"
+      android:fillColor="#fff"
+      android:strokeColor="#00000000"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M70.227,29.927m-6.657,2.164a7,7 46.168,1 1,13.314 -4.329a7,7 46.168,1 1,-13.314 4.329"
+      android:fillColor="#00000000"
+      android:strokeColor="#febf93"/>
+  <path
+      android:pathData="M100.152,47.561m-7.133,2.319a7.5,7.5 125.625,1 1,14.265 -4.638a7.5,7.5 125.625,1 1,-14.265 4.638"
+      android:fillColor="#fff"
+      android:strokeColor="#00000000"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M100.152,47.561m-6.657,2.164a7,7 84.74,1 1,13.314 -4.329a7,7 84.74,1 1,-13.314 4.329"
+      android:fillColor="#00000000"
+      android:strokeColor="#fee9db"/>
+</vector>

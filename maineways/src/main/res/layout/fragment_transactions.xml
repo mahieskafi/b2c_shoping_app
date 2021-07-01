@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.srp.eways.ui.transaction.TransactionsFragment"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:background="#f7f7f7">
+
+    <com.srp.eways.ui.view.toolbar.WeiredToolbar
+        android:id="@+id/transactions_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/transaction_toolbar_height"
+        android:clipToPadding="false"
+        android:elevation="@dimen/transaction_toolbar_elevation" />
+
+
+    <com.srp.eways.ui.view.charge.a.ChargeOptionsTabViewA
+        android:id="@+id/tab_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="@dimen/deposit_standard_margin"
+        android:layout_marginRight="@dimen/deposit_standard_margin" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

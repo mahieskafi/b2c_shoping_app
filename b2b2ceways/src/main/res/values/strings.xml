@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Eways</string>
+
+    <!--Login-->
+    <string name="login_phone_number_input_hint_text">شماره موبایل</string>
+    <string name="login_phone_number_button_text">ادامه</string>
+    <string name="login_phone_number_error">شماره موبایل وارد شده صحیح نمی باشد!</string>
+    <string name="otp_sms_resource_phonenumber">98200064004</string>
+
+
+    <string name="login_register_name_input_hint_text">نام </string>
+    <string name="login_register_family_input_hint_text">نام خانوادگی</string>
+    <string name="login_register_gender_input_hint_text">جنسیت (اختیاری)</string>
+    <string name="login_register_password_input_hint_text">رمز عبور</string>
+    <string name="login_register_re_pass_input_hint_text">تکرار رمز عبور</string>
+    <string name="login_register_presenter_code_input_hint_text">کد معرف (اختیاری)</string>
+    <string name="login_register_password_alert_text">رمز عبور حداقل باید 8 رقمی باشد.</string>
+    <string name="login_register_name_error_text">تعداد کاراکترها مجاز نمی باشد.</string>
+    <string name="login_register_button_text">ورود</string>
+    <string name="login_register_password_error">رمز عبور و تکرار آن برابر نیست.</string>
+    <string name="login_register_gender_dialog_title">جنسیت :</string>
+    <string name="login_register_gender_dialog_male">مرد</string>
+    <string name="login_register_gender_dialog_female">زن</string>
+
+    <string name="login_otp_title">رمز یکبار مصرف را وارد کنید :</string>
+    <string name="login_otp_sub_title_text1">کد 8 رقمی ارسال شده به شماره </string>
+    <string name="login_otp_sub_title_text2">را در زیر وارد کنید:</string>
+    <string name="login_otp_error_text">رمز وارد شده صحیح نیست!</string>
+    <string name="login_otp_timer_title">درخواست مجدد رمز یکبار مصرف</string>
+    <string name="login_otp_password_error">رمز عبور وارد شده صحیح نیست!</string>
+    <string name="login_otp_or">یا</string>
+    <string name="login_otp_password_input_hint_text">رمز عبور</string>
+
+    <!--ChargeFragment-->
+    <string name="charge_weiredtab_tab1_title">شارژ و اینترنت</string>
+    <string name="charge_weiredtab_tab2_title">استعلام</string>
+    <string name="charge_weiredtab_tab3_title">تراکنش‌ها</string>
+    <string name="charge_b_tab1_title">شارژ و اینترنت</string>
+    <string name="charge_b_tab2_title">استعلام</string>
+    <string name="charge_b_tab3_title">تراکنش‌ها</string>
+
+
+    <string name="charge_confirm_transaction_payment_credit_button_text">پرداخت از سپرده</string>
+    <string name="charge_confirm_transaction_payment_cash_button_text">پرداخت از درگاه</string>
+    <string name="charge_confirm_transaction_error">مبلغ انتخاب شده برای پرداخت از طریق درگاه بانکی پشتیبانی نمیشود</string>
+    </resources>

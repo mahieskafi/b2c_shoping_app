@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="horizontal">
+
+
+    <com.srp.eways.ui.view.ShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:sl_shadow_angle="90"
+        app:sl_shadow_radius="10dp"
+        app:sl_shadow_distance="0dp"
+        app:sl_shadowed="true"
+        app:sl_shadow_color="#dedfdf">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_select_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"/>
+    </com.srp.eways.ui.view.ShadowLayout>
+
+    <com.srp.eways.ui.view.ShadowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:sl_shadow_angle="90"
+        app:sl_shadow_radius="10dp"
+        app:sl_shadow_distance="0dp"
+        android:layout_marginLeft="-15dp"
+        app:sl_shadowed="true"
+        app:sl_shadow_color="#dedfdf">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_select_eways_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"/>
+    </com.srp.eways.ui.view.ShadowLayout>
+
+
+    <com.srp.eways.ui.view.input.InputElement
+        android:id="@+id/input_phonenumber"
+        android:layout_width="@dimen/charge_phone_input_width"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

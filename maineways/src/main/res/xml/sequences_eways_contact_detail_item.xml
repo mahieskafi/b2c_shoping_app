@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="@dimen/ewaysphonebook_contact_item_phonenumber_margin_left"/>
+        <Span id="contact_phone" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="contact_name" size="wrap"/>
+        <Span size="@dimen/ewaysphonebook_contact_item_name_margin_right"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="@dimen/ewaysphonebook_contact_item_remove_icon_margin_left"/>
+        <Span id="delete_contact_icon" size="@dimen/ewaysphonebook_contact_item_remove_icon_size"/>
+        <Span size="4dp"/>
+        <Span id="edit_contact_icon" size="@dimen/ewaysphonebook_contact_item_remove_icon_size"/>
+        <Span size="1w"/>
+        <Span id="contact_credit_suffix" size="wrap"/>
+        <Span size="3dp"/>
+        <Span id="contact_credit" size="wrap"/>
+        <Span size="7dp"/>
+        <Span id="title_credit" size="wrap"/>
+        <Span size="@dimen/ewaysphonebook_contact_item_name_margin_right"/>
+    </Horizontal>
+
+
+    <Vertical>
+        <Span size="@dimen/ewaysphonebook_contact_item_phonenumber_margin_top"/>
+        <Span id="contact_phone" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="delete_contact_icon" size="@dimen/ewaysphonebook_contact_item_remove_icon_size"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical >
+        <Span size="@dimen/ewaysphonebook_contact_item_phonenumber_margin_top"/>
+        <Span id="contact_name" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="end@contact_name" >
+        <Span id="contact_credit_suffix" size="1w"/>
+    </Vertical>
+
+    <Vertical start="end@contact_name" >
+        <Span id="title_credit" size="1w"/>
+    </Vertical>
+
+    <Vertical start="end@contact_name" >
+        <Span id="contact_credit" size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@delete_contact_icon" >
+        <Span id="edit_contact_icon" size="@dimen/ewaysphonebook_contact_item_remove_icon_size"/>
+    </Vertical>
+
+</Sequences>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    tools:context="com.srp.ewayspanel.ui.login.LoginActivity">
+
+    <View
+        android:id="@+id/login_header"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/login_header_eight" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/login_logo_margin_top" />
+
+    <RelativeLayout
+        android:id="@+id/login_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/login_container_margin_top"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:visibility="visible">
+
+
+        <com.srp.eways.ui.view.input.InputElement
+            android:id="@+id/username_field"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_username_input_height"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginLeft="@dimen/login_side_margin"
+            android:layout_marginTop="@dimen/login_username_input_margin_top"
+            android:layout_marginRight="@dimen/login_side_margin"
+            android:inputType="textNoSuggestions"
+            custom:font="@font/iran_yekan_light" />
+
+        <com.srp.eways.ui.view.input.InputElement
+            android:id="@+id/password_field"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_password_input_height"
+            android:layout_below="@+id/username_field"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginLeft="@dimen/login_side_margin"
+            android:layout_marginTop="@dimen/login_password_input_margin_top"
+            android:layout_marginRight="@dimen/login_side_margin"
+            android:inputType="textPassword"
+            custom:font="@font/iran_yekan_light" />
+
+        <LinearLayout
+            android:id="@+id/remember_me_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password_field"
+            android:layout_marginLeft="@dimen/login_side_margin"
+            android:layout_marginTop="@dimen/login_remember_me_margin_top"
+            android:layout_marginRight="@dimen/login_side_margin"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/login_remember_me_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iran_yekan_light"
+                android:text="@string/login_remember_me_text"
+                android:gravity="center_vertical"
+                android:textColor="@color/login_remember_me_text_color"
+                android:textSize="@dimen/login_remember_me_text_size" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_remeber_me_check_margin_left"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="@dimen/login_side_margin">
+
+                <CheckBox
+                    android:id="@+id/remember_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/custome_login_checkbox" />
+
+                <ImageView
+                    android:id="@+id/remember_me_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    custom:srcCompat="@drawable/ic_check" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_button_height"
+            android:layout_below="@+id/remember_me_row"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginLeft="@dimen/login_side_margin"
+            android:layout_marginTop="@dimen/login_button_margin_top"
+            android:layout_marginRight="@dimen/login_side_margin"
+            custom:button_font="@font/iran_yekan_light" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_button"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/login_remember_me_margin_top"
+            android:layout_marginRight="@dimen/login_side_margin"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/login_reset_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/login_reset_password_margin_top"
+                android:layout_marginRight="@dimen/login_side_margin"
+                android:fontFamily="@font/iran_yekan"
+                android:text="@string/login_reset_password_text"
+                android:textColor="@color/login_reset_password_text_color"
+                android:textSize="@dimen/login_reset_password_text_size" />
+
+            <View
+                android:id="@+id/forget_password_underline"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/forget_password_underline_margin_top"
+                android:layout_marginRight="@dimen/login_side_margin"
+                android:background="#000000" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/login_side_margin"
+            android:layout_marginRight="@dimen/login_side_margin"
+            android:layout_marginBottom="17dp"
+            android:orientation="horizontal"
+
+            >
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/sign_up_account"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/buttonelement_default_height"
+                android:layout_weight="0.3"
+                android:background="@drawable/login_register_button_background"
+                android:fontFamily="@font/iran_yekan"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:text="@string/login_sign_up_text"
+                android:textColor="@color/login_sign_up_text_color"
+                android:textSize="@dimen/login_sign_up_text_size" />
+
+            <TextView
+                android:id="@+id/do_not_have_account"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="7dp"
+                android:layout_weight="0.7"
+                android:fontFamily="@font/iran_yekan_light"
+                android:gravity="right|center_vertical"
+                android:text="@string/login_do_not_have_account"
+                android:textAlignment="gravity"
+                android:textColor="@color/login_do_not_have_account"
+                android:textSize="@dimen/login_do_not_have_account_size" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/forget_password_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/login_container_margin_top"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/recovery_password_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/login_recovery_password_text_margin_top"
+            android:fontFamily="@font/iran_yekan"
+            android:text="@string/login_recovery_password_text"
+            android:textColor="@color/login_recovery_password_text_color"
+            android:textSize="@dimen/login_recovery_password_text_size" />
+
+        <LinearLayout
+            android:id="@+id/confirm_username_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_second_level_container_margin_top"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/login_confirm_username_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_confirm_username_input_height"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="@dimen/login_side_margin"
+                android:layout_marginTop="@dimen/login_confirm_username_input_margin_top"
+                android:layout_marginRight="@dimen/login_side_margin"
+                android:inputType="textNoSuggestions"
+                custom:font="@font/iran_yekan_light" />
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/login_confirm_username_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_confirm_username_button_height"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="@dimen/login_side_margin"
+                android:layout_marginTop="@dimen/login_confirm_username_button_margin_top"
+                android:layout_marginRight="@dimen/login_side_margin"
+                custom:button_font="@font/iran_yekan_light" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/enter_verification_code_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_second_level_container_margin_top"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/verification_code_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/login_verification_code_message_margin_top"
+                android:fontFamily="@font/iran_yekan_light"
+                android:textColor="@color/login_verification_code_message_text_color"
+                android:textSize="@dimen/login_verification_code_message_text_size"
+                android:visibility="invisible" />
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/login_verification_code_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_verification_code_input_height"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="@dimen/login_side_margin"
+                android:layout_marginTop="@dimen/login_verification_code_input_margin_top"
+                android:layout_marginRight="@dimen/login_side_margin"
+                android:inputType="textNoSuggestions"
+                custom:font="@font/iran_yekan_light" />
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/login_verification_code_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_verification_code_button_height"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="@dimen/login_side_margin"
+                android:layout_marginTop="@dimen/login_verification_code_button_margin_top"
+                android:layout_marginRight="@dimen/login_side_margin"
+                custom:button_font="@font/iran_yekan_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/login_verification_code_resend_margin_top">
+
+                <TextView
+                    android:id="@+id/resend_verification_code"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/iran_yekan" />
+
+                <TextView
+                    android:id="@+id/timer"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.4"
+                    android:gravity="center"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/login_forget_password_timer_background"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/iran_yekan_light" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reset_password_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_second_level_container_margin_top"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/login_reset_password_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_reset_password_input_height"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="@dimen/login_side_margin"
+                android:layout_marginRight="@dimen/login_side_margin"
+                android:inputType="textPassword"
+                custom:font="@font/iran_yekan_light" />
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/login_reset_password_again_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_reset_password_input_height"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="@dimen/login_side_margin"
+                android:layout_marginTop="@dimen/login_reset_password_again_input_margin_top"
+                android:layout_marginRight="@dimen/login_side_margin"
+                android:inputType="textPassword"
+                custom:font="@font/iran_yekan_light" />
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/login_reset_password_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_reset_password_button_height"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="@dimen/login_side_margin"
+                android:layout_marginTop="@dimen/login_reset_password_button_margin_top"
+                android:layout_marginRight="@dimen/login_side_margin"
+                custom:button_font="@font/iran_yekan_light" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "256132228371",
+    "firebase_url": "https://ewayspanel-76845.firebaseio.com",
+    "project_id": "ewayspanel-76845",
+    "storage_bucket": "ewayspanel-76845.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256132228371:android:0b5272e115cc8fbb",
+        "android_client_info": {
+          "package_name": "com.srp.ewayspanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256132228371-718g4v25h76jusa7l4616ko88uaaeto7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.srp.ewayspanel",
+            "certificate_hash": "be590c04d376c9f769b0089bbcc5f2ff36d8c414"
+          }
+        },
+        {
+          "client_id": "256132228371-jkk13m5ta5m2dbr5pv6ajq6p1h1bujt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt_x4JPN1wccxDWhVvuSvO_4fDIFFPiaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256132228371-jkk13m5ta5m2dbr5pv6ajq6p1h1bujt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

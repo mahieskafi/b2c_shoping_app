@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.srp.ewayspanel.ui.club.ClubItemViewVertical
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/shop_item_width"
+    android:layout_height="@dimen/shop_item_height"
+    android:layout_marginRight="@dimen/store_main_page_category_item_margin_side"
+    android:layout_marginLeft="@dimen/store_main_page_category_item_margin_side"/>

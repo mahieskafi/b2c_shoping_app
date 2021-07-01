@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+
+        android:fontFamily="@font/iran_yekan"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:text="افزودن به سبد خرید"
+        />
+    
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_add"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="16dp"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+
+        android:indeterminate="true"
+
+        android:indeterminateTint="#FFFFFF"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        />
+
+</merge>

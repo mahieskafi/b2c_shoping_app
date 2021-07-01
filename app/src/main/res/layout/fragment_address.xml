@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="@dimen/address_detail_title_margin"
+                android:orientation="horizontal">
+
+                <com.srp.eways.ui.view.button.LeftIconButtonView
+                    android:id="@+id/button_add_address"
+                    android:layout_width="@dimen/address_detail_add_address_width"
+                    android:layout_height="@dimen/address_detail_add_address_height" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_title_receiver_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:gravity="right" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/address_detail_card_margin"
+                android:background="@color/shopcart_detail_address_card_back_color">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/address_detail_items_margin_side"
+                        android:layout_marginTop="@dimen/address_detail_items_margin_side"
+                        android:layout_marginRight="@dimen/address_detail_items_margin_side"
+                        >
+
+                        <com.srp.eways.ui.view.button.ButtonElement
+                            android:id="@+id/btn_change_address"
+                            android:layout_width="@dimen/address_detail_change_address_button_width"
+                            android:layout_height="@dimen/address_detail_change_address_button_height"
+                            android:layout_alignParentLeft="true"
+                            />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/address_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                           />
+                    </RelativeLayout>
+
+                    <com.srp.ewayspanel.ui.view.shopcart.ReceiverDetailView
+                        android:id="@+id/view_receiver_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/address_detail_items_margin_side"
+                        android:layout_marginLeft="@dimen/address_detail_items_margin_side"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/iv_delete"
+                            android:layout_width="@dimen/address_detail_edit_image_view_size"
+                            android:layout_height="@dimen/address_detail_edit_image_view_size"
+                            android:layout_marginRight="20dp"
+                            />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/iv_edit"
+                            android:layout_width="@dimen/address_detail_edit_image_view_size"
+                            android:layout_height="@dimen/address_detail_edit_image_view_size"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/address_detail_title_margin"
+                android:layout_marginEnd="@dimen/address_detail_title_margin"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txt_delivery_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/delivery_view_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/shopcart_detail_address_card_back_color"
+                    android:clipChildren="false"
+                    android:clipToPadding="false">
+
+                    <com.srp.ewayspanel.ui.view.DeliveryOptionsView
+                        android:id="@+id/delivery_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/address_detail_title_margin"
+                android:layout_marginEnd="@dimen/address_detail_title_margin"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/description_card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/address_detail_title_margin"
+                    android:background="@color/shopcart_detail_address_card_back_color"
+                    android:clipChildren="false"
+                    android:clipToPadding="false">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edit_description_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="right"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/descriptionfield_addcontact_background"
+                        android:fontFamily="@font/iran_yekan"
+                        android:gravity="right"
+                        android:minHeight="87dp"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="16dp"
+                        android:paddingBottom="5dp"
+                        android:textColor="@color/add_eways_contact_form_inputtext_color"
+                        android:textSize="13dp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.srp.ewayspanel.ui.view.store.basket.OrderSummaryView
+        android:id="@+id/view_order_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+</LinearLayout>

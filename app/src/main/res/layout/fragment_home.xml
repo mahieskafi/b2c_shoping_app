@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.srp.eways.util.LinearLayoutSoftKeyboardDetector
+
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/f_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.srp.ewayspanel.ui.view.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottomnav_height"
+            android:layout_gravity="bottom"
+            android:background="#26000000"
+            app:tab_icon1="@drawable/ic_club"
+
+            app:tab_icon2="@drawable/ic_sim_card"
+            app:tab_icon3="@drawable/ic_bill_icon"
+            app:tab_icon4="@drawable/ic_store"
+            app:tab_icon5="@drawable/ic_home"
+            app:tab_selected_icon1="@drawable/ic_selected_club"
+
+            app:tab_selected_icon2="@drawable/ic_selected_sim_card"
+            app:tab_selected_icon3="@drawable/ic_selected_bill"
+            app:tab_selected_icon4="@drawable/ic_selected_store"
+            app:tab_selected_icon5="@drawable/ic_selected_home"
+            app:tab_title1="@string/bottomnav_tab1_title"
+
+            app:tab_title2="@string/bottomnav_tab3_title"
+            app:tab_title3="@string/bottomnav_tab4_title"
+
+            app:tab_title4="@string/bottomnav_tab5_title"
+            app:tab_title5="@string/bottomnav_tab6_title" />
+    </com.srp.eways.util.LinearLayoutSoftKeyboardDetector>
+
+    <FrameLayout
+        android:id="@+id/container_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:visibility="gone">
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/buycharge_loadingstateview_marginstart"
+
+            android:layout_marginEnd="@dimen/buycharge_loadingstateview_marginend" />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span id="subtract_button" size="25%"/>
+        <Span size="1w"/>
+        <Span id="count" size="50%"/>
+        <Span size="1w"/>
+        <Span id="add_button" size="25%"/>
+    </Horizontal>
+
+
+    <Vertical >
+        <Span size="1w"/>
+        <Span id="count" size="100%"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@count" end="end@count">
+        <Span size="1w"/>
+        <Span id="add_button" size="88%"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@count" end="end@count">
+        <Span size="1w"/>
+        <Span id="subtract_button" size="88%"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+</Sequences>

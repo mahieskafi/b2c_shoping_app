@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:cardCornerRadius="@dimen/addressdialog_content_radius"
+        app:cardElevation="@dimen/addressdialog_content_elevation"
+        android:layout_above="@+id/button_container"
+        android:layout_alignParentTop="true"
+
+        app:contentPadding="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.srp.ewayspanel.ui.view.shopcart.AddressFieldView
+                    android:id="@+id/addressfield_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.srp.ewayspanel.ui.view.shopcart.AddressFieldView
+                    android:id="@+id/addressfield_receivername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+
+                    android:weightSum="2">
+
+                    <com.srp.ewayspanel.ui.view.shopcart.AddressFieldView
+                        android:id="@+id/addressfield_mobilenumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1" />
+
+                    <com.srp.ewayspanel.ui.view.shopcart.AddressFieldView
+                        android:id="@+id/addressfield_fixnumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <com.srp.ewayspanel.ui.view.shopcart.AddressFieldView
+                    android:id="@+id/addressfield_postalcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal">
+
+                    <com.srp.ewayspanel.ui.view.shopcart.AddressFieldView
+                        android:id="@+id/addressfield_city"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+
+                        android:layout_weight="1" />
+
+                    <com.srp.ewayspanel.ui.view.shopcart.AddressFieldView
+                        android:id="@+id/addressfield_province"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_addresskey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="right"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="@dimen/addressfield_title_marginleft"
+
+                    android:fontFamily="@font/iran_yekan"
+                    android:text="نشانی:"
+                    android:textColor="@color/addressfield_title_text"
+                    android:textSize="@dimen/addressfield_title_textsize" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edit_address_value"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="right"
+                    android:layout_marginTop="@dimen/addressfield_edit_value_margin_top"
+                    android:background="@drawable/addressfield_address_editvalue_background"
+                    android:fontFamily="@font/iran_yekan"
+                    android:gravity="right"
+                    android:minHeight="50dp"
+                    android:paddingLeft="16dp"
+
+                    android:paddingTop="5dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="@color/addressfield_value_text"
+
+                    android:textSize="@dimen/addressfield_value_textsize" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal"
+        android:weightSum="2.875">
+
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/button_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonelement_default_height"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1.875" />
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/button_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonelement_default_height"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>

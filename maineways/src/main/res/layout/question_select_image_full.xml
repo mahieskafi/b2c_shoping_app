@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/survey_image_selector_full_image_background">
+
+    <ImageView
+        android:id="@+id/image_full_screen"
+        android:layout_width="280dp"
+        android:layout_height="488dp"
+        android:background="@drawable/survey_image_selector_full_image_background"/>
+
+    <ImageButton
+        android:id="@+id/close_dialog"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        app:srcCompat="@drawable/ic_survey_close"
+        android:layout_gravity="top|left"
+        android:background="@android:color/transparent"/>
+
+</FrameLayout>

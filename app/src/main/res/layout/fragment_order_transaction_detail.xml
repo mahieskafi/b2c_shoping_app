@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <com.srp.eways.ui.view.toolbar.WeiredToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/club_fragment_toolbar_height"
+        android:elevation="@dimen/toolbar_elevation"
+        android:visibility="gone" />
+
+            <com.srp.eways.ui.view.LoadingStateView
+                android:id="@+id/loadingstateview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                android:layout_marginStart="@dimen/buycharge_loadingstateview_marginstart"
+                android:layout_marginEnd="@dimen/buycharge_loadingstateview_marginend" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/order_transaction_detail_margin_sides"
+            android:background="@color/background"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/order_detail_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="@dimen/order_transaction_detail_title_margin_bottom" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/order_detail_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="16dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/iv_result"
+                                android:layout_width="19dp"
+                                android:layout_height="19dp"
+                                android:layout_gravity="right"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginBottom="21dp"
+                                tools:srcCompat="@drawable/transaction_item_result_ok" />
+
+                            <TextView
+                                android:id="@+id/order_detail_code"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_date"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="29dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                            <TextView
+                                android:id="@+id/oreder_detail_totalprice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_box"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_point"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_discount"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="6dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/order_detail_result_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="20dp"
+                                android:fontFamily="@font/iran_yekan_bold"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_result_text_size"
+                                tools:text="پرداخت شده" />
+
+                            <TextView
+                                android:id="@+id/order_detail_code_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_order_code"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_date_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_order_date"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_time_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="29dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_order_time"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                            <TextView
+                                android:id="@+id/oreder_detail_totalprice_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_factor_total_price"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_box_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_factor_delivery_price"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_point_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="12dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_factor_total_point"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_detail_discount_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="6dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_product_item_discount_text"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#c8c8c8" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="16dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/order_detail_final_price"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="right"
+                            android:fontFamily="@font/iran_yekan_medium"
+                            android:gravity="right"
+                            android:textColor="@color/order_transaction_detail_items_text_color"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/order_detail_final_price_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="right"
+                            android:fontFamily="@font/iran_yekan_medium"
+                            android:gravity="right"
+                            tools:text="@string/order_transaction_product_item_discount_text"
+                            android:textColor="@color/order_transaction_detail_items_text_color"
+                            android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/factor_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/order_transaction_delivery_factor_title_margin_top"
+                android:layout_marginBottom="@dimen/order_transaction_delivery_factor_title_margin_bottom"
+                android:visibility="gone" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/order_factor_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="12dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/order_detail_status"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_send_type"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                            <TextView
+                                android:id="@+id/oreder_send_delivery"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_send_address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="4dp"
+                                android:fontFamily="@font/iran_yekan"
+                                android:gravity="right"
+                                android:lineSpacingExtra="1.3dp"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/order_detail_status_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_delivery_title"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                            <TextView
+                                android:id="@+id/order_send_type_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_delivery_info_text4"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+
+                            <TextView
+                                android:id="@+id/oreder_send_delivery_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_delivery_info_text2"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+
+                            <TextView
+                                android:id="@+id/order_send_address_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_marginBottom="4dp"
+                                android:fontFamily="@font/iran_yekan_medium"
+                                android:gravity="right"
+                                android:text="@string/order_transaction_detail_delivery_info_text3"
+                                android:textColor="@color/order_transaction_detail_items_text_color"
+                                android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:id="@+id/order_post_code"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginBottom="16dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/iran_yekan"
+                            android:gravity="right"
+                            android:textColor="@color/order_transaction_detail_items_text_color"
+                            android:textSize="@dimen/order_transaction_detail_items_value_text_size" />
+
+                        <TextView
+                            android:id="@+id/order_post_code_title"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginBottom="19dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/iran_yekan_medium"
+                            android:gravity="right"
+                            android:text="@string/order_transaction_detail_post_code_title"
+                            android:textColor="@color/order_transaction_detail_items_text_color"
+                            android:textSize="@dimen/order_transaction_detail_items_text_size" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/info_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/order_transaction_delivery_info_title_margin_top"
+                android:layout_marginBottom="@dimen/order_transaction_delivery_info_title_margin_bottom"
+                android:visibility="gone" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/delivery_info_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:visibility="gone" />
+
+            <com.srp.eways.ui.view.LoadingStateView
+                android:id="@+id/products_loadingstateview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="@dimen/buycharge_loadingstateview_marginstart"
+                android:layout_marginTop="@dimen/buycharge_emptyview_margin_top"
+                android:layout_marginEnd="@dimen/buycharge_loadingstateview_marginend"
+                android:layout_marginBottom="@dimen/buycharge_rootview_paddingbottom" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/product_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginTop="@dimen/order_transaction_product_list_title_margin_top"
+                android:layout_marginBottom="@dimen/order_transaction_product_list_title_margin_bottom" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/product_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false" />
+
+            <com.srp.eways.ui.view.button.LeftIconButtonView
+                android:id="@+id/loadmore_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/order_transaction_detail_more_items_button_height"
+                android:layout_marginTop="@dimen/order_transaction_detail_more_items_button_margin_top" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

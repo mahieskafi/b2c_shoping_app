@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <com.srp.eways.ui.view.toolbar.WeiredToolbar
+        android:id="@+id/toolbar_follow_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/deposit_toolbar_height"
+        android:elevation="@dimen/toolbar_elevation"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/follow_order_date_container_top_margin"
+            android:layout_marginLeft="@dimen/follow_order_date_container_sides_margin"
+            android:layout_marginRight="@dimen/follow_order_date_container_sides_margin"
+            android:layout_marginBottom="@dimen/follow_order_date_container_bottom_margin"
+            android:weightSum="1"
+            >
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/follow_order_end_date"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/follow_order_date_input_height"
+                android:layout_marginRight="@dimen/follow_order_date_margin"
+                android:fontFamily="@font/iran_yekan_light"
+                android:layout_weight="0.5"
+                />
+
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/follow_order_start_date"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/follow_order_date_input_height"
+                android:layout_marginLeft="@dimen/follow_order_date_margin"
+                android:fontFamily="@font/iran_yekan_light"
+                android:layout_weight="0.5"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/follow_order_sale_number_container_sides_margin"
+            android:layout_marginRight="@dimen/follow_order_sale_number_container_sides_margin"
+            android:layout_marginTop="@dimen/follow_order_sale_number_container_top_margin"
+            android:weightSum="1">
+
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/follow_order_end_sale_number"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/follow_order_sale_number_input_height"
+                android:layout_marginRight="@dimen/follow_order_sale_number_margin"
+                android:imeOptions="actionDone"
+                android:fontFamily="@font/iran_yekan_light"
+                android:inputType="number"
+                android:layout_weight="0.5"
+                />
+
+
+            <com.srp.eways.ui.view.input.InputElement
+                android:id="@+id/follow_order_start_sale_number"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/follow_order_sale_number_input_height"
+                android:layout_marginLeft="@dimen/follow_order_sale_number_margin"
+                android:fontFamily="@font/iran_yekan_light"
+                android:inputType="number"
+                android:layout_weight="0.5"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/follow_order_order_condition_container_margin_horisontal"
+            android:layout_marginTop="@dimen/follow_order_order_condition_container_margin_top"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/order_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/iran_yekan"
+                tools:text="gkjdfgkj"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/order_Condition_Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/follow_order_order_condition_icon_margin_left"
+                tools:srcCompat="@drawable/ic_order_condition_title_icon"
+                />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/status_recyclerview"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/follow_order_ordercondition_recyclerView_margin_horizontal"
+            android:layout_marginRight="@dimen/follow_order_ordercondition_recyclerView_margin_horizontal"
+            android:layout_marginTop="@dimen/follow_order_ordercondition_recyclerView_margin_top"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/follow_order_search_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/follow_order_button_height"
+            android:layout_marginLeft="@dimen/follow_order_button_sides_margin"
+            android:layout_marginRight="@dimen/follow_order_button_sides_margin"
+            android:fontFamily="@font/iran_yekan_light"
+            android:layout_marginTop="@dimen/follow_order_button_top_margin"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

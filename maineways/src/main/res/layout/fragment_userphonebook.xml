@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    android:orientation="vertical"
+    android:background="#f7f7f7">
+
+    <com.srp.eways.ui.view.toolbar.WeiredToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/userphonebook_fragment_toolbar_height" />
+
+    <FrameLayout
+        android:id="@+id/container_searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.srp.eways.ui.view.SearchView
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.srp.eways.ui.view.EmptyView
+            android:id="@+id/emptyview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="@dimen/userphonebook_emptyview_margin_start"
+            android:layout_marginTop="@dimen/userphonebook_emptyview_margin_top"
+            android:layout_marginEnd="@dimen/userphonebook_emptyview_margin_end"
+            android:visibility="gone" />
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/buycharge_loadingstateview_marginstart"
+
+            android:layout_marginEnd="@dimen/buycharge_loadingstateview_marginend"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/container_contactlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/contactlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</LinearLayout>

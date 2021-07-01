@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="aboutus_toolbar_has_navigation_up">true</bool>
+    <bool name="aboutus_toolbar_has_deposit">false</bool>
+
+    <bool name="contact_toolbar_has_navigation_up">true</bool>
+    <bool name="contact_toolbar_has_deposit">false</bool>
+
+    <bool name="transaction_toolbar_has_navigation_up">true</bool>
+    <bool name="transaction_toolbar_has_deposit">false</bool>
+
+    <bool name="charge_inquiry_button_has_icon">false</bool>
+    <bool name="charge_inquiry_phone_number_has_clear">true</bool>
+    <bool name="charge_inquiry_date_has_clear">false</bool>
+
+    <bool name="buycharge_input_phonenumber_has_clear">true</bool>
+
+    <bool name="add_choice_dialog_input_has_icon">false</bool>
+
+    <bool name="receipt_toolbar_has_navigation_up">true</bool>
+    <bool name="receipt_toolbar_has_deposit">false</bool>
+
+    <bool name="credit_toolbar_has_navigation_up">true</bool>
+    <bool name="credit_toolbar_has_deposit">false</bool>
+
+    <bool name="deposit_amount_has_clear">true</bool>
+    <bool name="deposit_button_payment_has_icon">false</bool>
+
+</resources>

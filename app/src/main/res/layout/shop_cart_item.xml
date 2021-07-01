@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <View
+        android:id="@+id/row_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@+id/row_stock_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@+id/stock_divider"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/shop_item_divider_color"/>
+
+    <TextView
+        android:id="@+id/stock_text_error"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:text="موجودی این کالا از تعداد درخواستی کمتر میباشد"/>
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/product_name"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="ماوس"
+        android:gravity="right"
+        android:maxLines="2"
+        android:textAlignment="gravity"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/shop_item_divider_color"/>
+
+    <com.srp.ewayspanel.ui.view.CounterView2
+        android:id="@+id/counterview"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/lack_text"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:gravity="right|bottom"
+        android:text="ناموجود!"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/remove_product_icon"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"/>
+
+    <View
+        android:id="@+id/unit_price_background"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:id="@+id/unit_price_suffix"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|left"/>
+    <TextView
+        android:id="@+id/unit_price"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|left"
+        android:text="1020225523"/>
+    <TextView
+        android:id="@+id/unit_price_text"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|right"/>
+
+
+
+    <View
+        android:id="@+id/total_price_background"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+    <TextView
+        android:id="@+id/total_price_suffix"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|left"/>
+    <TextView
+        android:id="@+id/total_price"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="1020225523"
+        android:gravity="center_vertical|left"/>
+    <TextView
+        android:id="@+id/total_price_text"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|right"/>
+
+
+</merge>

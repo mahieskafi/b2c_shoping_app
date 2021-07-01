@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/white" />
+    <corners android:radius="@dimen/add_address_view_add_button_background_radius" />
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/add_address_view_select_button_background_stroke_color" />
+
+</shape>

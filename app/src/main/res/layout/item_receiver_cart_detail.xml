@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.srp.ewayspanel.ui.view.textview.KeyValueTextView
+        android:id="@+id/receiver_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+     />
+
+    <com.srp.ewayspanel.ui.view.textview.KeyValueTextView
+        android:id="@+id/receiver_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+       />
+
+    <com.srp.ewayspanel.ui.view.textview.KeyValueTextView
+        android:id="@+id/receiver_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+       />
+
+    <com.srp.ewayspanel.ui.view.textview.KeyValueTextView
+        android:id="@+id/receiver_post_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <com.srp.ewayspanel.ui.view.textview.KeyValueTextView
+        android:id="@+id/receiver_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <com.srp.ewayspanel.ui.view.textview.KeyValueTextView
+        android:id="@+id/receiver_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <com.srp.ewayspanel.ui.view.textview.KeyValueTextView
+        android:id="@+id/receiver_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+</merge>

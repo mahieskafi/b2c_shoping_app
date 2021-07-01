@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/navigation_drawer_width"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="right"
+    android:background="@android:color/white"
+    android:clickable="true">
+
+    <com.yashoid.sequencelayout.SequenceLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:sequences="@xml/sequences_navigation_drawer">
+
+        <ImageView
+            android:id="@+id/header_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="right"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:fontFamily="@font/iran_yekan_light"/>
+
+        <TextView
+            android:id="@+id/text_usercode_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_yekan_light" />
+
+        <TextView
+            android:id="@+id/text_usercode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/iran_yekan_light"
+            android:gravity="right"/>
+
+    </com.yashoid.sequencelayout.SequenceLayout>
+    
+    <LinearLayout
+        android:id="@+id/top_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+            android:id="@+id/credit_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_drawer_item_height"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/iran_yekan_medium"
+            android:layout_weight="0"/>
+
+        <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+            android:id="@+id/points_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_drawer_item_height"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/iran_yekan_medium"
+            android:layout_weight="0" />
+
+        <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+            android:id="@+id/income_item"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_drawer_item_height"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/iran_yekan_medium"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+                android:id="@+id/home_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_drawer_item_height"
+                android:layout_marginTop="@dimen/navigation_drawer_item_home_margin_top"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/iran_yekan_medium"
+                android:layout_weight="0"/>
+
+            <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+                android:id="@+id/store_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_drawer_item_height"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/iran_yekan_medium"
+                android:layout_weight="0"/>
+
+            <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+                android:id="@+id/increase_deposit_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_drawer_item_height"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/iran_yekan_medium"
+                android:layout_weight="0"/>
+
+            <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+                android:id="@+id/transactions_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_drawer_item_height"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/iran_yekan_medium"
+                android:layout_weight="0"/>
+
+            <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+                android:id="@+id/sale_report_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_drawer_item_height"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/iran_yekan_medium"
+                android:layout_weight="0"/>
+
+            <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+                android:id="@+id/support_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_drawer_item_height"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/iran_yekan_medium"
+                android:layout_weight="0"/>
+
+            <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+                android:id="@+id/about_us_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_drawer_item_height"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/iran_yekan_medium"
+                android:layout_weight="0"/>
+
+            <com.srp.eways.ui.view.navigationdraweritem.NavigationDrawerItem
+                android:id="@+id/exit_item"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navigation_drawer_item_height"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/iran_yekan_medium"
+                android:layout_weight="0"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

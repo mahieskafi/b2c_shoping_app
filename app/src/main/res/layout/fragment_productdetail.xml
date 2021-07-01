@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <com.srp.eways.ui.view.toolbar.WeiredToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/product_detail_fragment_toolbar_height"
+        android:clipToPadding="false"
+        android:elevation="@dimen/toolbar_elevation" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/loadingstateview_margin_left_default"
+
+            android:layout_marginRight="@dimen/loadingstateview_margin_right_default"
+            android:gravity="center" />
+
+        <com.srp.eways.ui.view.EmptyView
+            android:id="@+id/emptyview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="@dimen/emptyview_margin_start_default"
+            android:layout_marginTop="@dimen/emptyview_margin_top_default"
+            android:layout_marginEnd="@dimen/emptyview_margin_end_default" />
+
+        <ScrollView
+            android:id="@+id/container_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+
+            android:paddingBottom="84dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/productitemslider_margintop"
+                    android:clipChildren="false"
+
+                    android:clipToPadding="false"
+                    android:paddingStart="@dimen/productimageslider_paddingleft"
+                    android:paddingEnd="@dimen/productimageslider_paddingright">
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/productslider"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/item_productslider_height"
+
+                        android:clipChildren="false"
+                        android:clipToPadding="false" />
+
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/off_percent_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+
+                        android:layout_gravity="top|start"
+                        android:background="@drawable/productdetail_offpercent_background"
+                        android:gravity="center_horizontal|center_vertical"
+
+                        android:maxLines="1"
+                        android:minWidth="@dimen/discountpercenterview_width"
+                        android:textColor="@color/discount_text_percentage_text"
+                        android:textSize="@dimen/discount_text_percentage_textsize"
+                        app:fontFamily="@font/iran_sans_regular" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="16dp">
+
+                        <com.google.android.material.tabs.TabLayout
+                            android:id="@+id/tablayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dp"
+
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:layout_marginBottom="16dp"
+                            app:tabBackground="@drawable/productimageslider_tab_selector"
+                            app:tabGravity="fill"
+
+                            app:tabIndicatorHeight="0dp"
+                            app:tabMode="fixed" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/count_error"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_gravity="bottom|left"
+                            android:layout_marginLeft="@dimen/product_detail_price_marginleft"
+
+                            android:fontFamily="@font/iran_yekan_bold"
+                            android:gravity="left"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="ناموجود!"
+                            android:textColor="#e8165d"
+                            android:textSize="@dimen/product_detail_price"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="16dp"
+
+                    android:background="@drawable/address_detail_card_backgound"
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="@dimen/card_elevation"
+                    app:contentPaddingBottom="4dp"
+                    app:contentPaddingLeft="4dp"
+                    app:contentPaddingRight="4dp"
+                    app:contentPaddingTop="8dp">
+
+                    <include
+                        android:id="@+id/container_productgeneralinfo"
+                        layout="@layout/product_generalinfo_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/technicalinfo_title_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+
+                    android:fontFamily="@font/iran_yekan_medium"
+                    android:text="مشخصات فنی"
+                    android:textColor="#231935"
+                    android:textSize="16sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/container_technicalinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginRight="16dp"
+
+                    app:cardCornerRadius="@dimen/card_radius"
+                    app:cardElevation="@dimen/card_elevation"
+                    app:contentPaddingLeft="4dp"
+                    app:contentPaddingRight="4dp"
+                    app:contentPaddingTop="8dp">
+
+
+                    <com.srp.ewayspanel.ui.view.store.product.ProductTechnicalInfoView
+                        android:id="@+id/productdetail_technicalinfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:id="@+id/container_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="16dp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="right"
+
+                        android:fontFamily="@font/iran_yekan_medium"
+                        android:text="توضیحات"
+                        android:textColor="#231935"
+                        android:textSize="16sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="8dp"
+
+                        app:cardCornerRadius="@dimen/card_radius"
+                        app:cardElevation="@dimen/card_elevation"
+                        app:contentPaddingBottom="8dp"
+                        app:contentPaddingLeft="16dp"
+                        app:contentPaddingRight="16dp"
+                        app:contentPaddingTop="8dp">
+
+                        <com.srp.ewayspanel.ui.view.textjustify.JustifyTextView
+                            android:id="@+id/product_text_description"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:fontFamily="@font/iran_yekan"
+                            android:gravity="right"
+                            android:lineHeight="24sp"
+                            android:lineSpacingMultiplier="1.5"
+                            android:textColor="#231935"
+                            android:textSize="14sp"
+                            android:visibility="visible" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_above="@+id/bottom_holder"
+            android:background="@drawable/product_detail_bottom_holder_shadow" />
+
+        <FrameLayout
+            android:id="@+id/bottom_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/background">
+
+            <com.srp.ewayspanel.ui.view.store.product.ProductDetailAddToBasketButton
+                android:id="@+id/button_addtobasket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:visibility="gone" />
+
+            <com.srp.ewayspanel.ui.view.CounterView2
+                android:id="@+id/counterview"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="90dp"
+
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="90dp"
+                android:layout_marginBottom="16dp"
+                android:visibility="gone" />
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

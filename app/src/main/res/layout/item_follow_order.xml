@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear_follow_order_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/follow_order_list_item_height"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/follow_order_list_item_sides_margin"
+        android:weightSum="4">
+
+        <FrameLayout
+            android:id="@+id/frame_detail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="left|center_vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                app:srcCompat="@drawable/ic_follow_order_item_detail" />
+        </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_amount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:textColor="@color/follow_order_list_item_text_color"
+            android:textSize="@dimen/follow_order_list_header_text_size"
+            app:fontFamily="@font/iran_yekan"
+            tools:text="400,000" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="right|center_vertical"
+                android:maxLines="1"
+                android:textColor="@color/follow_order_list_item_text_color"
+                android:textSize="@dimen/follow_order_list_header_text_size"
+                app:fontFamily="@font/iran_yekan"
+                tools:text="پرداخت شده" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                tools:srcCompat="@drawable/ic_follow_order_item_detail" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:textColor="@color/follow_order_list_item_text_color"
+            android:textSize="@dimen/follow_order_list_header_text_size"
+            app:fontFamily="@font/iran_yekan_bold"
+            tools:text="95465456" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/follow_order_list_item_separator_height"
+        android:background="@color/follow_order_list_header_separator_color"
+        android:layout_marginHorizontal="@dimen/follow_order_list_item_sides_margin" />
+
+
+        <LinearLayout
+            android:id="@+id/linear_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/follow_order_item_detail_background"
+            android:visibility="gone"
+            android:layout_marginHorizontal="4dp"
+            android:orientation="vertical">
+
+            <com.srp.ewayspanel.ui.view.followorder.KeyValuePairView
+                android:id="@+id/key_value_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp" />
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/btn_more_detail"
+                android:layout_width="95dp"
+                android:layout_height="30dp"
+                android:layout_margin="8dp" />
+        </LinearLayout>
+</LinearLayout>

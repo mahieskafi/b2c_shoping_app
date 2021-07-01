@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <View
+        android:id="@+id/colaps_background"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/type_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="شارژ مستقیم رایتل"/>
+
+    <View
+        android:id="@+id/type_title_divider"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#fccfae"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="عدم پرداخت درگاه بانک"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/price"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="48000000"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/price_suffix"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bill_id_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="شماره خرید:"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bill_id"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="326589"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/date"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="12/12/1399"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/time"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:text="12:30"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/more"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/more_container"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        />
+
+</merge>

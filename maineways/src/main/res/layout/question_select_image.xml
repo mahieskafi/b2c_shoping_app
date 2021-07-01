@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/image_view1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:elevation="1dp"/>
+
+    <TextView
+        android:id="@+id/image_name1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <ImageView
+        android:id="@+id/image_select_icon1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="@dimen/survey_image_selector_item_view_icon_padding"/>
+
+    <ImageView
+        android:id="@+id/image_view2"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:elevation="1dp"/>
+
+    <TextView
+        android:id="@+id/image_name2"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <ImageView
+        android:id="@+id/image_select_icon2"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="@dimen/survey_image_selector_item_view_icon_padding"/>
+
+</merge>

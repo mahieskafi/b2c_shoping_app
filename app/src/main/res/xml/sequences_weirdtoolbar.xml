@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="@dimen/weird_toolbar_back_margin_left"/>
+        <Span id="button_back" size="@dimen/weird_toolbar_back_width"/>
+        <Span size="@dimen/weird_toolbar_shop_icon_margin_right"/>
+        <Span id="shop_icon" size="@dimen/weird_toolbar_shop_width"/>
+        <Span size="@dimen/weird_toolbar_shop_margin_right"/>
+        <Span id="search_bar" size="1w"/>
+        <Span size="@dimen/weird_toolbar_helper_deposit_margin_left"/>
+        <Span id="helper_deposit" size="@MAX(100%text_deposittitle,100%text_depositvalue)"/>
+        <Span size="@dimen/weird_toolbar_navigation_margin_left"/>
+        <Span id="button_navigationdrawer" size="@dimen/weird_toolbar_navigation_width"/>
+        <Span size="@dimen/weird_toolbar_navigation_margin_right"/>
+    </Horizontal>
+
+    <Vetical>
+        <Span id="helper_deposit" size="36dp"/>
+    </Vetical>
+
+    <Vertical end="end@button_navigationdrawer">
+        <Span size="1w"/>
+        <Span id="button_back" size="@dimen/weird_toolbar_back_height"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="1w"/>
+        <Span id="shop_icon" size="@dimen/weird_toolbar_shop_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical end="end@button_navigationdrawer">
+        <Span size="1w"/>
+        <Span id="search_bar" size="@dimen/weird_toolbar_search_height"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="1w"/>
+        <Span id="button_navigationdrawer" size="@dimen/weird_toolbar_navigation_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Horizontal start="start@helper_deposit" end="end@helper_deposit">
+        <Span size="1w"/>
+        <Span id="text_deposittitle" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@helper_deposit" end="end@helper_deposit">
+        <Span size="1w"/>
+        <Span id="text_depositvalue" size="wrap" min="@dimen/weird_toolbar_deposit_value_width"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Vertical end="end@button_navigationdrawer">
+        <Span size="1w"/>
+        <Span id="text_deposittitle" size="wrap"/>
+        <Span size="@dimen/weird_toolbar_deposit_value_margin_top"/>
+        <Span id="text_depositvalue" size="@dimen/weird_toolbar_deposit_value_height" />
+    </Vertical>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="@dimen/weird_toolbar_title_icon_margin_left"/>
+        <Span id="image_titleicon" size="@dimen/weird_toolbar_title_icon_width"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span size="1w"/>
+        <Span id="text_title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="1w"/>
+        <Span id="image_titleicon" size="@dimen/weird_toolbar_title_icon_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <Horizontal start="start@shop_icon">
+        <Span size="15dp"/>
+        <Span id="shop_count" size="@dimen/weird_toolbar_shop_count_width"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Vertical start="start@startshop_icon" end="end@shop_icon">
+        <Span size="3w"/>
+        <Span id="shop_count" size="@dimen/weird_toolbar_shop_count_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="end@shop_icon" >
+        <Span size="3dp"/>
+        <Span id="shop_progress" size="wrap"/>
+    </Vertical>
+
+    <Horizontal start="start@shop_icon" end="end@shop_icon">
+        <Span size="2dp"/>
+        <Span id="shop_progress" size="25dp"/>
+    </Horizontal>
+
+</Sequences>

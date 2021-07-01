@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal >
+        <Span size="1w"/>
+        <Span id="line" size="@dimen/item_point_selector_width"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span id="line" size="@dimen/item_point_selector_height"/>
+    </Vertical>
+
+    <Horizontal start="start@line" end="end@line">
+        <Span id="progress_line" size="@dimen/item_point_selector_width"/>
+    </Horizontal>
+
+    <Vertical id="progress_line_sequence" start="start@line" end="end@line">
+        <Span size="1w"/>
+        <Span id="progress_line" size="0px"/>
+    </Vertical>
+
+    <Horizontal end="start@line">
+        <Span size="1w"/>
+        <Span id="point_5_text" size="wrap"/>
+        <Span size="@dimen/item_point_selector_item_text_margin_right"/>
+    </Horizontal>
+
+    <Horizontal start="end@line">
+        <Span size="@dimen/item_point_selector_item_number_margin_left"/>
+        <Span id="point_5_number" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal end="start@line">
+        <Span size="1w"/>
+        <Span id="point_4_text" size="wrap"/>
+        <Span size="@dimen/item_point_selector_item_text_margin_right"/>
+    </Horizontal>
+
+    <Horizontal start="start@point_5_number" end="end@point_5_number">
+        <Span size="1w"/>
+        <Span id="point_4_number" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal end="start@line">
+        <Span size="1w"/>
+        <Span id="point_3_text" size="wrap"/>
+        <Span size="@dimen/item_point_selector_item_text_margin_right"/>
+    </Horizontal>
+
+    <Horizontal start="start@point_5_number" end="end@point_5_number">
+        <Span size="1w"/>
+        <Span id="point_3_number" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal end="start@line">
+        <Span size="1w"/>
+        <Span id="point_2_text" size="wrap"/>
+        <Span size="@dimen/item_point_selector_item_text_margin_right"/>
+    </Horizontal>
+
+    <Horizontal start="start@point_5_number" end="end@point_5_number">
+        <Span size="1w"/>
+        <Span id="point_2_number" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal end="start@line">
+        <Span size="1w"/>
+        <Span id="point_1_text" size="wrap"/>
+        <Span size="@dimen/item_point_selector_item_text_margin_right"/>
+    </Horizontal>
+
+    <Horizontal start="start@point_5_number" end="end@point_5_number">
+        <Span size="1w"/>
+        <Span id="point_1_number" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Vertical start="start@line" end="end@line">
+        <Span size="4w"/>
+        <Span id="point_5_text" size="wrap"/>
+        <Span size="7w"/>
+        <Span id="point_4_text" size="wrap"/>
+        <Span size="7w"/>
+        <Span id="point_3_text" size="wrap"/>
+        <Span size="7w"/>
+        <Span id="point_2_text" size="wrap"/>
+        <Span size="7w"/>
+        <Span id="point_1_text" size="wrap"/>
+        <Span size="2w"/>
+    </Vertical>
+
+    <Vertical start="start@line" end="end@line">
+        <Span size="4w"/>
+        <Span id="point_5_number" size="wrap"/>
+        <Span size="7w"/>
+        <Span id="point_4_number" size="wrap"/>
+        <Span size="7w"/>
+        <Span id="point_3_number" size="wrap"/>
+        <Span size="7w"/>
+        <Span id="point_2_number" size="wrap"/>
+        <Span size="7w"/>
+        <Span id="point_1_number" size="wrap"/>
+        <Span size="2w"/>
+    </Vertical>
+
+
+
+</Sequences>

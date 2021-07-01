@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal start="start@remove_button" end="end@keep_button">
+        <Span size="12dp"/>
+        <Span id="description" size="1w"/>
+        <Span size="12dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@remove_button" end="end@keep_button">
+        <Span id="bin_image" size="1w"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="@dimen/shop_cart_remove_product_dialog_margin_size"/>
+        <Span id="remove_button" size="@dimen/shop_cart_remove_product_dialog_button_width"/>
+        <Span size="16dp"/>
+        <Span id="keep_button" size="@dimen/shop_cart_remove_product_dialog_button_width"/>
+        <Span size="@dimen/shop_cart_remove_product_dialog_margin_size"/>
+    </Horizontal>
+
+
+    <Horizontal start="start@remove_button" end="end@remove_button">
+        <Span size="@dimen/shop_cart_remove_product_dialog_remove_text_margin"/>
+        <Span size="1w"/>
+        <Span id="remove_text" size="wrap"/>
+        <Span id="remove_loading" size="@dimen/shop_cart_remove_product_dialog_remove_loading_width"/>
+        <Span size="1w"/>
+        <Span size="@dimen/shop_cart_remove_product_dialog_remove_text_margin"/>
+    </Horizontal>
+
+    <Vertical start="start@remove_button" end="end@remove_button">
+        <Span size="1w"/>
+        <Span id="remove_text" size="wrap"/>
+        <Span size="4dp"/>
+        <Span size="1w"/>
+    </Vertical>
+    <Vertical start="start@remove_button" end="end@remove_button">
+        <Span size="1w"/>
+        <Span id="remove_loading" size="@dimen/shop_cart_remove_product_dialog_remove_loading_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="20dp"/>
+        <Span id="bin_image" size="wrap"/>
+        <Span size="30dp"/>
+        <Span id="description" size="wrap"/>
+        <Span size="33dp"/>
+        <Span id="remove_button" size="@dimen/shop_cart_remove_product_dialog_button_height"/>
+        <Span size="@dimen/shop_cart_remove_product_dialog_margin_size"/>
+    </Vertical>
+
+    <Vertical start="start@remove_button" end="end@remove_button">
+        <Span id="keep_button" size="@dimen/shop_cart_remove_product_dialog_button_height"/>
+    </Vertical>
+
+</Sequences>

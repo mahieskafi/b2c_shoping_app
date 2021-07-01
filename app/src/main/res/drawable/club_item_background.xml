@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/club_item_background_color"/>
+    <corners android:radius="@dimen/club_item_background_corner_radius"/>
+
+</shape>

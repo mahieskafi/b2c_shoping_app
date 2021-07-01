@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span id="back1" size="1w"/>
+        <Span size="@dimen/item_charge_transaction_back1_margin_right"/>
+    </Horizontal>
+
+    <Horizontal start="end@back1">
+        <Span size="-1dp"/>
+        <Span id="back2" size="10dp"/>
+    </Horizontal>
+
+    <Vertical id="back">
+        <Span id="back1" size="@dimen/item_charge_transaction_back1_height"/>
+    </Vertical>
+
+    <Vertical start="start@back1">
+        <Span id="back2" size="22dp"/>
+    </Vertical>
+
+
+    <Horizontal>
+        <Span size="@dimen/item_charge_transaction_phone_margin_left"/>
+        <Span id="phone_number" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="transaction_type" size="220dp"/>
+        <Span size="@dimen/item_charge_transaction_result_margin_left"/>
+        <Span id="transaction_result" size="@dimen/item_charge_transaction_result_width"/>
+        <Span size="2dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="@dimen/item_charge_transaction_value_suffix_margin_left"/>
+        <Span id="transaction_value_suffix" size="wrap"/>
+        <Span size="@dimen/item_charge_transaction_value_margin_left"/>
+        <Span id="transaction_value" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="transaction_date" size="wrap"/>
+        <Span size="@dimen/item_charge_transaction_date_icon_margin_left"/>
+        <Span id="transaction_date_icon" size="@dimen/item_charge_transaction_date_icon_width"/>
+        <Span size="@dimen/item_charge_transaction_date_icon_margin_right"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="transaction_time" size="wrap"/>
+        <Span size="@dimen/item_charge_transaction_time_icon_margin_left"/>
+        <Span id="transaction_time_icon" size="@dimen/item_charge_transaction_time_icon_width"/>
+        <Span size="@dimen/item_charge_transaction_time_icon_margin_right"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="more" size="32dp"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@back1" end="end@back1">
+        <Span size="12dp"/>
+        <Span id="more_container" size="1w"/>
+        <Span size="12dp"/>
+    </Horizontal>
+
+    <Vertical start="start@back1" end="end@back1">
+        <Span size="3dp"/>
+        <Span id="transaction_result" size="@dimen/item_charge_transaction_result_height"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_result">
+        <Span id="transaction_type" size="wrap"/>
+        <Span size="16dp"/>
+        <Span id="transaction_date_icon" size="@dimen/item_charge_transaction_date_icon_height"/>
+        <Span id="more" size="32dp"/>
+        <Span size="2dp"/>
+    </Vertical>
+
+
+    <Vertical start="start@back1" end="end@back1">
+        <Span size="@dimen/item_charge_transaction_phone_margin_top"/>
+        <Span id="phone_number" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_date" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_time_icon" size="@dimen/item_charge_transaction_time_icon_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_time" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_value" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_value_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical id="seq" start="end@more" end="end@back1">
+        <Span id="more_container" size="0dp"/>
+    </Vertical>
+</Sequences>

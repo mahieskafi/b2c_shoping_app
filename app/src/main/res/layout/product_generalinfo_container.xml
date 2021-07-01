@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/product_detail_name_marginleft"
+        android:layout_marginTop="@dimen/product_detail_name_margintop"
+        android:layout_marginRight="@dimen/product_detail_name_marginright"
+
+        android:ellipsize="end"
+        android:fontFamily="@font/iran_yekan_medium"
+        android:gravity="right"
+        android:textColor="@color/product_detail_name"
+        android:textSize="@dimen/product_detail_name"
+        tools:text="کابل شارژ اندروید تسکوTC-A102 مشکی" />
+
+    <RelativeLayout
+        android:id="@+id/price_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_name"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+            android:layout_marginLeft="@dimen/product_detail_price_marginleft"
+            android:layout_marginRight="@dimen/product_detail_price_marginright"
+            android:ellipsize="end"
+            android:fontFamily="@font/iran_yekan_bold"
+            android:gravity="left"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="119,0000 ریال"
+            android:textColor="@color/product_detail_price"
+            android:textSize="@dimen/product_detail_price" />
+
+        <com.srp.ewayspanel.ui.view.store.product.DiscountTextView
+            android:id="@+id/text_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+
+            android:text="1928382783" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ic_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/star_point_icon_enable"
+
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+            android:layout_marginRight="@dimen/product_detail_price_marginright"
+            android:visibility="gone"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toLeftOf="@+id/ic_point"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="4dp"
+            tools:text="50"
+            android:fontFamily="@font/iran_yekan"
+            android:textColor="@color/product_detail_name"
+            android:textSize="16dp"
+            android:visibility="gone"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

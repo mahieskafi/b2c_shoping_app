@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="standard_input_height">40dp</dimen>
+
+    <dimen name="bottomnav_height">56dp</dimen>
+
+    <dimen name="login_button_background_corner">20dp</dimen>
+
+    <dimen name="corner_radius_input_element">20dp</dimen>
+    <dimen name="corner_radius_button_element">20dp</dimen>
+    <dimen name="input_element_default_height">40dp</dimen>
+
+    <!--ContactItemView-->
+    <dimen name="chargecontact_itemview_name_size">16dp</dimen>
+    <dimen name="chargecontact_itemview_phone_size">16dp</dimen>
+    <dimen name="chargecontact_itemview_phone_margin_left">16dp</dimen>
+    <dimen name="chargecontact_itemview_phone_margin_top">12dp</dimen>
+    <dimen name="chargecontact_itemview_name_margin_top">12dp</dimen>
+    <dimen name="chargecontact_itemview_name_margin_right">24dp</dimen>
+    <dimen name="chargecontact_itemview_name_margin_bottom">16dp</dimen>
+
+    <dimen name="contact_remove_dialog_margin_size">16dp</dimen>
+    <dimen name="contact_remove_dialog_button_width">128dp</dimen>
+    <dimen name="contact_remove_dialog_button_height">40dp</dimen>
+    <dimen name="contact_remove_dialog_background_corner_radius">16dp</dimen>
+    <dimen name="contact_remove_dialog_description_size">14dp</dimen>
+    <dimen name="contact_remove_dialog_width">256dp</dimen>
+    <dimen name="contact_remove_dialog_remove_background_corner">20dp</dimen>
+    <dimen name="contact_remove_dialog_remove_background_border_width">1dp</dimen>
+    <dimen name="contact_remove_dialog_keep_background_corner">20dp</dimen>
+    <dimen name="contact_remove_dialog_button_text_size">20dp</dimen>
+    <dimen name="contact_remove_dialog_remove_text_margin">12dp</dimen>
+    <dimen name="contact_remove_dialog_remove_loading_padding_left">12dp</dimen>
+    <dimen name="contact_remove_dialog_remove_loading_height">40dp</dimen>
+    <dimen name="contact_remove_dialog_remove_loading_width">28dp</dimen>
+
+    <!--Add Contact Form-->
+    <dimen name="add_eways_contact_form_lable_size">13dp</dimen>
+    <dimen name="add_eways_contact_form_inputtext_size">18dp</dimen>
+    <dimen name="add_eways_form_container_side_margin">16dp</dimen>
+    <dimen name="add_eways_form_container_top_margin">12dp</dimen>
+    <dimen name="add_eways_form_side_margin">16dp</dimen>
+    <dimen name="add_eways_form_top_margin">4dp</dimen>
+    <dimen name="add_eways_form_row_top_margin">13dp</dimen>
+    <dimen name="add_eways_form_lable_side_margin">12dp</dimen>
+
+
+    <!--Input Element-->
+    <dimen name="inputelement_cancel_icon_size">24dp</dimen>
+    <dimen name="inputelement_cancel_icon_left">7dp</dimen>
+    <dimen name="inputelement_cancel_icon_top">8dp</dimen>
+    <dimen name="inputelement_cancel_icon_right">16dp</dimen>
+    <dimen name="inputelement_cancel_icon_bottom">8dp</dimen>
+    <dimen name="inputelement_text_margin_right">16dp</dimen>
+    <dimen name="inputelement_text_margin_left">4dp</dimen>
+    <dimen name="inputelement_icon_size">32dp</dimen>
+    <dimen name="inputelement_icon_margin_right">8dp</dimen>
+
+
+
+    <!--LoadingStateView-->
+    <dimen name="loadingstateview_margin_left_default">16dp</dimen>
+    <dimen name="loadingstateview_margin_right_default">16dp</dimen>
+    <dimen name="emptyview_margin_top_default">32dp</dimen>
+    <dimen name="emptyview_margin_start_default">16dp</dimen>
+    <dimen name="emptyview_margin_end_default">16dp</dimen>
+
+    <dimen name="loadingstateview_timer_textsize">18dp</dimen>
+    <dimen name="loadingstateview_timer_horizontal_textsize">14dp</dimen>
+    <dimen name="loadingstateview_textstatedescription_linespacing">10dp</dimen>
+    <dimen name="loadingstateview_contentpadding_bottom">12dp</dimen>
+    <dimen name="loadingstateview_icon_vertical_mode_width">66dp</dimen>
+    <dimen name="loadingstateview_icon_vertical_mode_height">66dp</dimen>
+    <dimen name="loadingstateview_icon_horizontal_mode_width">50dp</dimen>
+    <dimen name="loadingstateview_icon_horizontal_mode_height">50dp</dimen>
+    <dimen name="loadingstateview_textsize">14dp</dimen>
+    <dimen name="loadingstateview_textsize_horizontal">12dp</dimen>
+    <dimen name="loadingstateview_retry_background_radius">20dp</dimen>
+    <dimen name="loadingstateview_retry_margintop">16dp</dimen>
+    <dimen name="loadingstateview_retry_textsize">18dp</dimen>
+    <dimen name="loadingstateview_retry_height">40dp</dimen>
+    <dimen name="loadingstateview_retry_width">112dp</dimen>
+
+    <!-- left icon button view -->
+    <dimen name="left_icon_button_view_icon_margin_left">16dp</dimen>
+
+
+    <!--CategoryItem Loading -->
+    <dimen name="item_loading_width">24dp</dimen>
+    <dimen name="item_loading_height">24dp</dimen>
+    <dimen name="item_loading_margin">8dp</dimen>
+
+    <dimen name="item_no_data_margin">16dp</dimen>
+
+
+    <dimen name="buycharge_loadingstateview_marginstart">8dp</dimen>
+    <dimen name="buycharge_loadingstateview_marginend">8dp</dimen>
+
+    <!--CategoryItem loadingState -->
+    <dimen name="item_loading_state_description_width">0dp</dimen>
+    <dimen name="item_loading_state_retry_min_width">0dp</dimen>
+    <dimen name="item_loading_state_retry_min_height">0dp</dimen>
+
+
+
+    <!--EmptyView-->
+    <dimen name="emptyview_image_width">133dp</dimen>
+    <dimen name="emptyview_image_height">159dp</dimen>
+    <dimen name="emptyview_cardradius">4dp</dimen>
+    <dimen name="emptyview_cardelevation">0dp</dimen>
+    <dimen name="emptyview_contentpadding">24dp</dimen>
+    <dimen name="emptyview_text_margintop">27dp</dimen>
+    <dimen name="emptyview_text_size">14dp</dimen>
+
+    <!--ButtonElement-->
+    <dimen name="button_element_text_size">20dp</dimen>
+    <dimen name="buttonelement_default_height">40dp</dimen>
+
+
+    <!--Dialog-->
+    <dimen name="dialog_content_margin_left_right">16dp</dimen>
+    <dimen name="dialog_content_margin_top_bottom">8dp</dimen>
+    <dimen name="confirm_button_dialog_margin">16dp</dimen>
+    <dimen name="confirm_button_dialog_text_size">20dp</dimen>
+    <dimen name="confirm_button_dialog_title_text_size">16dp</dimen>
+    <dimen name="cancel_button_height">24dp</dimen>
+    <dimen name="cancel_button_dialog_margin">16dp</dimen>
+    <dimen name="confirm_transaction_corner_radius">10dp</dimen>
+    <dimen name="confirm_transaction_elevation">4dp</dimen>
+    <dimen name="confirm_transaction_back_button_height">40dp</dimen>
+    <dimen name="confirm_button_dialog_margin_sides">50dp</dimen>
+
+
+    <!--RadioGroupView-->
+    <dimen name="n_column_radiogroup_buttonitem_paddingvertical">8dp</dimen>
+    <dimen name="n_column_radiogroup_lastuserchoice_background_line_height">1dp</dimen>
+
+
+    <!--RadioButtonView-->
+    <dimen name="radiobuttonview_title_size">14dp</dimen>
+    <dimen name="radiobuttonview_drawable_width">16dp</dimen>
+    <dimen name="radiobuttonview_title_margin_left">16dp</dimen>
+    <dimen name="radiobuttonview_title_marginright">8dp</dimen>
+    <dimen name="radiobuttonview_crossdrawable_width">20dp</dimen>
+    <dimen name="radiobuttonview_crossdrawable_marginleft">16dp</dimen>
+
+
+    <!--ChargeChoiceView-->
+    <dimen name="dialog_charge_choice_title_marginright">8dp</dimen>
+    <dimen name="dialog_charge_choice_content_view_margin_top">20dp</dimen>
+    <dimen name="dialog_charge_choice_amount_margin_top">12dp</dimen>
+    <dimen name="dialog_charge_choice_title_textsize">16dp</dimen>
+    <dimen name="dialog_charge_choice_title_rial_textsize">14dp</dimen>
+    <dimen name="dialog_charge_choice_icon_width">24dp</dimen>
+    <dimen name="dialog_charge_choice_icon_height">24dp</dimen>
+
+
+    <!--WeiredTabView-->
+    <dimen name="weiredtab_tabtitle_textsize">14dp</dimen>
+    <dimen name="weiredtab_strokewidth">1dp</dimen>
+
+
+    <!--Weird Toolbar-->
+    <dimen name="weird_toolbar_drawer_padding">6dp</dimen>
+    <dimen name="weird_toolbar_back_padding">10dp</dimen>
+    <dimen name="weird_toolbar_title_text_size">17sp</dimen>
+    <dimen name="weird_toolbar_deposit_title_text_size">16dp</dimen>
+    <dimen name="weird_toolbar_deposit_value_text_size">14dp</dimen>
+    <dimen name="weird_toolbar_helper_deposit_margin_left">8dp</dimen>
+    <dimen name="weird_toolbar_search_size">13dp</dimen>
+    <dimen name="search_input_text_clear_padding">2dp</dimen>
+
+    <dimen name="weird_toolbar_back_margin_left">2dp</dimen>
+    <dimen name="weird_toolbar_back_margin_right">16dp</dimen>
+    <dimen name="weird_toolbar_back_width">36dp</dimen>
+    <dimen name="weird_toolbar_back_height">36dp</dimen>
+    <dimen name="weird_toolbar_navigation_margin_right">10dp</dimen>
+    <dimen name="weird_toolbar_navigation_width">36dp</dimen>
+    <dimen name="weird_toolbar_navigation_height">36dp</dimen>
+    <dimen name="weird_toolbar_deposit_value_width">72dp</dimen>
+    <dimen name="weird_toolbar_deposit_value_height">22dp</dimen>
+    <dimen name="weird_toolbar_deposit_value_margin_top">2dp</dimen>
+    <dimen name="weird_toolbar_title_icon_width">24dp</dimen>
+    <dimen name="weird_toolbar_title_icon_height">24dp</dimen>
+    <dimen name="weird_toolbar_title_icon_margin_left">8dp</dimen>
+    <dimen name="weird_toolbar_shop_margin_right">15dp</dimen>
+    <dimen name="weird_toolbar_shop_width">26dp</dimen>
+    <dimen name="weird_toolbar_shop_height">26dp</dimen>
+    <dimen name="weird_toolbar_search_margin_right">8dp</dimen>
+    <dimen name="weird_toolbar_shop_icon_margin_right">8dp</dimen>
+    <dimen name="weird_toolbar_search_height">32dp</dimen>
+    <dimen name="weird_toolbar_navigation_margin_left">8dp</dimen>
+    <dimen name="weird_toolbar_shop_count_width">18dp</dimen>
+    <dimen name="weird_toolbar_shop_count_height">18dp</dimen>
+
+    <dimen name="chargechoice_confirmview_amount_title_textsize">14dp</dimen>
+
+    <!-- Main Activity -->
+    <dimen name="main_drawer_width">288dp</dimen>
+
+    <!-- SaleReport -->
+    <dimen name="salereport_title_toolbar_size">16dp</dimen>
+
+    <!--NavigationDrawer-->
+    <dimen name="navigation_drawer_title_size">16dp</dimen>
+    <dimen name="navigation_drawer_rial_text_size">16dp</dimen>
+    <dimen name="navigation_drawer_description_size">18dp</dimen>
+    <dimen name="navigation_drawer_name_size">20dp</dimen>
+    <dimen name="navigation_drawer_code_size">16dp</dimen>
+    <dimen name="navigation_drawer_code_title_size">16dp</dimen>
+    <dimen name="navigation_drawer_item_height">55dp</dimen>
+    <dimen name="navigation_drawer_width">288dp</dimen>
+    <dimen name="navigation_drawer_item_home_margin_top">12dp</dimen>
+    <dimen name="navigation_drawer_header_image_margin_left">-36dp</dimen>
+    <dimen name="navigation_drawer_header_image_width">72dp</dimen>
+    <dimen name="navigation_drawer_header_image_height">72dp</dimen>
+    <dimen name="navigation_drawer_header_image_margin_bottom">20dp</dimen>
+    <dimen name="navigation_drawer_user_code_title_margin_top">14dp</dimen>
+    <dimen name="navigation_drawer_name_margin_right">16dp</dimen>
+    <dimen name="navigation_drawer_user_code_margin_right">12dp</dimen>
+    <dimen name="navigation_drawer_user_code_title_margin_right">16dp</dimen>
+    <dimen name="navigation_drawer_arrow_margin_left">19dp</dimen>
+    <dimen name="navigation_drawer_subItem_container_margin_right">107dp</dimen>
+    <dimen name="navigation_drawer_subItem_container_margin_top">3dp</dimen>
+    <dimen name="navigation_drawer_subItem_container_margin_bottom">3dp</dimen>
+    <dimen name="navigation_drawer_sub_item_title_size">14dp</dimen>
+    <dimen name="navigation_drawer_sub_item_height">40dp</dimen>
+
+    <!--AboutUs-->
+    <dimen name="about_us_text_size">14dp</dimen>
+    <dimen name="about_us_line_spacing">14dp</dimen>
+    <dimen name="about_us_toolbar_height">80dp</dimen>
+    <dimen name="about_us_standard_margin">16dp</dimen>
+    <dimen name="about_us_container_margin_top">28dp</dimen>
+    <dimen name="about_us_container_corner_radius">20dp</dimen>
+    <dimen name="about_us_container_elevation">4dp</dimen>
+    <dimen name="about_us_container_image_margin">24dp</dimen>
+    <dimen name="about_us_title_toolbar_size">18dp</dimen>
+
+    <!--ContactUs-->
+    <dimen name="contact_us_text_size">16dp</dimen>
+    <dimen name="contact_us_title_text_size">13dp</dimen>
+    <dimen name="contact_us_toolbar_height">80dp</dimen>
+    <dimen name="contact_us_standard_margin">16dp</dimen>
+    <dimen name="contact_us_corner_radius">10dp</dimen>
+    <dimen name="contact_us_elevation">4dp</dimen>
+    <dimen name="contact_us_image_margin">24dp</dimen>
+    <dimen name="contact_us_margin_top">28dp</dimen>
+    <dimen name="contact_us_title_toolbar_size">18dp</dimen>
+
+    <!--Survey-->
+    <dimen name="survey_image_selector_item_view_margin_left">8dp</dimen>
+    <dimen name="survey_image_selector_item_view_margin_middle">16dp</dimen>
+    <dimen name="survey_image_selector_item_view_margin_right">8dp</dimen>
+    <dimen name="survey_image_selector_item_view_margin_top">8dp</dimen>
+    <dimen name="survey_image_selector_item_view_icon_width">32dp</dimen>
+    <dimen name="survey_image_selector_item_view_icon_height">32dp</dimen>
+    <dimen name="survey_image_selector_item_view_icon_padding">8dp</dimen>
+    <dimen name="survey_image_selector_item_view_icon_margin_left">8dp</dimen>
+    <dimen name="survey_image_selector_item_view_name_margin_top">16dp</dimen>
+    <dimen name="survey_image_selector_text_size">14dp</dimen>
+    <dimen name="survey_image_selector_item_view_image_corner_radius">16dp</dimen>
+    <dimen name="survey_image_selector_background_corner_radius">16dp</dimen>
+    <dimen name="survey_start_page_icon_margin_top">56dp</dimen>
+    <dimen name="survey_start_page_icon_margin_bottom">50dp</dimen>
+    <dimen name="survey_start_page_name_margin_right">16dp</dimen>
+    <dimen name="survey_start_page_title_margin_right">16dp</dimen>
+    <dimen name="survey_start_page_margin_side">16dp</dimen>
+    <dimen name="survey_start_page_title_margin_top">40dp</dimen>
+    <dimen name="survey_start_page_button_height">40dp</dimen>
+    <dimen name="survey_question_margin_side">16dp</dimen>
+    <dimen name="survey_question_number_margin_top">32dp</dimen>
+    <dimen name="survey_question_text_margin_top">12dp</dimen>
+    <dimen name="survey_question_button_height">40dp</dimen>
+    <dimen name="survey_end_icon_margin_top">56dp</dimen>
+    <dimen name="survey_end_icon_margin_bottom">45dp</dimen>
+    <dimen name="survey_end_margin_side">16dp</dimen>
+    <dimen name="survey_end_description_margin_top">23dp</dimen>
+    <dimen name="survey_end_button_height">40dp</dimen>
+    <dimen name="survey_start_page_name_text_size">16dp</dimen>
+    <dimen name="survey_start_page_title_text_size">20dp</dimen>
+    <dimen name="survey_start_page_description_text_size">16dp</dimen>
+    <dimen name="survey_start_page_button_text_size">20dp</dimen>
+    <dimen name="survey_end_page_title_text_size">20dp</dimen>
+    <dimen name="survey_end_page_description_text_size">16dp</dimen>
+    <dimen name="survey_end_page_button_text_size">20dp</dimen>
+    <dimen name="survey_question_page_number_text_size">16dp</dimen>
+    <dimen name="survey_question_page_question_text_size">16dp</dimen>
+    <dimen name="survey_question_page_button_text_size">20dp</dimen>
+    <dimen name="survey_start_page_button_margin_top">74dp</dimen>
+    <dimen name="survey_question_page_button_margin_top">74dp</dimen>
+    <dimen name="survey_end_page_button_margin_top">74dp</dimen>
+    <dimen name="survey_question_button_background_corner_radius">20dp</dimen>
+    <dimen name="survey_question_text_margin_bottom">24dp</dimen>
+    <dimen name="filter_button_margin_sides">16dp</dimen>
+    <dimen name="survey_toolbar_height">80dp</dimen>
+    <dimen name="survey_toolbar_title_text_size">18dp</dimen>
+    <dimen name="survey_question_number_text_size">16dp</dimen>
+    <dimen name="survey_icon_view_width">24dp</dimen>
+    <dimen name="survey_icon_width">48dp</dimen>
+    <dimen name="survey_icon_height">48dp</dimen>
+    <dimen name="survey_icon_view_height">24dp</dimen>
+    <dimen name="survey_icon_view_margin">8dp</dimen>
+    <dimen name="survey_icon_view_text_size">12dp</dimen>
+    <dimen name="survey_icon_view_outer_circle_radius">16dp</dimen>
+    <dimen name="survey_icon_view_outer_circle_width">2.5dp</dimen>
+    <dimen name="survey_icon_view_margin_top">4dp</dimen>
+    <dimen name="survey_question_indicator_item_corner_radius">4dp</dimen>
+    <dimen name="survey_question_indicator_item_height">4dp</dimen>
+    <dimen name="survey_question_indicator_margin_side">16dp</dimen>
+    <dimen name="survey_question_indicator_margin_top">20.7dp</dimen>
+
+    <dimen name="item_point_selector_width">4dp</dimen>
+    <dimen name="item_point_selector_height">272dp</dimen>
+    <dimen name="item_point_selector_item_text_margin_right">18dp</dimen>
+    <dimen name="item_point_selector_item_number_margin_left">19dp</dimen>
+    <dimen name="item_survey_point_selector_height">4dp</dimen>
+    <dimen name="item_point_selector_line_background_corner_radius">4dp</dimen>
+    <dimen name="item_point_selector_text_size">18dp</dimen>
+    <dimen name="item_point_selector_number_size">20dp</dimen>
+    <dimen name="item_point_selector_progress_line_background_corner_radius">4dp</dimen>
+    <dimen name="item_point_selector_progress_circle_radius">16dp</dimen>
+    <dimen name="item_point_selector_line_width">4dp</dimen>
+    <dimen name="item_point_selector_second_circle_radius">8dp</dimen>
+    <dimen name="question_answer_selector_padding">8dp</dimen>
+    <dimen name="question_answer_main_margin">8dp</dimen>
+    <dimen name="question_answer_selector_height">32dp</dimen>
+    <dimen name="question_answer_selector_width">32dp</dimen>
+    <dimen name="survey_question_answer_single_text_size">14dp</dimen>
+    <dimen name="survey_question_answer_multi_text_size">14dp</dimen>
+    <dimen name="survey_question_answer_elevation">1dp</dimen>
+    <dimen name="survey_question_answer_background_radius">16dp</dimen>
+    <dimen name="survey_question_answer_margin_vertical">8dp</dimen>
+    <dimen name="survey_question_answer_margin_side">16dp</dimen>
+    <dimen name="survey_start_button_background_corner">20dp</dimen>
+
+
+    <dimen name="transaction_toolbar_height">80dp</dimen>
+    <dimen name="transaction_toolbar_elevation">4dp</dimen>
+    <dimen name="transaction_tabbar_elevation">4dp</dimen>
+
+    <dimen name="salereport_toolbar_height">80dp</dimen>
+    <dimen name="salereport_detail_margin_right">15dp</dimen>
+    <dimen name="salereport_item_view_margin_sides">16dp</dimen>
+    <dimen name="salereport_item_view_margin_top">4dp</dimen>
+
+
+    <!-- Solid Tab Bar -->
+    <dimen name="solidtabbar_height">72dp</dimen>
+    <dimen name="solidtabbar_icon_size">24dp</dimen>
+    <dimen name="solidtabbar_padding_horizontal">16dp</dimen>
+    <dimen name="solidtabbar_tab_padding_horizontal">@dimen/solidtabbar_padding_horizontal</dimen>
+    <dimen name="solidtabbar_tab_text_margin_top">2dp</dimen>
+    <dimen name="solidtabbar_indicator_height">2dp</dimen>
+    <dimen name="solidtabbar_tab_default_textsize">12dp</dimen>
+
+
+    <dimen name="transaction_fragment_title_toolbar_size">18dp</dimen>
+
+
+    <!--CategoryItem Charge Inquiry -->
+    <dimen name="item_charge_inquiry_standard_margin">16dp</dimen>
+    <dimen name="item_charge_inquiry_elevation">1dp</dimen>
+
+
+    <dimen name="item_charge_inquiry_back1_margin_right">8dp</dimen>
+    <dimen name="item_charge_inquiry_back2_width">24dp</dimen>
+    <dimen name="item_charge_inquiry_back1_height">56dp</dimen>
+    <dimen name="item_charge_inquiry_back2_height">24dp</dimen>
+    <dimen name="item_charge_inquiry_retry_margin_left">8dp</dimen>
+    <dimen name="item_charge_inquiry_retry_width">20dp</dimen>
+    <dimen name="item_charge_inquiry_retry_margin_right">20dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_type_width">16dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_type_margin_left">12dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_type_margin_right">3.6dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_value_suffix_margin_left">8dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_value_margin_left">4dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_date_icon_margin_left">7dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_date_icon_margin_right">16dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_date_icon_width">12dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_time_icon_margin_left">7dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_time_icon_margin_right">108dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_time_icon_width">12dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_result_margin_top">4dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_result_height">16dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_date_icon_height">12dp</dimen>
+    <dimen name="item_charge_inquiry_transaction_date_icon_margin_bottom">10dp</dimen>
+    <dimen name="item_charge_inquiry_retry_margin_top">8dp</dimen>
+    <dimen name="item_charge_inquiry_phone_number_margin_top">6dp</dimen>
+    <dimen name="item_charge_inquiry_retry_height">20dp</dimen>
+    <dimen name="item_charge_inquiry_time_icon_height">12dp</dimen>
+    <dimen name="item_charge_inquiry_remove_date_icon_padding">8dp</dimen>
+    <dimen name="item_charge_inquiry_remove_date_icon_size">40dp</dimen>
+
+    <!--DepositTransactionItem-->
+    <dimen name="transaction_deposit_item_type_size">14dp</dimen>
+    <dimen name="transaction_deposit_item_phone_size">14dp</dimen>
+    <dimen name="transaction_deposit_item_value_suffix_size">12dp</dimen>
+    <dimen name="transaction_deposit_item_tracking_suffix_size">12dp</dimen>
+    <dimen name="transaction_deposit_item_value_size">14dp</dimen>
+    <dimen name="transaction_deposit_item_time_size">12dp</dimen>
+    <dimen name="transaction_deposit_item_date_size">12dp</dimen>
+
+    <!--ChargeTransactionItem-->
+    <dimen name="transaction_charge_item_type_size">14dp</dimen>
+    <dimen name="transaction_charge_item_phone_size">14dp</dimen>
+    <dimen name="transaction_charge_item_value_suffix_size">12dp</dimen>
+    <dimen name="transaction_charge_item_value_size">14dp</dimen>
+    <dimen name="transaction_charge_item_time_size">12dp</dimen>
+    <dimen name="transaction_charge_item_date_size">12dp</dimen>
+
+    <!--CategoryItem Charge Transaction -->
+    <dimen name="item_charge_transaction_standard_margin">16dp</dimen>
+    <dimen name="item_charge_transaction_elevation">1dp</dimen>
+
+    <!--CategoryItem Deposit Transaction -->
+    <dimen name="item_deposit_transaction_standard_margin">16dp</dimen>
+    <dimen name="item_deposit_transaction_elevation">1dp</dimen>
+
+
+    <dimen name="item_charge_transaction_back1_margin_right">8dp</dimen>
+    <dimen name="item_charge_transaction_back2_width">24dp</dimen>
+    <dimen name="item_charge_transaction_back1_height">88dp</dimen>
+    <dimen name="item_charge_transaction_height">58dp</dimen>
+    <dimen name="item_charge_transaction_extraback_height">104dp</dimen>
+    <dimen name="item_charge_transaction_extra_height">20dp</dimen>
+    <dimen name="item_charge_transaction_back2_height">24dp</dimen>
+    <dimen name="item_charge_transaction_phone_margin_left">8dp</dimen>
+    <dimen name="item_charge_transaction_result_margin_left">15dp</dimen>
+    <dimen name="item_charge_transaction_result_margin_right">3.6dp</dimen>
+    <dimen name="item_charge_transaction_result_width">16dp</dimen>
+    <dimen name="item_charge_transaction_value_suffix_margin_left">8dp</dimen>
+    <dimen name="item_charge_transaction_value_margin_left">4dp</dimen>
+    <dimen name="item_charge_transaction_date_icon_margin_left">7dp</dimen>
+    <dimen name="item_charge_transaction_date_icon_margin_right">16dp</dimen>
+    <dimen name="item_charge_transaction_date_icon_width">12dp</dimen>
+    <dimen name="item_charge_transaction_time_icon_margin_left">7dp</dimen>
+    <dimen name="item_charge_transaction_time_icon_margin_right">108dp</dimen>
+    <dimen name="item_charge_transaction_time_icon_width">12dp</dimen>
+    <dimen name="item_charge_transaction_result_margin_top">4dp</dimen>
+    <dimen name="item_charge_transaction_result_height">16dp</dimen>
+    <dimen name="item_charge_transaction_date_icon_height">12dp</dimen>
+    <dimen name="item_charge_transaction_date_icon_margin_bottom">10dp</dimen>
+    <dimen name="item_charge_transaction_phone_margin_top">2dp</dimen>
+    <dimen name="item_charge_transaction_time_icon_height">12dp</dimen>
+
+
+    <dimen name="item_deposit_transaction_back1_margin_right">8dp</dimen>
+    <dimen name="item_deposit_transaction_back1_height">78dp</dimen>
+    <dimen name="item_deposit_transaction_back2_width">24dp</dimen>
+    <dimen name="item_deposit_transaction_back2_height">24dp</dimen>
+    <dimen name="item_deposit_transaction_value_suffix_margin_left">8dp</dimen>
+    <dimen name="item_deposit_transaction_value_margin_left">4dp</dimen>
+    <dimen name="item_deposit_transaction_result_margin_left">12dp</dimen>
+    <dimen name="item_deposit_transaction_result_margin_right">3.6dp</dimen>
+    <dimen name="item_deposit_transaction_result_width">16dp</dimen>
+    <dimen name="item_deposit_transaction_track_number_margin_left">8dp</dimen>
+    <dimen name="item_deposit_transaction_track_number_suffix_margin_left">11dp</dimen>
+    <dimen name="item_deposit_transaction_date_icon_margin_left">7dp</dimen>
+    <dimen name="item_deposit_transaction_date_icon_margin_right">16dp</dimen>
+    <dimen name="item_deposit_transaction_date_icon_width">12dp</dimen>
+    <dimen name="item_deposit_transaction_time_icon_margin_left">7dp</dimen>
+    <dimen name="item_deposit_transaction_time_icon_margin_right">108dp</dimen>
+    <dimen name="item_deposit_transaction_time_icon_width">12dp</dimen>
+    <dimen name="item_deposit_transaction_result_margin_top">4dp</dimen>
+    <dimen name="item_deposit_transaction_result_height">16dp</dimen>
+    <dimen name="item_deposit_transaction_date_icon_height">12dp</dimen>
+    <dimen name="item_deposit_transaction_date_icon_margin_bottom">10dp</dimen>
+    <dimen name="item_deposit_transaction_value_suffix_margin_top">2dp</dimen>
+    <dimen name="item_deposit_transaction_value_margin_top">2dp</dimen>
+    <dimen name="item_deposit_transaction_time_icon_height">12dp</dimen>
+
+
+    <dimen name="charge_transaction_list_margin_bottom">16dp</dimen>
+
+    <!--CategoryItem Receipt -->
+    <dimen name="item_receipt_margin_right">16dp</dimen>
+    <dimen name="item_receipt_icon_width">16dp</dimen>
+    <dimen name="item_receipt_icon_height">16dp</dimen>
+    <dimen name="item_receipt_icon_margin">4dp</dimen>
+    <dimen name="item_receipt_value_description_text_size">14dp</dimen>
+    <dimen name="item_receipt_value_description_margin_right">2dp</dimen>
+    <dimen name="item_receipt_value_text_size">14dp</dimen>
+    <dimen name="item_receipt_title_width">0dp</dimen>
+    <dimen name="item_receipt_title_margin_right">24dp</dimen>
+    <dimen name="item_receipt_title_text_size">14dp</dimen>
+    <dimen name="receipt_standard_items_margin">8dp</dimen>
+
+
+    <!--ReceiptPage-->
+    <dimen name="receipt_toolbar_height">80dp</dimen>
+    <dimen name="receipt_home_button_height">40dp</dimen>
+    <dimen name="receipt_standard_margin">16dp</dimen>
+    <dimen name="receipt_deposit_text_size">16dp</dimen>
+    <dimen name="receipt_button_text_size">18dp</dimen>
+
+
+    <!--Deposit-->
+    <dimen name="increase_deposit_input_text_size">16dp</dimen>
+    <dimen name="increase_deposit_button_payment_text_size">20dp</dimen>
+    <dimen name="increase_deposit_amount_input_elevation">2dp</dimen>
+    <dimen name="increase_deposit_standard_margin">16dp</dimen>
+    <dimen name="increase_deposit_rial_text_size">14dp</dimen>
+    <dimen name="increase_deposit_price_container_margin_left">12dp</dimen>
+    <dimen name="increase_deposit_price_container_margin_right">12dp</dimen>
+    <dimen name="increase_deposit_price_container_corner_radius">8dp</dimen>
+    <dimen name="increase_deposit_price_container_elevation">4dp</dimen>
+    <dimen name="increase_deposit_price_value_input_height">40dp</dimen>
+    <dimen name="increase_deposit_price_value_input_separator_height">1dp</dimen>
+    <dimen name="increase_deposit_button_payment_height">40dp</dimen>
+    <dimen name="increase_deposit_rial_inputtext_margin">40dp</dimen>
+
+    <!--Inquiry-->
+    <dimen name="charge_inquiry_button_text_size">20dp</dimen>
+    <dimen name="charge_inquiry_input_text_size">18dp</dimen>
+    <dimen name="charge_inquiry_input_elevation">2dp</dimen>
+    <dimen name="charge_inquiry_entrance_elevation">2dp</dimen>
+    <dimen name="charge_inquiry_phone_input_height">40dp</dimen>
+    <dimen name="charge_inquiry_standard_margin">16dp</dimen>
+    <dimen name="charge_inquiry_phone_input_margin_bottom">8dp</dimen>
+    <dimen name="charge_inquiry_end_date_input_width">0dp</dimen>
+    <dimen name="charge_inquiry_end_date_margin">4dp</dimen>
+    <dimen name="charge_inquiry_start_date_input_width">0dp</dimen>
+    <dimen name="charge_inquiry_end_date_input_height">40dp</dimen>
+    <dimen name="charge_inquiry_start_date_input_height">40dp</dimen>
+    <dimen name="charge_inquiry_start_date_margin">4dp</dimen>
+    <dimen name="charge_inquiry_selected_date_margin_bottom">8dp</dimen>
+    <dimen name="charge_inquiry_selected_date_text_size">14dp</dimen>
+    <dimen name="charge_inquiry_button_input_height">40dp</dimen>
+
+
+    <!--CategoryItem Amount -->
+    <dimen name="item_amount_margin_left">32dp</dimen>
+    <dimen name="item_amount_standard_margin">16dp</dimen>
+    <dimen name="item_amount_text_size">14dp</dimen>
+    <dimen name="item_amount_button_margin_start">8dp</dimen>
+
+
+
+    <!--UserPhoneBook-->
+    <dimen name="userphonebook_listcontainer_margin_left">16dp</dimen>
+    <dimen name="userphonebook_listcontainer_margin_top">16dp</dimen>
+    <dimen name="userphonebook_emptyview_margin_start">16dp</dimen>
+    <dimen name="userphonebook_emptyview_margin_end">16dp</dimen>
+    <dimen name="userphonebook_emptyview_margin_top">16dp</dimen>
+    <dimen name="userphonebook_loadingstateview_marginstart">16dp</dimen>
+    <dimen name="userphonebook_loadingstateview_marginend">16dp</dimen>
+    <dimen name="userphonebook_listcontainer_margin_bottom">10dp</dimen>
+    <dimen name="userphonebook_searchview_textsize">14dp</dimen>
+    <dimen name="userphonebook_searchview_background_radius">16dp</dimen>
+    <dimen name="userphonebook_searchview_background_paddingleft">13dp</dimen>
+    <dimen name="userphonebook_searchview_background_paddingtop">14dp</dimen>
+    <dimen name="userphonebook_searchview_background_paddingright">13dp</dimen>
+    <dimen name="userphonebook_searchview_background_paddingbottom">11dp</dimen>
+    <dimen name="userphonebook_searchview_marginleft">16dp</dimen>
+    <dimen name="userphonebook_searchview_marginright">16dp</dimen>
+    <dimen name="userphonebook_searchviewcontainer_paddingtop">12dp</dimen>
+    <dimen name="userphonebook_searchviewcontainer_paddingbottom">8dp</dimen>
+    <dimen name="userphonebook_fragment_toolbar_height">80dp</dimen>
+    <dimen name="userphonebook_fragment_toolbar_elevation">4dp</dimen>
+    <dimen name="userphonebook_fragment_searchview_container_elevation">4dp</dimen>
+    <dimen name="userphonebook_serach_items_margin_top">8dp</dimen>
+
+    <dimen name="ewaysphonebook_fragment_searchview_container_height">68dp</dimen>
+    <dimen name="ewaysphonebook_fragment_searchview_margin_start">38dp</dimen>
+    <dimen name="ewaysphonebook_fragment_searchview_margin_end">38dp</dimen>
+    <dimen name="ewaysphonebook_fragment_searchview_margin_top">13dp</dimen>
+    <dimen name="ewaysphonebook_fragment_searchview_margin_bottom">13dp</dimen>
+    <dimen name="ewaysphonebook_fragment_searchview_height">40dp</dimen>
+    <dimen name="ewaysphonebook_fragment_searchview_stroke_width">0.5dp</dimen>
+    <dimen name="ewaysphonebook_fragment_searchview_container_elevation">10dp</dimen>
+
+    <dimen name="ewaysphonebook_contact_item_phonenumber_margin_left">14dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_remove_icon_margin_left">8dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_remove_icon_size">34dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_name_margin_right">18dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_delete_icon_margin_right">15dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_phonenumber_margin_top">11dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_background_radius">8dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_background_stroke_width">0.5dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_name_text_size">14dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_phonenumber_text_size">13dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_credit_title_text_size">11dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_credit_suffix_text_size">12dp</dimen>
+    <dimen name="ewaysphonebook_contact_item_date_text_size">12dp</dimen>
+    <dimen name="ewaysphonebook_contact_detail_view_height">66dp</dimen>
+    <dimen name="ewaysphonebook_contact_detail_container_margin_top">3dp</dimen>
+    <dimen name="ewaysphonebook_contact_detail_container_margin_right">18dp</dimen>
+    <dimen name="ewaysphonebook_contact_detail_container_margin_left">14dp</dimen>
+    <dimen name="ewaysphonebook_contact_detail_remove_icon_padding">8dp</dimen>
+    <dimen name="ewaysphonebook_contact_detail_container_margin_background_margin">0.6dp</dimen>
+
+
+    <dimen name="serachview_drawablepadding">8dp</dimen>
+    <dimen name="searchview_background_paddingleft">8dp</dimen>
+    <dimen name="searchview_background_paddingtop">6dp</dimen>
+    <dimen name="searchview_background_paddingright">8dp</dimen>
+    <dimen name="searchview_background_paddingbottom">6dp</dimen>
+
+    <!--default cardView properties-->
+    <dimen name="card_radius">8dp</dimen>
+    <dimen name="card_padding_left">16dp</dimen>
+    <dimen name="card_padding_right">16dp</dimen>
+    <dimen name="card_padding_top">16dp</dimen>
+    <dimen name="card_padding_bottom">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+
+
+    <!--PhoneNumberView-->
+    <dimen name="phonenumberview_shadowheight">1dp</dimen>
+    <dimen name="phonenumberview_cornerradius">8dp</dimen>
+    <dimen name="phonenumberview_cornerradius_b">20dp</dimen>
+    <dimen name="phonenumberview_contentpadding_left">16dp</dimen>
+    <dimen name="phonenumberview_contentpadding_top">12dp</dimen>
+    <dimen name="phonenumberview_number_textsize">16dp</dimen>
+    <dimen name="phonenumberview_contacticon_margintop">8dp</dimen>
+    <dimen name="phonenumberview_contacticon_width">20dp</dimen>
+    <dimen name="phonenumberview_contacticon_height">24dp</dimen>
+    <dimen name="phonenumberview_removecontacticon_width">24dp</dimen>
+    <dimen name="phonenumberview_removecontacticon_height">24dp</dimen>
+    <dimen name="phonenumberview_removecontacticon_marginleft">12dp</dimen>
+    <dimen name="phonenumberview_contacticon_marginright">16dp</dimen>
+    <dimen name="phonenumberview_contactnumber_marginright">12dp</dimen>
+
+
+    <dimen name="charge_phone_input_width">0dp</dimen>
+    <dimen name="charge_fragment_toolbar_height">80dp</dimen>
+    <dimen name="charge_fragment_divider_height">16dp</dimen>
+    <dimen name="deposit_toolbar_height">80dp</dimen>
+    <dimen name="deposit_container_margin_top">32dp</dimen>
+    <dimen name="deposit_container_margin_bottom">16dp</dimen>
+    <dimen name="deposit_container_margin_left">16dp</dimen>
+    <dimen name="deposit_container_margin_right">16dp</dimen>
+    <dimen name="deposit_container_frame_margin_right">4dp</dimen>
+    <dimen name="deposit_container_frame_padding_left">20dp</dimen>
+    <dimen name="deposit_container_frame_padding_right">20dp</dimen>
+    <dimen name="deposit_standard_margin">16dp</dimen>
+
+
+    <!--BuyChargeFragment-->
+    <dimen name="buycharge_emptyview_margin_top">23dp</dimen>
+    <dimen name="buycharge_container_chargeoptions_margin_top">8dp</dimen>
+    <dimen name="buycharge_chargelevelview_margin_top">8dp</dimen>
+    <dimen name="buycharge_emptyview_margin_start">16dp</dimen>
+    <dimen name="buycharge_emptyview_margin_end">16dp</dimen>
+    <dimen name="buycharge_textlable_margin_bottom">-15dp</dimen>
+    <dimen name="buycharge_rootview_paddingbottom">30dp</dimen>
+    <dimen name="buycharge_chargelevelview_margin_left">16dp</dimen>
+    <dimen name="buycharge_chargelevelview_margin_right">16dp</dimen>
+    <dimen name="buycharge_button_confirm_margin_top">16dp</dimen>
+    <dimen name="buycharge_button_confirm_text_size">20dp</dimen>
+    <dimen name="buycharge_input_phonenumber_height">40dp</dimen>
+    <dimen name="buycharge_input_phonenumber_text_size">14dp</dimen>
+    <dimen name="buycharge_input_phonenumber_elevation">2dp</dimen>
+    <dimen name="buycharge_selectcontact_cornerradius">20dp</dimen>
+    <dimen name="buycharge_selectcontact_image_size">40dp</dimen>
+    <dimen name="buycharge_selectcontact_image_margin_right">8dp</dimen>
+    <dimen name="buycharge_button_confirm_margin_bottom_b">16dp</dimen>
+    <dimen name="buycharge_button_confirm_margin_left_right_b">16dp</dimen>
+
+    <!--phoneAndOperatorsView-->
+    <dimen name="phoneandoperatorsview_cardelevation">2dp</dimen>
+    <dimen name="phoneandoperatorsview_colorline_marginleft">8dp</dimen>
+    <dimen name="phoneandoperatorsview_colorline_margintop">8dp</dimen>
+    <dimen name="phoneandoperatorsview_colorline_marginright">8dp</dimen>
+    <dimen name="phoneandoperatorsview_image_phone_margintop">20dp</dimen>
+    <dimen name="phoneandoperatorsview_image_phone_marginright">16dp</dimen>
+    <dimen name="phoneandoperatorsview_text_phone_marginright">16dp</dimen>
+    <dimen name="phoneandoperatorsview_image_canceloperator_width">24dp</dimen>
+    <dimen name="phoneandoperatorsview_image_canceloperator_marginleft">12dp</dimen>
+    <dimen name="phoneandoperatorsview_drawable_operatoricon_marginleft">16dp</dimen>
+    <dimen name="phoneandoperatorsview_drawable_operatoricon_width">24dp</dimen>
+    <dimen name="phoneandoperatorsview_text_operatorname_marginleft">10dp</dimen>
+    <dimen name="phoneandoperatorsview_switch_transport_margintop">12dp</dimen>
+    <dimen name="phoneandoperatorsview_switch_transport_marginright">12dp</dimen>
+    <dimen name="phoneandoperatorsview_switchtitle_transport_marginright">8dp</dimen>
+    <dimen name="phoneandoperatorsview_title_chooseoperator_marginright">16dp</dimen>
+    <dimen name="phoneandoperatorsview_title_chooseoperator_margintop">16dp</dimen>
+    <dimen name="phoneandoperatorsview_divider_chooseoperator_marginleft">8dp</dimen>
+    <dimen name="phoneandoperatorsview_divider_chooseoperator_marginright">12dp</dimen>
+    <dimen name="phoneandoperatorsview_icon_transportoption_first_width">36dp</dimen>
+    <dimen name="phoneandoperatorsview_contentpadding_bottom">20dp</dimen>
+    <dimen name="phoneandoperatorsview_phonenumber_textsize">18dp</dimen>
+    <dimen name="phoneandoperatorsview_operatorname_textsize">14dp</dimen>
+    <dimen name="phoneandoperatorsview_transportswitch_textsize">14dp</dimen>
+    <dimen name="phoneandoperatorsview_transportoption_title_textsize">12dp</dimen>
+    <dimen name="phoneandoperatorsview_colorline_height">4dp</dimen>
+    <dimen name="phoneandoperatorsview_transportswitch_height">20dp</dimen>
+    <dimen name="phoneandoperatorsview_image_phone_height">24dp</dimen>
+    <dimen name="phoneandoperatorsview_icon_transportoption_margintop">12dp</dimen>
+    <dimen name="phoneandoperatorsview_image_phone_width">16dp</dimen>
+    <dimen name="phoneandoperatorsview_divider_height">2dp</dimen>
+    <dimen name="phoneandoperatorsview_cardecornerradius">8dp</dimen>
+    <dimen name="phoneandoperatorsview_cardecornerradius_b">20dp</dimen>
+    <dimen name="phoneandoperatorsview_colorline_cornerradius">5dp</dimen>
+    <dimen name="phoneandoperatorsview_transportswitch_width">46dp</dimen>
+    <dimen name="operator_image_margintop_bottom_b">8dp</dimen>
+    <dimen name="phoneandoperatorsview_switch_transport_margintop_b">8dp</dimen>
+
+    <!-- Dialog Confirmation for charge levels designB -->
+    <dimen name="operator_dialog_title_textsize">16dp</dimen>
+    <dimen name="operator_dialog_items_name_textsize">12dp</dimen>
+    <dimen name="operator_dialog_items_operator_icon_redius">4dp</dimen>
+    <dimen name="operator_dialog_items_operator_name_margitn_top">8dp</dimen>
+    <dimen name="operator_dialog_items_operator_icon_background_width">42dp</dimen>
+    <dimen name="chargeoptionstabview_b_contentpadding_left">8dp</dimen>
+    <dimen name="chargeoptionstabview_children_margintop">12dp</dimen>
+
+    <!--ChargeOptionsTabView-->
+    <dimen name="chargeoptionstabview_contentpadding_top">20dp</dimen>
+    <dimen name="chargeoptionstabview_contentpadding_bottom">16dp</dimen>
+    <dimen name="chargeoptionstabview_tabicon_height">16dp</dimen>
+    <dimen name="chargeoptionstabview_tabicon_width">16dp</dimen>
+    <dimen name="chargeoptionstabview_background_cornerradius_a">8dp</dimen>
+    <dimen name="chargeoptionstabview_background_cornerradius_b">40dp</dimen>
+    <dimen name="chargeoptionstabview_cardelevation_a">2dp</dimen>
+    <dimen name="chargeoptionstabview_cardelevation_b">4dp</dimen>
+    <dimen name="chargeoptionstabview_tabtitle_size">14dp</dimen>
+    <dimen name="chargeoptionstabview_tabtitle_marginright">8dp</dimen>
+    <dimen name="chargeoptionstabview_tabindicator_height">2dp</dimen>
+    <dimen name="chargeoptionstabview_tabindicator_margin_start">6dp</dimen>
+    <dimen name="chargeoptionstabview_tabindicator_margintop_b">8dp</dimen>
+    <dimen name="chargeoptionstabview_tabindicator_cornerradius">0.5dp</dimen>
+
+
+    <!--ChargeChoiceConfirmView-->
+    <dimen name="chargechoice_confirmview_chargeinfo_title_textSize">14dp</dimen>
+    <dimen name="chargechoice_confirmview_button_margin_left">16dp</dimen>
+    <dimen name="chargechoice_confirmview_button_text_size">20dp</dimen>
+    <dimen name="chargechoice_confirmview_button_cornerradius">40dp</dimen>
+    <dimen name="chargechoice_confirmview_button_padding_left">32dp</dimen>
+    <dimen name="chargechoice_confirmview_button_padding_right">32dp</dimen>
+    <dimen name="chargechoice_confirmview_button_padding_top">8dp</dimen>
+    <dimen name="chargechoice_confirmview_button_padding_bottom">8dp</dimen>
+    <dimen name="chargechoice_confirmview_amount_value_textsize">16dp</dimen>
+    <dimen name="button_confirmchoice_container_padding_top">8dp</dimen>
+    <dimen name="button_confirmchoice_container_padding_bottom">24dp</dimen>
+
+    <!--charge choice input -->
+    <dimen name="charge_choice_input_text_size_b">16dp</dimen>
+    <dimen name="charge_choice_input_hint_size_b">18dp</dimen>
+    <dimen name="charge_input_view_cornerradius">20dp</dimen>
+    <dimen name="charge_input_view_shadowheight">1dp</dimen>
+    <dimen name="charge_choice_input_icon_width">24dp</dimen>
+    <dimen name="charge_choice_input_icon_height">24dp</dimen>
+    <dimen name="charge_choice_input_arrow_icon_marginleft">16dp</dimen>
+    <dimen name="charge_choice_input_arrow_icon_width">17dp</dimen>
+    <dimen name="charge_choice_input_arrow_icon_height">9dp</dimen>
+    <dimen name="charge_choice_input_text_marginright">16dp</dimen>
+    <dimen name="charge_add_choice_image_size">40dp</dimen>
+
+    <!--charge choice view -->
+    <dimen name="add_choice_dialog_input_textsize">20dp</dimen>
+    <dimen name="dialog_charge_choice_amount_textsize">14dp</dimen>
+
+
+    <!--UserInputChoice-->
+    <dimen name="inputuserchoice_marginleft">16dp</dimen>
+    <dimen name="inputuserchoice_textsize">14dp</dimen>
+    <dimen name="inputuserchoice_image_add_width">28dp</dimen>
+    <dimen name="userinputchoice_background_radius">20dp</dimen>
+    <dimen name="userinputchoice_background_strokewidth">1dp</dimen>
+    <dimen name="userinputchoice_padding_left">16dp</dimen>
+    <dimen name="userinputchoice_padding_top">2dp</dimen>
+    <dimen name="userinputchoice_padding_right">16dp</dimen>
+    <dimen name="userinputchoice_padding_bottom">1dp</dimen>
+    <dimen name="userinputchoice_image_add_padding">4dp</dimen>
+    <dimen name="userinputchoice_margin_bottom">8dp</dimen>
+    <dimen name="userinputchoice_raiogroup_paddingLeft">16dp</dimen>
+    <dimen name="userinputchoice_raiogroup_paddingTop">16dp</dimen>
+    <dimen name="userinputchoice_raiogroup_paddingRight">16dp</dimen>
+    <dimen name="userinputchoice_raiogroup_paddingBottom">16dp</dimen>
+    <dimen name="userinputchoice_height">40dp</dimen>
+    <dimen name="userinputchoice_edittext_height">36dp</dimen>
+    <dimen name="userinputchoice_calculate_charge_background_radius">6dp</dimen>
+    <dimen name="userinputchoice_calculate_charge_margin_right">8dp</dimen>
+    <dimen name="userinputchoice_calculate_charge_title_text_size">13dp</dimen>
+    <dimen name="userinputchoice_calculate_charge_title_rial_text_size">10dp</dimen>
+
+    <!--Confirm Transaction-->
+    <dimen name="confirm_transaction_title_text_size">18dp</dimen>
+    <dimen name="confirm_transaction_values_text_size">16dp</dimen>
+    <dimen name="confirm_transaction_button_payment_text_size">20dp</dimen>
+    <dimen name="confirm_transaction_button_cancel_text_size">20dp</dimen>
+    <dimen name="confirm_transaction_rial_text_size">15dp</dimen>
+    <dimen name="confirm_transaction_standard_margin">16dp</dimen>
+    <dimen name="confirm_transaction_list_margin_top">24dp</dimen>
+    <dimen name="confirm_transaction_divider_height">2dp</dimen>
+    <dimen name="confirm_transaction_button_container_margin_top">35dp</dimen>
+    <dimen name="confirm_transaction_button_container_margin_bottom">16dp</dimen>
+    <dimen name="confirm_transaction_back_button_width">0dp</dimen>
+    <dimen name="confirm_transaction_back_button_margin_right">4dp</dimen>
+    <dimen name="confirm_transaction_confirm_button_width">0dp</dimen>
+    <dimen name="confirm_transaction_confirm_button_height">40dp</dimen>
+    <dimen name="confirm_transaction_confirm_button_margin_left">4dp</dimen>
+    <dimen name="confirm_transaction_confirm_button_corner">20dp</dimen>
+
+
+    <dimen name="receipt_fragment_title_toolbar_size">18dp</dimen>
+
+
+    <!-- BuyChargeFragment-->
+    <dimen name="button_container_radius">16dp</dimen>
+    <dimen name="confirm_button_container_toolbar_elevation">4dp</dimen>
+
+
+    <!--Toolbar-->
+    <dimen name="deposit_text_size">16dp</dimen>
+    <dimen name="deposit_value_text_size">14dp</dimen>
+
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <dimen name="deposit_fragment_title_toolbar_size">18dp</dimen>
+
+
+    <dimen name="charge_fragment_banner_elevation">3.99dp</dimen>
+    <dimen name="bannerheight">132dp</dimen>
+    <dimen name="chargefragment_solid_tabbar_height">72dp</dimen>
+    <dimen name="chargefragment_solid_tabbar_default_textsize">14dp</dimen>
+
+
+
+    <!-- Bill Item -->
+    <dimen name="bill_item_view_corner_radius">10dp</dimen>
+    <dimen name="bill_item_view_hole_radius">5dp</dimen>
+    <dimen name="bill_item_icon_background_margin">3dp</dimen>
+    <dimen name="bill_item_icon_background_width">50dp</dimen>
+    <dimen name="bill_item_icon_width">30dp</dimen>
+    <dimen name="bill_item_delete_button_margin_left">10dp</dimen>
+    <dimen name="bill_item_delete_button_width">38dp</dimen>
+    <dimen name="bill_item_delete_icon_width">18dp</dimen>
+    <dimen name="bill_item_name_margin_right">12dp</dimen>
+    <dimen name="bill_item_name_margin_left">16dp</dimen>
+    <dimen name="bill_item_time_margin_left">12dp</dimen>
+    <dimen name="bill_item_icon_background_height">64dp</dimen>
+    <dimen name="bill_item_icon_height">30dp</dimen>
+    <dimen name="bill_item_delete_button_height">38dp</dimen>
+    <dimen name="bill_item_name_text_size">12dp</dimen>
+    <dimen name="bill_item_date_text_size">12dp</dimen>
+    <dimen name="bill_item_time_text_size">12dp</dimen>
+    <dimen name="bill_item_number_title_text_size">11dp</dimen>
+    <dimen name="bill_item_number_text_size">12dp</dimen>
+    <dimen name="bill_item_price_suffix_text_size">12dp</dimen>
+    <dimen name="bill_item_price_text_size">12dp</dimen>
+    <dimen name="bill_item_border_stroke">0.8dp</dimen>
+    <dimen name="bill_item_border_space">2dp</dimen>
+    <dimen name="bill_item_pivot_margin_right">53dp</dimen>
+    <dimen name="bill_item_icon_background_corner_radius">7dp</dimen>
+    <dimen name="bill_item_checkbox_height">18dp</dimen>
+    <dimen name="bill_item_checkbox_width">26dp</dimen>
+    <dimen name="bill_item_detail_height">72dp</dimen>
+
+
+    <!-- Bill -->
+    <dimen name="bill_fragment_toolbar_height">80dp</dimen>
+    <dimen name="bill_page_tabbar_height">40dp</dimen>
+    <dimen name="bill_page_tabbar_text_size">13dp</dimen>
+    <dimen name="bill_archived_page_margin_sides">16dp</dimen>
+    <dimen name="bill_item_border_shadaw">2dp</dimen>
+    <dimen name="bill_archive_item_margin_side">16dp</dimen>
+    <dimen name="bill_archive_item_margin_bottom">8dp</dimen>
+    <dimen name="bill_archive_item_margin_top">12dp</dimen>
+    <dimen name="bill_archive_item_more_icon_margin">10dp</dimen>
+    <dimen name="bill_archive_item_value_text_size">12dp</dimen>
+    <dimen name="bill_archive_item_value_title_size">11dp</dimen>
+    <dimen name="bill_archive_item_text_margin_sides">10dp</dimen>
+    <dimen name="bill_archive_item_value_margin_sides">7dp</dimen>
+
+    <!-- Bill Detail Dialog-->
+    <dimen name="bill_detail_dialog_title_text_size">14dp</dimen>
+    <dimen name="bill_detail_dialog_value_text_size">13dp</dimen>
+    <dimen name="bill_detail_dialog_value_description_size">12dp</dimen>
+    <dimen name="bill_detail_dialog_content_margin_top">36dp</dimen>
+    <dimen name="bill_detail_dialog_content_margin_sides">8dp</dimen>
+    <dimen name="bill_detail_dialog_content_margin_bottom">40dp</dimen>
+
+    <!-- Bill Payment Summary View-->
+    <dimen name="bill_payment_summary_view_elevation">8dp</dimen>
+    <dimen name="bill_payment_summary_button_height">40dp</dimen>
+    <dimen name="bill_payment_summary_padding_top">26dp</dimen>
+    <dimen name="bill_payment_summary_padding_bottom">26dp</dimen>
+    <dimen name="bill_payment_summary_padding_sides">16dp</dimen>
+    <dimen name="bill_payment_summary_button_text_size">18dp</dimen>
+    <dimen name="bill_payment_summary_titles_text_size">12dp</dimen>
+    <dimen name="bill_payment_summary_values_text_size">15dp</dimen>
+    <dimen name="bill_payment_summary_values_description_text_size">13dp</dimen>
+    <dimen name="bill_payment_summary_values_container_margin_sides">12dp</dimen>
+
+    <!-- Bill confirmation dialog-->
+    <dimen name="bill_confirm_dialog_standard_margin">16dp</dimen>
+    <dimen name="bill_confirm_dialog_size">317dp</dimen>
+    <dimen name="bill_confirm_dialog_text_margin_bottom">36dp</dimen>
+    <dimen name="bill_confirm_dialog_text_margin_top">26dp</dimen>
+    <dimen name="bill_confirm_dialog_text_margin_sides">67dp</dimen>
+    <dimen name="bill_confirm_dialog_button_margin_sides">16dp</dimen>
+    <dimen name="bill_confirm_dialog_button_margin_bottom">40dp</dimen>
+    <dimen name="bill_confirm_dialog_text_size">16dp</dimen>
+    <dimen name="bill_confirm_dialog_button_back_radios">20dp</dimen>
+    <dimen name="bill_confirm_dialog_button_text_size">18dp</dimen>
+    <dimen name="bill_confirm_dialog_button_height">40dp</dimen>
+    <dimen name="bill_confirm_dialog_button_margin_right">4dp</dimen>
+    <dimen name="bill_confirm_dialog_button_margin_left">4dp</dimen>
+    <dimen name="bill_confirm_dialog_text_line_space">9dp</dimen>
+    <dimen name="bill_confirm_dialog_title_text_size">16dp</dimen>
+    <dimen name="bill_confirm_dialog_title_margin_top">11dp</dimen>
+    <dimen name="bill_confirm_dialog_title_margin_bottom">-12dp</dimen>
+
+
+    <!-- Bill Payment-->
+    <dimen name="bill_payment_title_text_size">17sp</dimen>
+    <dimen name="bill_payment_title_margin_sides">16dp</dimen>
+    <dimen name="bill_payment_card_margin_sides">16dp</dimen>
+    <dimen name="bill_payment_card_margin_top">10dp</dimen>
+    <dimen name="bill_payment_card_margin_bottom">30dp</dimen>
+    <dimen name="bill_payment_card_padding_sides">12dp</dimen>
+    <dimen name="bill_payment_card_padding_top_bottom">23dp</dimen>
+    <dimen name="bill_payment_card_corner_radius">8dp</dimen>
+    <dimen name="bill_payment_card_elevation">2dp</dimen>
+    <dimen name="bill_payment_description_text_size">14dp</dimen>
+    <dimen name="bill_payment_input_text_size">16dp</dimen>
+    <dimen name="bill_payment_input_height">40dp</dimen>
+    <dimen name="bill_payment_input_error_text_size">12dp</dimen>
+    <dimen name="bill_payment_input_error_margin_right">7dp</dimen>
+    <dimen name="bill_payment_input_bill_id_margin_bottom">13dp</dimen>
+    <dimen name="bill_payment_button_height">56dp</dimen>
+    <dimen name="bill_payment_button_width">160dp</dimen>
+    <dimen name="bill_payment_button_text_size">13dp</dimen>
+    <dimen name="bill_payment_button_back_elevation">2dp</dimen>
+    <dimen name="bill_payment_button_margin_start">16dp</dimen>
+    <dimen name="bill_payment_button_margin_end">5dp</dimen>
+    <dimen name="bill_payment_button_margin_top">10dp</dimen>
+    <dimen name="bill_payment_button_margin_bottom">30dp</dimen>
+    <dimen name="bill_payment_error_text_size">12dp</dimen>
+    <dimen name="bill_payment_error_margin_right">5dp</dimen>
+    <dimen name="bill_payment_error_margin_bottom">10dp</dimen>
+    <dimen name="bill_payment_sms_text_size">13dp</dimen>
+    <dimen name="bill_payment_sms_title_size">16dp</dimen>
+    <dimen name="bill_payment_sms_description_margin_sides">16dp</dimen>
+    <dimen name="bill_payment_sms_description_margin_top">36dp</dimen>
+    <dimen name="bill_payment_sms_description_margin_bottom">22dp</dimen>
+    <dimen name="bill_payment_sms_title_margin">16dp</dimen>
+    <dimen name="bill_payment_sms_card_padding_sides">24dp</dimen>
+    <dimen name="bill_payment_sms_card_padding_top">13dp</dimen>
+    <dimen name="bill_payment_sms_card_padding_bottom">30dp</dimen>
+    <dimen name="bill_payment_sms_button_text_size">18dp</dimen>
+    <dimen name="bill_payment_sms_button_height">40dp</dimen>
+    <dimen name="bill_payment_sms_button_margin_sides">16dp</dimen>
+    <dimen name="bill_payment_sms_button_margin_top">40dp</dimen>
+    <dimen name="bill_payment_sms_button_margin_bottom">28dp</dimen>
+    <dimen name="bill_payment_sms_input_height">222dp</dimen>
+    <dimen name="bill_payment_sms_paste_text_margin_right">10dp</dimen>
+    <dimen name="bill_payment_sms_layout_margin_bottom">10dp</dimen>
+    <dimen name="bill_payment_sms_input_radius">10dp</dimen>
+    <dimen name="bill_payment_sms_paste_text_size">13dp</dimen>
+    <dimen name="bill_payment_sms_clear_icon_size">40dp</dimen>
+    <dimen name="bill_payment_sms_clear_icon_padding_sides">10dp</dimen>
+    <dimen name="bill_payment_sms_clear_icon_padding_start">0dp</dimen>
+    <dimen name="bill_payment_sms_input_element_corner_radius">10dp</dimen>
+    <dimen name="bill_payment_sms_input_element_text_size">12dp</dimen>
+    <dimen name="bill_payment_sms_input_element_text_padding">16dp</dimen>
+    <dimen name="bill_payment_qr_flasher_margin_bottom">144dp</dimen>
+
+
+
+    <dimen name="bill_inquiry_select_type_name_size_unselected">11dp</dimen>
+    <dimen name="bill_inquiry_select_type_name_size_selected">13dp</dimen>
+    <dimen name="bill_inquiry_select_type_background_radius">8dp</dimen>
+    <dimen name="bill_inquiry_select_type_icon_width_height">40dp</dimen>
+    <dimen name="bill_inquiry_select_type_view_elevation">1dp</dimen>
+    <dimen name="bill_inquiry_number_view_height">128dp</dimen>
+    <dimen name="bill_inquiry_number_pre_phone_margin_left">16dp</dimen>
+    <dimen name="bill_inquiry_number_margin_left">16dp</dimen>
+    <dimen name="bill_inquiry_number_pre_phone_width">120dp</dimen>
+    <dimen name="bill_inquiry_number_background_radius">8dp</dimen>
+    <dimen name="bill_inquiry_number_pre_phone_text_size">14dp</dimen>
+    <dimen name="bill_inquiry_number_input_text_size">15dp</dimen>
+    <dimen name="bill_inquiry_number_margin_right">16dp</dimen>
+    <dimen name="bill_inquiry_request_button_text_size">22dp</dimen>
+    <dimen name="button_element_default_background_corner_radius">20dp</dimen>
+    <dimen name="bill_inquiry_item_elevation">1dp</dimen>
+    <dimen name="bill_inquiry_detail_container_background_corner_radius">8dp</dimen>
+    <dimen name="bill_inquiry_detail_choice_title_size">13dp</dimen>
+    <dimen name="bill_inquiry_detail_choice_price_size">13dp</dimen>
+    <dimen name="bill_inquiry_detail_choice_price_suffix_size">13dp</dimen>
+    <dimen name="bill_inquiry_detail_info_key_size">13dp</dimen>
+    <dimen name="bill_inquiry_detail_info_value_size">13dp</dimen>
+    <dimen name="bill_inquiry_detail_info_margin_side">16dp</dimen>
+    <dimen name="bill_inquiry_detail_info_title_size">16dp</dimen>
+    <dimen name="bill_inquiry_detail_save_button_text_size">18dp</dimen>
+    <dimen name="bill_inquiry_detail_pay_button_text_size">18dp</dimen>
+    <dimen name="bill_inquiry_detail_save_button_description_size">11dp</dimen>
+    <dimen name="bill_inquiry_select_type_description_size">12dp</dimen>
+    <dimen name="bill_report_item_title_size">12dp</dimen>
+    <dimen name="bill_report_item_price_size">15dp</dimen>
+    <dimen name="bill_report_item_price_suffix_size">11dp</dimen>
+    <dimen name="bill_report_item_bill_id_title_size">11dp</dimen>
+    <dimen name="bill_report_item_date_size">12dp</dimen>
+    <dimen name="bill_report_item_time_size">12dp</dimen>
+    <dimen name="bill_report_item_pay_text_size">12dp</dimen>
+    <dimen name="bill_report_item_pay_background_corner">15dp</dimen>
+    <dimen name="bill_report_item_background_corner">8dp</dimen>
+    <dimen name="bill_report_item_elevation">1dp</dimen>
+    <dimen name="bill_report_item_bill_id_size">12dp</dimen>
+    <dimen name="bill_report_item_more_key_size">11dp</dimen>
+    <dimen name="bill_report_item_more_value_size">12dp</dimen>
+    <dimen name="bill_report_item_more_key_value_margin_bottom">8dp</dimen>
+    <dimen name="bill_report_item_divider_height">2dp</dimen>
+    <dimen name="bill_report_item_divider_margin">12dp</dimen>
+    <dimen name="bill_report_list_month_size">16dp</dimen>
+    <dimen name="bill_report_list_item_margin_side">16dp</dimen>
+    <dimen name="bill_report_list_item_month_margin_top">4dp</dimen>
+    <dimen name="bill_report_list_item_month_margin_bottom">2dp</dimen>
+    <dimen name="bill_report_list_item_margin_top">4dp</dimen>
+    <dimen name="bill_report_list_item_margin_bottom">4dp</dimen>
+    <dimen name="bill_receipt_multiple_item_name_size">12dp</dimen>
+    <dimen name="bill_receipt_multiple_item_price_size">12dp</dimen>
+    <dimen name="bill_receipt_multiple_item_price_suffix_size">11dp</dimen>
+    <dimen name="bill_receipt_multiple_item_bill_id_size">12dp</dimen>
+    <dimen name="bill_receipt_multiple_item_bill_id_suffix_size">11dp</dimen>
+    <dimen name="bill_receipt_multiple_item_pay_id_size">12dp</dimen>
+    <dimen name="bill_receipt_multiple_item_pay_id_suffix_size">11dp</dimen>
+    <dimen name="bill_receipt_single_icon_margin_top">21dp</dimen>
+    <dimen name="bill_receipt_single_title_margin_top">16dp</dimen>
+    <dimen name="bill_receipt_single_detail_margin_top">8dp</dimen>
+    <dimen name="bill_receipt_single_detail_margin_side">55dp</dimen>
+    <dimen name="bill_receipt_single_add_margin_top">38dp</dimen>
+    <dimen name="bill_receipt_single_add_button_width">45dp</dimen>
+    <dimen name="bill_receipt_single_add_button_height">30dp</dimen>
+    <dimen name="bill_receipt_single_share_button_margin_left">11dp</dimen>
+    <dimen name="bill_receipt_single_add_margin_left">16dp</dimen>
+    <dimen name="bill_receipt_single_add_description_margin_left">4dp</dimen>
+    <dimen name="bill_receipt_single_background_radius">8dp</dimen>
+    <dimen name="bill_receipt_single_add_margin_bottom">16dp</dimen>
+    <dimen name="bill_receipt_single_title_size">16dp</dimen>
+    <dimen name="bill_receipt_single_add_description_size">12dp</dimen>
+    <dimen name="bill_receipt_multiple_main_button_text_size">18dp</dimen>
+    <dimen name="bill_receipt_multiple_secondary_button_text_size">18dp</dimen>
+    <dimen name="bill_receipt_multiple_new_deposit_suffix_size">12dp</dimen>
+    <dimen name="bill_receipt_multiple_new_deposit_size">14dp</dimen>
+    <dimen name="bill_receipt_multiple_new_deposit_title_size">14dp</dimen>
+    <dimen name="bill_payment_type_info_corner_radius">8dp</dimen>
+    <dimen name="bill_payment_info_inner_title_size">13dp</dimen>
+    <dimen name="bill_payment_info_inner_count_size">14dp</dimen>
+    <dimen name="bill_payment_info_inner_price_size">14dp</dimen>
+    <dimen name="bill_payment_type_info_divider_height">1dp</dimen>
+    <dimen name="bill_payment_type_info_row_margin_bottom">12dp</dimen>
+    <dimen name="bill_payment_type_info_row_margin_top">20dp</dimen>
+    <dimen name="bill_payment_type_info_row_margin_side">16dp</dimen>
+    <dimen name="bill_payment_type_info_divider_margin">8dp</dimen>
+    <dimen name="bill_payment_type_info_divider_margin_bottom">12dp</dimen>
+    <dimen name="bill_payment_type_info_bottom_row_margin_side">16dp</dimen>
+    <dimen name="bill_payment_type_info_bottom_row_margin_bottom">14dp</dimen>
+    <dimen name="bill_payment_type_info_single_margin_bottom">24dp</dimen>
+    <dimen name="bill_payment_type_info_cardview_contentpadding_bottom">1800px</dimen>
+    <dimen name="bill_payment_info_total_count_title_size">13dp</dimen>
+    <dimen name="bill_payment_info_total_count_size">14dp</dimen>
+    <dimen name="bill_payment_info_total_price_title_size">15dp</dimen>
+    <dimen name="bill_payment_info_total_price_size">15dp</dimen>
+    <dimen name="bill_payment_type_info_margin_side">16dp</dimen>
+    <dimen name="bill_payment_type_info_margin_top">8dp</dimen>
+    <dimen name="bill_payment_type_info_elevation">1dp</dimen>
+    <dimen name="bill_payment_type_info_title_size">16dp</dimen>
+    <dimen name="bill_payment_type_save_button_width">130dp</dimen>
+    <dimen name="bill_payment_type_save_description_icon_size">16dp</dimen>
+    <dimen name="bill_payment_type_save_description_icon_margin_top">8dp</dimen>
+    <dimen name="bill_payment_type_save_description_margin_right">6dp</dimen>
+    <dimen name="bill_payment_type_payment_button_margin_left">8dp</dimen>
+    <dimen name="bill_payment_type_save_description_max_width">90dp</dimen>
+
+    <dimen name="bill_payment_type_bank_card_radius">8dp</dimen>
+    <dimen name="bill_payment_type_bank_card_elevation">2dp</dimen>
+    <dimen name="bill_payment_type_bank_card_margin_side">16dp</dimen>
+    <dimen name="bill_payment_type_bank_card_margin_top">8dp</dimen>
+    <dimen name="bill_payment_type_bank_item_font_size">12dp</dimen>
+    <dimen name="bill_payment_type_bank_item_icon_margin_bottom">8dp</dimen>
+    <dimen name="bill_payment_type_bank_item_icon_height">27dp</dimen>
+    <dimen name="bill_payment_type_bank_item_margin_bottom">8dp</dimen>
+    <dimen name="bill_payment_type_bank_item_margin_top">23dp</dimen>
+    <dimen name="bill_payment_type_bank_item_margin_sides">24dp</dimen>
+    <dimen name="bill_payment_type_bank_card_height">98dp</dimen>
+    <dimen name="bill_payment_type_button_height">40dp</dimen>
+    <dimen name="bill_payment_type_button_margin_sides">16dp</dimen>
+    <dimen name="bill_payment_type_button_margin_top">28dp</dimen>
+    <dimen name="bill_payment_type_button_text_size">22dp</dimen>
+
+    <dimen name="bill_receipt_default_width">328dp</dimen>
+    <dimen name="bill_receipt_default_height">391dp</dimen>
+    <dimen name="banner_corner_radius_default">8dp</dimen>
+
+
+    <dimen name="toolbar_shopprogressbar_dot_radius">2.86dp</dimen>
+    <dimen name="toolbar_shopprogressbar_dot_margins">7.4dp</dimen>
+
+    <dimen name="shop_cart_remove_product_dialog_margin_size">16dp</dimen>
+    <dimen name="shop_cart_remove_product_dialog_button_width">128dp</dimen>
+    <dimen name="shop_cart_remove_product_dialog_remove_text_margin">12dp</dimen>
+    <dimen name="shop_cart_remove_product_dialog_remove_loading_width">28dp</dimen>
+    <dimen name="shop_cart_remove_product_dialog_button_height">40dp</dimen>
+    <dimen name="shop_cart_remove_product_dialog_remove_loading_height">40dp</dimen>
+</resources>

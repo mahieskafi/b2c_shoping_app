@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span id="delete_button" size="@dimen/shop_cart_top_item_delete_button_width"/>
+        <Span size="1w"/>
+        <Span id="title" size="wrap"/>
+        <Span id="item_count" size="wrap"/>
+    </Horizontal>
+
+    <Horizontal start="start@delete_button" end="end@delete_button">
+        <Span id="delete_icon" size="@dimen/shop_cart_top_item_delete_icon_width"/>
+        <Span size="4dp"/>
+        <Span id="delete_title" size="wrap"/>
+        <Span size="@dimen/shop_cart_top_item_delete_button_padding"/>
+    </Horizontal>
+
+    <Vertical start="start@delete_button" end="end@delete_button">
+        <Span size="1w"/>
+        <Span id="title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@delete_button" end="end@delete_button">
+        <Span size="1w"/>
+        <Span id="item_count" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="@dimen/shop_cart_fragment_product_delete_all_item_margin_top"/>
+        <Span id="delete_button" size="@dimen/shop_cart_top_item_delete_button_height"/>
+        <Span size="@dimen/shop_cart_fragment_product_delete_all_item_margin_bottom"/>
+    </Vertical>
+
+    <Vertical start="start@delete_button" end="end@delete_button">
+        <Span size="1w"/>
+        <Span id="delete_title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@delete_button" end="end@delete_button">
+        <Span size="1w"/>
+        <Span id="delete_icon" size="@dimen/shop_cart_top_item_delete_icon_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+</Sequences>

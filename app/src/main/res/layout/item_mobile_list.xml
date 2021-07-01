@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mobile_list_item_container"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="4"
+    android:background="@drawable/shop_item_background"
+    >
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mobile_list_item_product_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:maxLines="2"
+            android:lineHeight="12sp"
+            android:fontFamily="@font/iran_yekan_medium"
+            android:textSize="@dimen/mobile_list_item_title_text_size"
+            android:textColor="@color/product_detail_price"
+            android:gravity="right"
+
+            android:layout_marginRight="@dimen/mobile_list_item_title_margin_right"
+            android:layout_marginTop="@dimen/mobile_list_item_title_margin_top"
+            android:layout_marginLeft="@dimen/mobile_list_item_price_margin_left"
+            android:layout_gravity="center_vertical|right"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mobile_list_item_price_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:singleLine="true"
+            android:maxLines="1"
+            android:fontFamily="@font/iran_yekan_bold"
+            android:textSize="@dimen/mobile_list_item_price_text_size"
+            android:textColor="@color/product_detail_price"
+            android:gravity="left"
+
+            android:layout_marginBottom="@dimen/mobile_list_item_price_margin_bottom"
+            android:layout_marginTop="@dimen/mobile_list_item_price_margin_top"
+            android:layout_marginLeft="@dimen/mobile_list_item_price_margin_left"
+
+            android:layout_gravity="bottom|left"
+            android:text="119,0000 ریال"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#ebebeb"/>
+
+    <ImageView
+        android:id="@+id/mobile_list_item_image_product"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+
+        android:layout_marginVertical="@dimen/mobile_list_item_image_margin_verticaly"
+        android:layout_marginHorizontal="@dimen/mobile_list_item_image_margin_horizontaly"
+        />
+
+
+
+
+
+</LinearLayout>

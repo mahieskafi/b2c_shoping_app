@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <Horizontal>-->
+<!--        <Span size = "@dimen/address_detail_items_margin_side"/>-->
+<!--        <Span id="btn_change_address" size ="@dimen/address_detail_change_address_button_width"/>-->
+<!--    </Horizontal>-->
+
+<!--    <Vertical>-->
+<!--        <Span size = "@dimen/address_detail_items_margin_side"/>-->
+<!--        <Span id="btn_change_address" size="@dimen/address_detail_change_address_button_height" />-->
+<!--    </Vertical>-->
+
+<!--    <Horizontal start="end@btn_change_address">-->
+<!--        <Span size = "1w"/>-->
+<!--        <Span id="address_title" size ="wrap"/>-->
+<!--        <Span size = "@dimen/address_detail_items_margin_side"/>-->
+<!--    </Horizontal>-->
+
+<!--    <Vertical>-->
+<!--        <Span size = "@dimen/address_detail_items_margin_side"/>-->
+<!--        <Span id="address_title" size="1w" />-->
+<!--    </Vertical>-->
+
+    <Horizontal>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+        <Span id="receiver_name" size ="1w"/>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+        <Span id="receiver_name" size="wrap" />
+    </Vertical>
+
+    <Horizontal>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+        <Span id="receiver_phone" size ="1w"/>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+    </Horizontal>
+
+    <Vertical start="end@receiver_name">
+        <Span size="@dimen/address_detail_items_margin_top" />
+        <Span id="receiver_phone" size="wrap" />
+    </Vertical>
+
+    <Horizontal>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+        <Span id="receiver_mobile" size ="1w"/>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+    </Horizontal>
+
+    <Vertical start="end@receiver_phone">
+        <Span size="@dimen/address_detail_items_margin_top" />
+        <Span id="receiver_mobile" size="wrap" />
+    </Vertical>
+
+    <Horizontal>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+        <Span id="receiver_state" size ="1w"/>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+    </Horizontal>
+
+    <Vertical start="end@receiver_mobile">
+        <Span size="@dimen/address_detail_items_margin_top" />
+        <Span id="receiver_state" size="wrap" />
+    </Vertical>
+
+    <Horizontal>
+         <Span size = "@dimen/address_detail_items_margin_side"/>
+         <Span id="receiver_city" size ="1w"/>
+         <Span size="@dimen/address_detail_items_margin_side" />
+    </Horizontal>
+
+    <Vertical start="end@receiver_state">
+        <Span size="@dimen/address_detail_items_margin_top" />
+        <Span id="receiver_city" size="wrap" />
+    </Vertical>
+
+    <Horizontal>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+        <Span id="receiver_post_code" size ="1w"/>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+    </Horizontal>
+
+    <Vertical start="end@receiver_city">
+        <Span size="@dimen/address_detail_items_margin_top" />
+        <Span id="receiver_post_code" size="wrap" />
+    </Vertical>
+
+    <Horizontal>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+        <Span id="receiver_address" size ="1w"/>
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+    </Horizontal>
+
+    <Vertical start="end@receiver_post_code">
+        <Span size="@dimen/address_detail_items_margin_top" />
+        <Span id="receiver_address" size="wrap" />
+        <Span size = "@dimen/address_detail_items_margin_side"/>
+    </Vertical>
+
+
+<!--    <Horizontal>-->
+<!--        <Span size = "@dimen/address_detail_items_margin_side"/>-->
+<!--        <Span id="iv_edit_detail" size ="@dimen/address_detail_edit_image_view_size"/>-->
+<!--    </Horizontal>-->
+
+<!--    <Vertical start="end@receiver_address">-->
+<!--        <Span size = "@dimen/address_detail_items_margin_side"/>-->
+<!--        <Span id="iv_edit_detail" size="@dimen/address_detail_edit_image_view_size" />-->
+<!--        <Span size = "@dimen/address_detail_items_margin_side"/>-->
+<!--    </Vertical>-->
+
+<!--    <Horizontal start="end@iv_edit_detail">-->
+<!--        <Span size = "@dimen/address_detail_remove_address_image_view_margin"/>-->
+<!--        <Span id="iv_remove_address" size ="@dimen/address_detail_remove_address_image_view_size"/>-->
+<!--    </Horizontal>-->
+
+<!--    <Vertical start="start@iv_edit_detail">-->
+<!--        <Span size = "@dimen/address_detail_items_margin_side"/>-->
+<!--        <Span id="iv_remove_address" size="@dimen/address_detail_remove_address_image_view_size" />-->
+<!--        <Span size = "@dimen/address_detail_items_margin_side"/>-->
+<!--    </Vertical>-->
+</Sequences>

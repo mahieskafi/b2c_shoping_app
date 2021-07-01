@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span id="header_back" size="100%"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span id="header_back" size="wrap"/>
+    </Vertical>
+
+    <Horizontal>
+        <Span size="81.94%"/>
+        <Span size="@dimen/navigation_drawer_header_image_margin_left"/>
+        <Span id="header_image" size="@dimen/navigation_drawer_header_image_width"/>
+    </Horizontal>
+
+    <Vertical end="end@header_back">
+        <Span size="1w"/>
+        <Span id="header_image" size="@dimen/navigation_drawer_header_image_height"/>
+        <Span size="@dimen/navigation_drawer_header_image_margin_bottom"/>
+    </Vertical>
+
+    <Vertical start="start@header_image" end="end@header_image">
+        <Span size="1w"/>
+        <Span id="text_name" size="wrap"/>
+        <Span size="@dimen/navigation_drawer_user_code_title_margin_top"/>
+        <Span id="text_usercode_title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@text_usercode_title" end="end@text_usercode_title">
+        <Span size="1w"/>
+        <Span id="text_usercode" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Horizontal end="start@header_image">
+        <Span id="text_name" size="1w"/>
+        <Span size="@dimen/navigation_drawer_name_margin_right"/>
+    </Horizontal>
+
+    <Horizontal end="start@header_image">
+        <Span id="text_usercode" size="1w"/>
+        <Span size="@dimen/navigation_drawer_user_code_margin_right"/>
+        <Span id="text_usercode_title" size="wrap"/>
+        <Span size="@dimen/navigation_drawer_user_code_title_margin_right"/>
+    </Horizontal>
+
+</Sequences>

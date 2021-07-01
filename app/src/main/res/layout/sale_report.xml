@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <com.srp.eways.ui.view.toolbar.WeiredToolbar
+        android:id="@+id/salereport_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/salereport_toolbar_height"
+        android:elevation="4dp"/>
+
+    <com.srp.eways.ui.view.charge.a.ChargeOptionsTabViewA
+        android:id="@+id/salereport_tabview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/salereport_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

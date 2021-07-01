@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_light">#231935</color>
+    <color name="white">#FFFF</color>
+    <color name="card_background">#ffffff</color>
+
+    <color name="sale_summary_list_item_background_color">#f4f4f4</color>
+    <color name="sale_summary_list_background_color">#00f7f7f7</color>
+
+    <color name="login_button_background_enabled">#fc7a1e</color>
+
+    <color name="background">#f7f7f7</color>
+
+    <color name="login_input_error_color">#e8165d</color>
+    <color name="login_input_back_color_disable">#939390</color>
+
+    <color name="login_button_background_disabled">#c7c7c7</color>
+
+    <color name="contact_us_text_color">#2f3133</color>
+
+    <!-- follow order -->
+    <color name="follow_order_input_text_date_color">#231935</color>
+    <color name="follow_order_input_text_date_hint_color">#939390</color>
+    <color name="follow_order_input_text_sale_number_color">#231935</color>
+    <color name="follow_order_input_text_date_sale_number_hint_color">#939390</color>
+    <color name="follow_order_button_text_color">#ffffff</color>
+    <color name="follow_order_text_of_order_condition_color">#2f3133</color>
+
+
+
+
+
+    <!-- sale report-->
+    <color name="sale_report_input_text_color">#231935</color>
+    <color name="sale_report_input_text_hint_color">#939390</color>
+    <color name="sale_report_button_text_color">#ffffff</color>
+    <color name="sale_report_list_header_separator_color">#c7c7c7</color>
+    <color name="sale_report_list_header_text_color">#fc7a1e</color>
+    <color name="sale_report_list_item_text_color">#011e2e</color>
+    <color name="item_no_data_shop_cart_title_color">#231935</color>
+    <color name="item_no_data_shop_cart_text_color">#011e2e</color>
+    <color name="item_no_data_shop_cart_card_background">#FFF</color>
+    <color name="item_no_data_shop_cart_text_background">#f4f4f4</color>
+
+    <color name="salereport_tab_unselected_color">#9f9f9f</color>
+    <color name="salereport_tab_background_color">#ffffff</color>
+    <color name="saleReport_toolbar_background_color">#27292b</color>
+
+    <color name="saleReport_detail_type_title_color">#fc7a1e</color>
+    <color name="saleReport_detail_price_color">#1ebf39</color>
+    <color name="saleReport_detail_mora_container_backgroun_color">#ebebeb</color>
+    <color name="saleReport_detail_backgroun_color">#ebebeb</color>
+
+
+    <!--EmptyView-->
+    <color name="emptyview_textcolor">#231935</color>
+
+    <!--LoadingStateView-->
+    <color name="loadingstateview_textcolor">#9f9f9f</color>
+    <color name="loadingstateview_background">#f1feff</color>
+    <color name="loadingstateview_retry_background">#ffcc80</color>
+    <color name="loadingstateview_retry_textcolor">#fc7a1e</color>
+
+    <!--add contact form-->
+    <color name="add_contact_lable_form">#939390</color>
+    <color name="add_eways_contact_form_inputtext_color">@color/black_light</color>
+    <color name="add_eways_contact_form_confirm_button">#f7f7f7</color>
+    <color name="add_eways_contact_form_cancel_button">#ef6c00</color>
+
+
+    <color name="contact_remove_dialog_background_color">#FFF</color>
+    <color name="contact_remove_dialog_description_color">#231935</color>
+    <color name="contact_remove_dialog_remove_background_color">#fee9db</color>
+    <color name="contact_remove_dialog_remove_background_border_color">#fccfae</color>
+    <color name="contact_remove_dialog_keep_background_color">#fc7a1e</color>
+    <color name="contact_remove_dialog_keep_text_color">#FFF</color>
+    <color name="contact_remove_dialog_remove_text_color">#fc7a1e</color>
+
+
+    //operators
+    <color name="operator_irancell">#fccb00</color>
+    <color name="operator_hamraah_avval">#5ac4ce</color>
+    <color name="operator_rightel">#9c0f73</color>
+    <color name="operator_irancell_services">#ffcb08</color>
+    <color name="operator_hamraah_avval_services">#5ac4ce</color>
+    <color name="operator_rightel_services">#CE3DA4</color>
+
+
+    <!--Dialog-->
+    <color name="confirm_button_dialog_text_color">#ffffff</color>
+    <color name="confirm_button_dialog_title_text_color">#231935</color>
+
+
+    <!--RadioGroup-->
+    <color name="multicolumnradiogroup_lastuserinputchoice_line_color">#dfdedd</color>
+    <color name="radiobuttonview_title_normal_color">#231935</color>
+    <color name="radiobuttonview_title_normal_disabled_color">#939390</color>
+    <color name="radiobuttonview_title_userinputchoice_color">#82ac26</color>
+
+
+    <!--WeiredTabView-->
+    <color name="weiredtab_tabtitle_selected">#231935</color>
+    <color name="weiredtab_tabtitle_unselected">#c0b9ad</color>
+    <color name="wieiredtab_background_bordercolor">#82ac26</color>
+    <color name="weiredtab_tabbackground_selected">#f56040</color>
+    <color name="weiredtab_tabbackground_unselected">#c0b9ad</color>
+    <color name="weiredtab_default_background_color">#ffffff</color>
+    <color name="weiredtab_tab_icon_color">#ffffff</color>
+    <color name="weiredtab_tabbackground_selected_stroke">#FFFFFF</color>
+
+
+    <!--BottomNavigationView-->
+    <color name="bottomnav_tab_selected_color">#fc7a1e</color>
+    <color name="bottomnav_tab_unselected_color">#FFACACAC</color>
+    <color name="bottomnav_shadow_color">#29000000</color>
+    <color name="bottomnav_background">#FFFFFF</color>
+    <color name="bottomnav_centericon_background">#fcbe92</color>
+    <color name="bottomnav_tab_title_selected_color">#ec902e</color>
+
+
+    <!--WeirdToolbar-->
+    <color name="weird_toolbar_title_text_color">#FFFFFF</color>
+    <color name="weird_toolbar_deposit_title_text_color">#FFFFFF</color>
+    <color name="weird_toolbar_deposit_value_text_color">#FFFFFF</color>
+    <color name="weird_toolbar_search_background">#2f3133</color>
+    <color name="toolbar_query_hint_color">#cececa</color>
+    <color name="toolbar_shop_count_background">#e8165d</color>
+    <color name="toolbar_shopprogress_shadow_dot_background">#55e8165d</color>
+
+
+
+    <color name="add_choice_dialog_title_textcolor">#231935</color>
+    <color name="chargechoice_confirmview_amount_value_color">#ff5b01</color>
+
+
+
+    <!--NavigationDrawer-->
+    <color name="navigation_drawer_solid_icon_color">#707070</color>
+    <color name="navigation_drawer_title_color">@color/black_light</color>
+    <color name="navigation_drawer_title_color_unclickable">#707070</color>
+    <color name="navigation_drawer_description_color">@color/black_light</color>
+    <color name="navigation_drawer_description_color_unclickable">#707070</color>
+    <color name="navigation_drawer_header_name_text_color">#FFF</color>
+    <color name="navigation_drawer_header_code_title_text_color">#FFF</color>
+    <color name="navigation_drawer_header_code_text_color">#FFF</color>
+    <color name="navigation_drawer_top_info_background">#f9fafb</color>
+    <color name="navigation_drawer_sub_item_background">#fff9f5</color>
+
+
+    <!--Survey-->
+    <color name="survey_toolbar_backgrond_color">#82ac26</color>
+    <color name="survey_toolbar_title_color">#FFF</color>
+    <color name="survey_question_number_color">#fc7a1e</color>
+    <color name="survey_icon_view_text_color">#231935</color>
+    <color name="survey_icon_around_start_color">#fc7a1e</color>
+    <color name="survey_icon_around_end_color">#00fc7a1e</color>
+    <color name="survey_question_indicator_item_unselected_color">#ecedf1</color>
+    <color name="survey_question_indicator_item_selected_color">#26a7ac</color>
+    <color name="item_point_selector_line_background">#ecedf1</color>
+    <color name="item_point_selector_unselected_point_number">#231935</color>
+    <color name="item_point_selector_selected_point_number">#f7f7f7</color>
+    <color name="item_point_selector_unselected_text_number">#939390</color>
+    <color name="item_point_selector_selected_text_number">#231935</color>
+    <color name="item_point_selector_progress_line_background">#fc7a1e</color>
+    <color name="survey_question_answer_single_unselected">#939390</color>
+    <color name="survey_question_answer_single_selected">#fc7a1e</color>
+    <color name="survey_question_answer_multi_selected">#939390</color>
+    <color name="survey_question_answer_multi_unselected">#fc7a1e</color>
+    <color name="survey_question_answer_background">#FFF</color>
+    <color name="survey_image_selector_text_selected_color">#231935</color>
+    <color name="survey_image_selector_text_unselected_color">#939390</color>
+    <color name="survey_image_selector_background_color">@android:color/transparent</color>
+    <color name="survey_start_page_name_text_color">#231935</color>
+    <color name="survey_start_page_title_text_color">#fc7a1e</color>
+    <color name="survey_start_page_description_text_color">#231935</color>
+    <color name="survey_start_page_button_text_color">#FFF</color>
+    <color name="survey_end_page_title_text_color">#fc7a1e</color>
+    <color name="survey_end_page_description_text_color">#231935</color>
+    <color name="survey_end_page_button_text_color">#FFF</color>
+    <color name="survey_question_page_number_color">#fc7a1e</color>
+    <color name="survey_question_page_text_color">#231935</color>
+    <color name="survey_question_page_button_text_color">#FFF</color>
+    <color name="survey_question_button_background_enabled">#82ac26</color>
+    <color name="survey_question_button_background_disable">#c7c7c7</color>
+    <color name="survey_start_button_background_enabled">#82ac26</color>
+
+
+    <!-- Solid Tab Bar -->
+    <color name="solidtabbar_unselected">#9F9F9F</color>
+    <color name="solidtabbar_icon">#fc7a1e</color>
+    <color name="solidtabbar_title">#011e2e</color>
+    <color name="solidtabbar_indicator">@color/solidtabbar_icon</color>
+
+
+
+    <color name="transaction_toolbar_background">#27292b</color>
+    <color name="transaction_tabbar_background">#FFF</color>
+
+
+    <color name="deposit_toolbar_background">#27292b</color>
+
+    <!--    DepositTransactionItem-->
+    <color name="transaction_deposit_item_type_color">@color/black_light</color>
+    <color name="transaction_deposit_item_phone_color">#27292b</color>
+    <color name="transaction_deposit_item_value_suffix_color">@color/black_light</color>
+    <color name="transaction_deposit_item_tracking_suffix_color">#9f9f9f</color>
+    <color name="transaction_deposit_item_value_color">@color/black_light</color>
+    <color name="transaction_deposit_item_time_color">#9f9f9f</color>
+    <color name="transaction_deposit_item_date_color">#9f9f9f</color>
+
+    <!--    ChargeTransactionItem-->
+    <color name="transaction_charge_item_type_color">@color/black_light</color>
+    <color name="transaction_charge_item_phone_color">@color/black_light</color>
+    <color name="transaction_charge_item_value_suffix_color">@color/black_light</color>
+    <color name="transaction_charge_item_value_color">@color/black_light</color>
+    <color name="transaction_charge_item_time_color">#9f9f9f</color>
+    <color name="transaction_charge_item_date_color">#9f9f9f</color>
+    <color name="transaction_charge_item_divider_color">#f7f7f7</color>
+
+    <!--ChargeTransaction-->
+    <color name="charge_transaction_background">#f7f7f7</color>
+
+    <!--DepositTransaction-->
+    <color name="transaction_deposit_list_background">#f7f7f7</color>
+
+
+    <!--ItemReceipt-->
+    <color name="item_receipt_value_description_text_color">#231935</color>
+    <color name="item_receipt_value_text_color">#231935</color>
+    <color name="item_receipt_title_text_color">#231935</color>
+
+    <color name="receipt_paint_color">#225653</color>
+    <color name="receipt_shadow_color">#55666666</color>
+    <color name="receipt_background_color">#00000000</color>
+    <color name="receipt_circle_paint_color">#225653</color>
+    <color name="receipt_deposit_divider_background">#f7f7f7</color>
+    <color name="receipt_shadow_paint_color">#ffffff</color>
+
+
+    <!-- deposit-->
+    <color name="increase_deposit_input_text_color">@color/black_light</color>
+    <color name="increase_deposit_input_text_hint_color">#939390</color>
+    <color name="increase_deposit_button_text_color">#ffffff</color>
+    <color name="increase_deposit_message_color">#231935</color>
+    <color name="increase_deposit_price_value_input_separator_background">#29000000</color>
+
+    <!--ItemAmount-->
+    <color name="item_amount_text_color">#231935</color>
+
+
+    <!--Receipt Transaction-->
+    <color name="receipt_transaction_success_color">#82ac26</color>
+    <color name="receipt_transaction_failed_color">#231935</color>
+    <color name="receipt_transaction_deposit_title_color">#231935</color>
+    <color name="receipt_transaction__deposit_value_color">#fc7a1e</color>
+
+
+    <!--SearchView-->
+    <color name="userphonebook_searchview_hint_color">#9f9f9f</color>
+    <color name="userphonebook_searchview_text_color">#231935</color>
+    <color name="userphonebook_searchview_background_color">#ffffff</color>
+    <color name="userinputchoice_searchview_searchicon_color">#9f9f9f</color>
+    <color name="userinputchoice_fragment_toolbar_background">#27292b</color>
+    <color name="ewaysphonebook_searchview_stroke_color">#9f9f9f</color>
+
+
+    <color name="searchview_container_background_color">#2f3133</color>
+
+
+    <!--Inquiry-->
+    <color name="charge_inquiry_button_text_color">#ffffff</color>
+    <color name="charge_inquiry_input_text_color">@color/black_light</color>
+    <color name="charge_inquiry_input_text_hint_color">#939390</color>
+    <color name="charge_inquiry_list_background">#f7f7f7</color>
+    <color name="charge_inquiry_entrance_background_color">#ffffff</color>
+
+
+    <!--PhoneNumberView-->
+    <color name="phonenumberview_number_number_textcolot">#231935</color>
+    <color name="phoneandoperatorsview_phonenumber_textcolor">#231935</color>
+    <color name="phoneandoperatorsview_operatorname_textcolor">#231935</color>
+    <color name="phoneandoperatorsview_transportswitch_textcolor">#231935</color>
+    <color name="phoneandoperatorsview_transportoption_title_textcolor">#231935</color>
+    <color name="phoneandoperatorsview_transportoptions_divider_color">#f7f7f7</color>
+
+    <color name="ewaysphonebook_contact_item_name_text_color">#231935</color>
+    <color name="ewaysphonebook_contact_item_phonenumber_text_color">#27292b</color>
+    <color name="ewaysphonebook_contact_item_credit_text_color">#fa3f52</color>
+    <color name="ewaysphonebook_contact_item_card_close_background">#f3f3f3</color>
+    <color name="ewaysphonebook_contact_item_card_open_background">#ffffff</color>
+    <color name="ewaysphonebook_contact_item_description_text_color">#231935</color>
+
+
+    <!--BuyChargeFragment-->
+    <color name="buycharge_toolbar_background">#27292b</color>
+    <color name="buycharge_button_confirm_text_color">#fff</color>
+    <color name="buycharge_input_phonenumber_hint_color">#939390</color>
+    <color name="buycharge_input_phonenumber_text_color">#231935</color>
+    <color name="buycharge_selectcontact_background">#fff</color>
+    <color name="buycharge_rootview_background">#f7f7f7</color>
+    <color name="buycharge_texttitle">#2f3133</color>
+
+    <!--Switch-->
+    <color name="switch_disabled_thumb_color">#ffffff</color>
+    <color name="switch_enabled_thumb_color">#ffffff</color>
+    <color name="switch_enabled_track_color">#82ac26</color>
+    <color name="switch_disabled_track_color">#40747474</color>
+
+    <!--ChargeOptionsTabView-->
+    <color name="chargeoptionstabview_tabtitle_color_selected">#231935</color>
+    <color name="chargeoptionstabview_tabtitle_color_selected_b">#ffffff</color>
+    <color name="chargeoptionstabview_tabtitle_color_unselected">#9f9f9f</color>
+    <color name="chargeoptionstabview_tabtitle_color_unselected_b">#939390</color>
+    <color name="chargeoptionstabview_background_color">#ffcb08</color>
+    <color name="chargeoptionstabview_background_color_b">#ffffff</color>
+    <color name="chargeoptionstabview_tabindicator">#fc7a1e</color>
+    <color name="chargeoptionstabview_tabindicator_b">#fc7a1e</color>
+
+    <!--ChargeChoiceConfirmView-->
+    <color name="chargechoice_confirmview_button_text_color">#fff</color>
+    <color name="chargechoice_confirmview_button_enabled_background">#82ac26</color>
+    <color name="chargechoice_confirmview_button_diabled_background">#c7c7c7</color>
+
+    <!--choice input-->
+    <color name="charge_choice_input_hint_color_b">#939390</color>
+    <color name="charge_choice_input_text_color_b">#231935</color>
+    <color name="chargechoice_confirmview_amount_title_color">#231935</color>
+
+    <color name="taboptionsview_background_b">#ffffff</color>
+
+    <!--UserInputChoice-->
+    <color name="userinputchoice_text_color">#231935</color>
+    <color name="userinputchoice_background_color">#ffffff</color>
+    <color name="userinputchoice_stroke_color">#dfdedd</color>
+    <color name="login_remember_me_text_color">#939390</color>
+    <color name="login_remember_me_check_color">#82ac26</color>
+    <color name="login_forget_password_text_color">@color/black_light</color>
+    <color name="login_reset_password_text_color">#231935</color>
+    <color name="login_recovery_password_text_color">@color/black_light</color>
+    <color name="login_verification_code_message_text_color">@color/black_light</color>
+    <color name="login_verification_code_timer_color">#1ebf39</color>
+    <color name="login_verification_code_resend_color_disable">#979797</color>
+    <color name="login_verification_code_resend_color_enable">#fc7a1e</color>
+
+
+    <!--Confirm Transaction-->
+    <color name="confirm_transaction_text_color">#231935</color>
+    <color name="confirm_transaction_button_payment_text_color">#ffffff</color>
+    <color name="confirm_transaction_button_cancel_text_color">#82ac26</color>
+    <color name="confirm_transaction_paid_price_text_color">#fc7a1e</color>
+    <color name="confirm_transaction_title_text_color">#231935</color>
+    <color name="confirm_transaction_divider_background">#f7f7f7</color>
+    <color name="confirm_transaction_button_background_enabled">#fc7a1e</color>
+
+
+    <color name="receipt_fragment_toolbar_background">#27292b</color>
+
+
+    <color name="deposit_fragmnet_charge_option_tab_unselected_color">#ff939390</color>
+    <color name="deposit_fragmnet_charge_option_tab_background_color">#ffffffff</color>
+
+
+    <!--operator dialog-->
+    <color name="item_transportable_operator_disable_background_color">#c1c1c1</color>
+    <color name="item_transportable_operator_enable_background_color">#231935</color>
+
+
+    <!--Bill Item-->
+    <color name="bill_item_view_background">#cececa</color>
+    <color name="bill_item_view_unselected_border">#cececa</color>
+    <color name="bill_item_view_selected_border">#82ac26</color>
+    <color name="bill_item_name_color">#231935</color>
+    <color name="bill_item_date_color">#231935</color>
+    <color name="bill_item_time_color">#231935</color>
+    <color name="bill_number_title_time_color">#231935</color>
+    <color name="bill_number_time_color">#231935</color>
+    <color name="bill_item_price_color">#231935</color>
+    <color name="bill_item_price_suffix_color">#231935</color>
+
+
+    <!-- Bill -->
+    <color name="bill_page_tabbar_background">#2f3133</color>
+    <color name="bill_page_tabbar_indicator_color">#fc7a1e</color>
+    <color name="bill_page_tabbar_unselected_text_color">#99ffffff</color>
+    <color name="bill_page_tabbar_selected_text_color">#ffffff</color>
+
+
+    <!--Bill Types-->
+    <color name="bill_type_water_backcolor">#1A0297f1</color>
+    <color name="bill_type_electricity_backcolor">#1Afff301</color>
+    <color name="bill_type_gas_backcolor">#1A283489</color>
+    <color name="bill_type_mobile_backcolor">#1A000000</color>
+    <color name="bill_type_phone_backcolor">#1A28348a</color>
+    <color name="bill_type_tax_backcolor">#d7e7cf</color>
+    <color name="bill_type_driving_policy_penalty_backcolor">#ccd4e7</color>
+    <color name="bill_type_municipality_backcolor">#ebf4d5</color>
+
+    <!--Bill Detail Dialog-->
+    <color name="bill_detail_dialog_text_color">#231935</color>
+
+    <!--Bill Payment Summary View-->
+    <color name="bill_payment_summary_button_text_color">#ffffff</color>
+    <color name="bill_payment_summary_values_enabled_text_color">#231935</color>
+    <color name="bill_payment_summary_values_disabled_text_color">#9f9f9f</color>
+
+    <!-- Bill confirmation dialog-->
+    <color name="bill_confirmation_dialog_text_color">#231935</color>
+    <color name="bill_confirmation_button_cancel_back_color">#fee9db</color>
+    <color name="bill_confirmation_button_cancel_text_color">#fc7a1e</color>
+    <color name="bill_confirmation_button_confirm_back_color">#fc7a1e</color>
+
+    <!-- Bill Payment-->
+    <color name="bill_payment_text_color">#231935</color>
+    <color name="bill_payment_input_hint_color">#939390</color>
+    <color name="bill_payment_input_text_color">#231935</color>
+    <color name="bill_payment_input_back_color_disable">#939390</color>
+    <color name="bill_payment_input_back_color_enable">#82ac26</color>
+    <color name="bill_payment_input_error_text_color">#fa3f52</color>
+    <color name="bill_payment_input_error_back_color">#fa3f52</color>
+    <color name="bill_payment_button_text_color">#231935</color>
+    <color name="bill_payment_sms_text_color">#231935</color>
+    <color name="bill_payment_sms_text_disabled_color">#939390</color>
+
+    <color name="bill_inquiry_select_type_name_color_unselected">#231935</color>
+    <color name="bill_inquiry_select_type_name_color_selected">#231935</color>
+    <color name="bill_inquiry_select_type_background_color">#FFF</color>
+    <color name="bill_inquiry_number_background_color">#FFF</color>
+    <color name="bill_inquiry_number_text_color">#231935</color>
+    <color name="bill_inquiry_number_hint_color">#939390</color>
+    <color name="bill_inquiry_request_button_text_color">#FFF</color>
+    <color name="button_element_default_enabled_background_color">#fc7a1e</color>
+    <color name="button_element_default_disabled_background_color">#cececa</color>
+    <color name="bill_inquiry_detail_container_background_color">#FFF</color>
+    <color name="bill_inquiry_detail_choice_title_color">#231935</color>
+    <color name="bill_inquiry_detail_choice_price_color">#231935</color>
+    <color name="bill_inquiry_detail_choice_price_suffix_color">#231935</color>
+    <color name="bill_inquiry_detail_choise_radio_coor">#231935</color>
+    <color name="bill_inquiry_detail_info_key_color">#231935</color>
+    <color name="bill_inquiry_detail_info_value_color">#231935</color>
+    <color name="bill_inquiry_detail_info_title_color">#231935</color>
+    <color name="bill_inquiry_detail_save_button_text_color_enable">#fc7a1e</color>
+    <color name="bill_inquiry_detail_save_button_text_color_disable">#FFF</color>
+    <color name="bill_inquiry_detail_pay_button_text_color">#FFF</color>
+    <color name="bill_inquiry_detail_pay_button_enable_background_color">#fee9db</color>
+    <color name="bill_inquiry_select_type_description_color">#231935</color>
+    <color name="bill_report_item_title_color">#231935</color>
+    <color name="bill_report_item_price_color">#231935</color>
+    <color name="bill_report_item_price_suffix_color">#231935</color>
+    <color name="bill_report_item_bill_id_title_color">#231935</color>
+    <color name="bill_report_item_date_color">#231935</color>
+    <color name="bill_report_item_time_color">#231935</color>
+    <color name="bill_report_item_pay_text_color">#82ac26</color>
+    <color name="bill_report_item_waiting_text_color">#979797</color>
+    <color name="bill_report_item_pay_background_color">#DDE8C4</color>
+    <color name="bill_report_item_background_color">#FFF</color>
+    <color name="bill_report_item_bill_id_color">#231935</color>
+    <color name="bill_report_item_more_key_color">#231935</color>
+    <color name="bill_report_item_more_value_color">#231935</color>
+    <color name="bill_report_item_divider_color">#f7f7f7</color>
+    <color name="bill_report_list_month_color">#231935</color>
+    <color name="bill_pay_receipt_fragment_background_color">#f7f7f7</color>
+    <color name="bill_receipt_multiple_item_name_color">#231935</color>
+    <color name="bill_receipt_multiple_item_price_color">#231935</color>
+    <color name="bill_receipt_multiple_item_price_suffix_color">#231935</color>
+    <color name="bill_receipt_multiple_item_bill_id_color">#231935</color>
+    <color name="bill_receipt_multiple_item_bill_id_suffix_color">#231935</color>
+    <color name="bill_receipt_multiple_item_pay_id_color">#231935</color>
+    <color name="bill_receipt_multiple_item_pay_id_suffix_color">#231935</color>
+    <color name="bill_receipt_multiple_item_background_first">#FFF</color>
+    <color name="bill_receipt_multiple_item_background_second">#ececec</color>
+    <color name="bill_receipt_single_background_color">#FFF</color>
+    <color name="bill_receipt_single_title_color">#231935</color>
+    <color name="bill_receipt_single_add_description_color">#231935</color>
+    <color name="bill_receipt_multiple_main_button_text_color">#FFF</color>
+    <color name="bill_receipt_multiple_secondary_button_text_color">#fc7a1e</color>
+    <color name="bill_receipt_multiple_new_deposit_suffix_color">#231935</color>
+    <color name="bill_receipt_multiple_new_deposit_color">#231935</color>
+    <color name="bill_receipt_multiple_new_deposit_title_color">#231935</color>
+    <color name="bill_payment_type_info_background_color">#FFF</color>
+    <color name="bill_patment_info_inner_title_color">#231935</color>
+    <color name="bill_patment_info_inner_count_color">#231935</color>
+    <color name="bill_patment_info_inner_price_color">#231935</color>
+    <color name="bill_payment_type_info_divider_color">#f7f7f7</color>
+    <color name="bill_payment_info_total_count_title_color">#231935</color>
+    <color name="bill_payment_info_total_count_color">#231935</color>
+    <color name="bill_payment_info_total_price_title_color">#231935</color>
+    <color name="bill_payment_info_total_price_color">#231935</color>
+    <color name="bill_payment_type_bank_item_text_color">#231935</color>
+
+    <color name="bill_archive_item_card_open_background">#ffffff</color>
+    <color name="bill_archive_item_card_close_background">#f3f3f3</color>
+</resources>

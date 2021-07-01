@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<TextView
+    android:id="@+id/pay_title_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <include
+        android:id="@+id/discount_container"
+        layout="@layout/shop_cart_payment_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:id="@+id/deposit_container"
+        layout="@layout/shop_cart_payment_deposit_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</merge>

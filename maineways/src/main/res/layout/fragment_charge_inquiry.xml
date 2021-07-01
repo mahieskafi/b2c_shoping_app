@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.srp.eways.ui.charge.inquiry.ChargeInquiryFragment">
+
+    <LinearLayout
+        android:id="@+id/v_entrance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:elevation="@dimen/charge_inquiry_entrance_elevation">
+
+        <com.srp.eways.ui.view.input.InputElement
+            android:id="@+id/in_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/charge_inquiry_phone_input_height"
+            android:layout_marginLeft="@dimen/charge_inquiry_standard_margin"
+            android:layout_marginTop="@dimen/charge_inquiry_standard_margin"
+            android:layout_marginRight="@dimen/charge_inquiry_standard_margin"
+            android:layout_marginBottom="@dimen/charge_inquiry_phone_input_margin_bottom"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            custom:font="@font/iran_yekan_light" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/v_inquiry_unselected_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/charge_inquiry_standard_margin"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:weightSum="@integer/charge_inquiry_input_date_weight">
+
+                <com.srp.eways.ui.view.input.InputElement
+                    android:id="@+id/in_end_date"
+                    android:layout_width="@dimen/charge_inquiry_end_date_input_width"
+                    android:layout_height="@dimen/charge_inquiry_end_date_input_height"
+                    android:layout_margin="@dimen/charge_inquiry_end_date_margin"
+                    android:layout_weight="@integer/charge_inquiry_end_date_weight"
+                    android:imeOptions="actionDone"
+                    custom:font="@font/iran_yekan_light" />
+
+                <com.srp.eways.ui.view.input.InputElement
+                    android:id="@+id/in_start_date"
+                    android:layout_width="@dimen/charge_inquiry_start_date_input_width"
+                    android:layout_height="@dimen/charge_inquiry_start_date_input_height"
+                    android:layout_margin="@dimen/charge_inquiry_start_date_margin"
+                    android:layout_weight="@integer/charge_inquiry_start_date_weight"
+                    android:imeOptions="actionDone"
+                    custom:font="@font/iran_yekan_light" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/v_inquiry_selected_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/charge_inquiry_standard_margin"
+                android:layout_marginLeft="@dimen/charge_inquiry_standard_margin"
+                android:layout_marginBottom="@dimen/charge_inquiry_selected_date_margin_bottom"
+                android:visibility="gone">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="@dimen/charge_inquiry_standard_margin"
+                    android:paddingRight="@dimen/charge_inquiry_standard_margin"
+                    custom:srcCompat="@drawable/ic_date" />
+
+                <TextView
+                    android:id="@+id/txt_selected_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/icon"
+                    android:fontFamily="@font/iran_yekan"
+                    android:gravity="right|center_vertical"
+                    android:text="@string/charge_inquiry_selected_date_text"
+                    android:textColor="@color/black_light"
+                    android:textSize="@dimen/charge_inquiry_selected_date_text_size" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/remove_date_icon"
+                    android:layout_width="@dimen/item_charge_inquiry_remove_date_icon_size"
+                    android:layout_height="@dimen/item_charge_inquiry_remove_date_icon_size"
+                    android:padding="@dimen/item_charge_inquiry_remove_date_icon_padding"
+                    />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:background="@color/background">
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/b_inquiry"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/charge_inquiry_button_input_height"
+            android:layout_margin="@dimen/charge_inquiry_standard_margin"
+            custom:button_font="@font/iran_yekan_light" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_transaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/charge_transaction_background"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </FrameLayout>
+</LinearLayout>

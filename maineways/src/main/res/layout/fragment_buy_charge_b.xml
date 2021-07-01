@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/rootview_charge_b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_container"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/buycharge_rootview_paddingbottom">
+
+            <com.srp.eways.ui.view.EmptyView
+                android:id="@+id/emptyview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="@dimen/buycharge_emptyview_margin_start"
+                android:layout_marginTop="@dimen/buycharge_emptyview_margin_top"
+                android:layout_marginEnd="@dimen/buycharge_emptyview_margin_end"
+                android:layout_marginBottom="@dimen/buycharge_rootview_paddingbottom" />
+
+            <com.srp.eways.ui.view.LoadingStateView
+                android:id="@+id/loadingstateview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="@dimen/buycharge_emptyview_margin_top"
+                android:layout_marginBottom="@dimen/buycharge_rootview_paddingbottom"
+                android:layout_marginStart="@dimen/buycharge_loadingstateview_marginstart"
+                android:layout_marginEnd="@dimen/buycharge_loadingstateview_marginend"
+                />
+
+            <LinearLayout
+                android:id="@+id/container_leveloptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/buycharge_container_chargeoptions_margin_top"
+
+                android:clipChildren="false"
+
+                android:clipToPadding="false"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:visibility="gone"
+        android:elevation="@dimen/confirm_button_container_toolbar_elevation"
+        android:background="@drawable/button_buy_charge_background"
+        >
+
+        <com.srp.eways.ui.view.charge.b.ChargeChoiceConfirmView
+            android:id="@+id/button_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:visibility="visible"
+            />
+    </FrameLayout>
+</RelativeLayout>

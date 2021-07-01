@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <TextView
+        android:id="@+id/show_url"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:fontFamily="@font/iran_yekan_light"
+        android:background="@drawable/show_url_background"
+        android:textSize="17sp"
+        android:layout_marginTop="7dp"
+        android:layout_marginHorizontal="3dp"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"/>
+
+    <com.srp.eways.ui.view.LoadingStateView
+        android:id="@+id/loadingstateview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="gone" />
+</FrameLayout>

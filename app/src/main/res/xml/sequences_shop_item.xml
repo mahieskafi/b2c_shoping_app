@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="@dimen/shop_item_image_margin_side"/>
+        <Span id="product_image" size="1w"/>
+        <Span size="@dimen/shop_item_image_margin_side"/>
+    </Horizontal>
+
+
+    <Horizontal>
+        <Span id="off_value" size="35dp"/>
+    </Horizontal>
+
+
+    <Horizontal>
+        <Span size="@dimen/shop_item_name_margin_side"/>
+        <Span id="product_name" size="1w"/>
+        <Span size="@dimen/shop_item_name_margin_side"/>
+    </Horizontal>
+
+
+    <Horizontal>
+        <Span size="12dp"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="4dp"/>
+        <Span id="price_after_off" size="wrap"/>
+    </Horizontal>
+
+    <Horizontal  end="end@product_name">
+        <Span size="1w"/>
+        <Span id="price_before_off" size="wrap"/>
+    </Horizontal>
+
+
+    <Horizontal>
+        <Span size="@dimen/shop_item_divider_margin_side"/>
+        <Span id="divider" size="1w"/>
+        <Span size="@dimen/shop_item_divider_margin_side"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="2dp"/>
+        <Span id="delete_product" size="28dp"/>
+        <Span size="8dp"/>
+        <Span id="product_count" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+
+    <Horizontal >
+        <Span size="1w"/>
+        <Span id="product_count_error" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+
+    <Horizontal>
+        <Span id="click_helper" size="100%"/>
+    </Horizontal>
+
+
+    <Vertical>
+        <Span size="@dimen/shop_item_image_margin_side"/>
+        <Span id="product_image" size="@dimen/shop_item_image_height"/>
+        <Span size="@dimen/shop_item_image_margin_bottom"/>
+        <Span id="product_name" size="wrap"/>
+        <Span size="21dp"/>
+
+    </Vertical>
+
+    <Vertical start="end@product_name" end="start@divider" >
+        <Span size="1w"/>
+        <Span id="price_after_off" size="wrap"/>
+    </Vertical>
+
+    <Vertical >
+        <Span id="off_value" size="34dp"/>
+    </Vertical>
+
+    <Vertical start="start@price_after_off" end="end@price_after_off">
+        <Span id="price_before_off" size="1w"/>
+    </Vertical>
+
+
+    <Vertical>
+        <Span size="@dimen/shop_item_divider_margin_top"/>
+        <Span id="divider" size="@dimen/shop_item_divider_height"/>
+    </Vertical>
+
+
+    <Vertical end="start@divider">
+        <Span id="click_helper" size="@dimen/shop_item_divider_margin_top"/>
+    </Vertical>
+
+
+    <Vertical start="end@divider">
+        <Span size="5dp"/>
+        <Span id="delete_product" size="28dp"/>
+        <Span size="7dp"/>
+    </Vertical>
+
+
+    <Vertical start="end@divider">-->
+        <Span size="5dp"/>
+        <Span id="product_count" size="26dp"/>
+        <Span size="7dp"/>
+    </Vertical>
+
+    <Vertical start="end@divider">
+        <Span size="@dimen/club_item_button_margin_top_down"/>
+        <Span id="product_count_error" size="wrap"/>
+        <Span size="@dimen/club_item_button_margin_top_down"/>
+    </Vertical>
+
+    <Vertical start="start@price_after_off" end="end@price_after_off">
+        <Span size="1w"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+</Sequences>

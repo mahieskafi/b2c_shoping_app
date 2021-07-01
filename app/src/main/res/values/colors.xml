@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#27292b</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFF</color>
+    <color name="background">#f7f7f7</color>
+    <color name="shadow_border">#21000000</color>
+    <color name = "inventory_not_exist_dialog_description_text_color">#2f3133</color>
+    <color name = "inventory_not_exist_dialog_confirmbutton_text_color">#ffffff</color>
+    <color name = "inventory_not_exist_dialog_confirmbutton_back_color">#fc7a1e</color>
+    <color name="inventory_not_exist_dialog_background_color">#ffffff</color>
+
+
+
+
+
+
+    <!--MainPage-->
+    <color name="toolbar_background">#27292b</color>
+    <color name="toolbar_deposit_text_color">#ffffff</color>
+    <color name="toolbar_deposit_value_text_color">#ffffff</color>
+    <color name="toolbar_deposit_value_background_color">@color/black_light</color>
+    <color name="toolbar_search_background">#739525</color>
+
+
+    <!--Store Fragment-->
+    <color name="tabbar_background">#82ac26</color>
+
+
+
+    <!-- Login Page -->
+    <color name="login_sign_up_text_color">#fc7a1e</color>
+    <color name="login_username_text_color">@color/black_light</color>
+    <color name="login_username_hint_color">@color/login_black_light</color>
+    <color name="login_password_text_color">@color/black_light</color>
+    <color name="login_password_hint_color">@color/login_black_light</color>
+    <color name="login_black">@color/black_light</color>
+    <color name="login_black_light">#939390</color>
+
+
+    <color name="login_button_text_color">#ffffff</color>
+    <color name="login_background">#f7f7f7</color>
+    <color name="login_do_not_have_account">#231935</color>
+    <color name="login_remember_me_lable_unchecked">#939390</color>
+    <color name="login_remember_me_lable_checked">#231935</color>
+
+    <!-- Verification-->
+    <color name="login_otp_title_text_color">#2f3133</color>
+    <color name="login_otp_sub_title_text_color">#2f3133</color>
+    <color name="verification_phone_number_button_text_color_disable">#979797</color>
+    <color name="verification_phone_number_button_cancle_text_color">#ef6c00</color>
+    <color name="login_otp_text_color">#231935</color>
+    <color name="login_otp_pin_color">#9f9f9f</color>
+    <color name="login_otp_error_pin_color">#e8165d</color>
+    <color name="login_otp_error_color">#e8165d</color>
+    <color name="login_otp_button_text_color">#f7f7f7</color>
+    <color name="login_otp_timer_button_text_disable_color">#9f9f9f</color>
+    <color name="login_otp_timer_button_text_enable_color">#82ac26</color>
+    <color name="login_otp_timer_button_timer_text_color">#1ebf39</color>
+    <color name="login_otp_timer_button_timer_stroke_animation_color">#fc7a1e</color>
+    <color name="login_otp_timer_button_timer_stroke_color">#FFF</color>
+    <color name="login_otp_input_elements_hint_color">#939390</color>
+    <color name="login_otp_input_elements_text_color">#231935</color>
+    <color name="login_otp_timer_button_background">#FFF</color>
+
+
+    <color name="login_phone_number_button_text_color">#FFF</color>
+    <color name="login_phone_number_input_hint_color">#9f9f9f</color>
+    <color name="login_phone_number_input_text_color">#2f3133</color>
+
+    <color name="login_page_background_color">#f7f7f7</color>
+    <color name="login_error_color">#e8165d</color>
+
+
+
+    //operators
+    <color name="operator_irancell">#fccb00</color>
+    <color name="operator_hamraah_avval">#5ac4ce</color>
+    <color name="operator_rightel">#9c0f73</color>
+    <color name="operator_irancell_services">#fff</color>
+    <color name="operator_hamraah_avval_services">#fff</color>
+    <color name="operator_rightel_services">#fff</color>
+
+
+    <!--add choice view-->
+    <color name="shop_item_divider_color">#f7f7f7</color>
+
+
+    <color name="shop_item_background_color">#FFF</color>
+    <color name="shop_item_product_name_color">#011e2e</color>
+    <color name="shop_item_disable_product_name_color">#979797</color>
+    <color name="shop_item_product_detail_color">#011e2e</color>
+    <color name="shop_item_price_before_color">#231935</color>
+    <color name="shop_item_price_after_color">#231935</color>
+    <color name="shop_item_off_value_color">#FFF</color>
+    <color name="shop_item_quick_buy_color">#011e2e</color>
+    <color name="shop_item_product_count_error_color">#fa3f52</color>
+    <color name="shop_item_product_count_color">#231935</color>
+    <color name="shop_item_off_value_background_color">#e8165d</color>
+    <color name="shop_item_price_suffix_text_color">#231935</color>
+
+
+    <color name="club_item_background_color">#FFF</color>
+    <color name="club_item_product_name_color">#231935</color>
+    <color name="club_item_point_text_color">#231935</color>
+    <color name="club_item_point_sufficient_color">#231935</color>
+    <color name="club_item_point_insufficient_color">#fa3f52</color>
+    <color name="club_item_price_color">#231935</color>
+    <color name="club_item_price_suffix_color">#231935</color>
+    <color name="club_item_buy_color">#231935</color>
+    <color name="club_item_buy_error_color">#231935</color>
+    <color name="club_item_point_back_color">#f7f7f7</color>
+
+
+    <color name="store_page_toolbar_background">#27292b</color>
+    <color name="store_page_tabbar_indicator_color">#fc7a1e</color>
+    <color name="store_page_tabbar_selected_text_color">#ffffff</color>
+    <color name="store_page_tabbar_unselected_text_color">#99ffffff</color>
+    <color name="store_page_tabbar_background">#2f3133</color>
+
+    <!-- slider -->
+    <color name="slider_default_color">#88FFFFFF</color>
+
+    <!--CategoryItemView-->
+    <color name="category_subitem_title_textcolor">#231935</color>
+    <color name="categoryitem_header_title">#231935</color>
+    <color name="categoryitem_header_seeall_background_color">#ffe8cc</color>
+    <color name="categoryitem_seeall_text_color">#f24c00</color>
+    <color name="categoryitems_divider">#f7f7f7</color>
+
+    <color name="categoryitem_color_1">#fcc419</color>
+    <color name="categoryitem_color_2">#b8f25b</color>
+    <color name="categoryitem_color_3">#eebefa</color>
+    <color name="categoryitem_color_4">#fcc2d7</color>
+    <color name="categoryitem_color_5">#a5d8ff</color>
+    <color name="categoryitem_color_6">#99e9f2</color>
+    <color name="categoryitem_color_7">#c5cae9</color>
+    <color name="categoryitem_color_8">#fff176</color>
+    <color name="categoryitem_color_9">#ffab91</color>
+    <color name="categoryitem_color_10">#d7ccc8</color>
+    <color name="categoryitem_color_11">#e4e4e4</color>
+    <color name="categoryitem_color_12">#b2dfdb</color>
+    <color name="categoryitem_color_13">#d1c4e9</color>
+    <color name="categoryitem_color_14">#e6ee9c</color>
+    <color name="categoryitem_color_15">#ffcdd2</color>
+    <color name="categoryitem_color_16">#cfd8dc</color>
+    <color name="categoryitem_color_17">#ffccbc</color>
+    <color name="categoryitem_color_18">#a5d6a7</color>
+    <color name="categoryitem_color_19">#80cbc4</color>
+    <color name="categoryitem_color_20">#9fa8da</color>
+    <color name="categoryitem_color_21">#f48fb1</color>
+    <color name="categoryitem_color_22">#ef9a9a</color>
+    <color name="categoryitem_color_23">#dce775</color>
+    <color name="categoryitem_color_24">#bdbdbd</color>
+    <color name="twolevelcategory_background">#f7f7f7</color>
+    <color name="twolevelcategory_header_loading_fillColor">#fc7a1e</color>
+    <color name="twolevelcategory_header_loading_shadowcolor">#55fc7a1e</color>
+
+
+    <!--StoreFilterHeaderView-->
+    <color name="storefilter_title_color">#011e2e</color>
+    <color name="storefilter_subtitle_color">#c0b9ad</color>
+    <color name="storefilter_iconbackground">#c8c8c8</color>
+    <color name="storefilter_divider_color">#c0b9ad</color>
+    <color name="storefilter_headerview_backgroundcolor">#f7f7f7</color>
+
+
+    <!--LoyaltyScoreView-->
+    <color name="loyaltyscore_icon_background">#fc7a1e</color>
+    <color name="loyaltyscore_title">#ffffff</color>
+    <color name="loyaltyscore_value">#fc7a1e</color>
+    <color name="loyaltyscore_back_color">#393b3e</color>
+    <color name="category_item_view_background">#FFF</color>
+    <color name="category_item_view_divider">#ebebeb</color>
+    <color name="category_item_view_selected_text">#fc7a1e</color>
+    <color name="category_item_view_unselected_text">#011e2e</color>
+    <color name="category_item_view_children_content_background">#ebebeb</color>
+    <color name="category_item_view_bottom_divider_color">#f2efef</color>
+
+
+    <!-- Filter toolbar-->
+    <color name="filter_toolbar_back_color">#f7f7f7</color>
+    <color name="filter_toolbar_title_text_color">#011e2e</color>
+    <color name="filter_toolbar_cancel_all_background_stroke_color">#e8165d</color>
+    <color name="filter_toolbar_cancel_all_background_color">#ffffff</color>
+    <color name="filter_toolbar_cancel_all_title_text_color">#e8165d</color>
+
+
+    <!-- Filter Header-->
+    <color name="filter_header_title_availability_text_color">#011e2e</color>
+    <color name="filter_header_title_availability_options_text_color">#011e2e</color>
+    <color name="filter_header_title_cost_title_text_color">#011e2e</color>
+    <color name="filter_header_title_cost_items_default_text_color">#9f9f9f</color>
+    <color name="filter_header_title_cost_items_selected_text_color">#fc7a1e</color>
+    <color name="filter_header_title_cost_items_selected_stroke_color">#fc7a1e</color>
+    <color name="filter_header_title_cost_items_selected_back_color">#ffe8cc</color>
+    <color name="filter_header_title_cost_items_default_stroke_color">#9f9f9f</color>
+
+    <color name="filter_button_text_color">#ffffff</color>
+
+
+
+
+    <color name="productdetail_viewpager_tab_selected">#fc7a1e</color>
+    <color name="productdetail_viewpager_tab_unselected">#c0b9ad</color>
+    <color name="product_detail_name">#231935</color>
+    <color name="product_detail_price">#231935</color>
+    <color name="product_detail_count">#231935</color>
+    <color name="product_detail_disable_product_price_color">#979797</color>
+
+
+
+    <!--ProductDetailFragment-->
+    <color name="discount_text_default_color">#2f3133</color>
+    <color name="discount_line_color">#fa3f52</color>
+    <color name="discount_text_percentage_text">#ffffff</color>
+    <color name="discount_text_percentage_background">#e8165d</color>
+    <color name="productdetail_guaranteecontainer_title">#2f3133</color>
+    <color name="productdetail_guaranteecontainer_value">#231935</color>
+    <color name="productdetail_guaranteecontainer_title_text">#2f3133</color>
+    <color name="productdetail_guaranteecontainer_value_text">#231935</color>
+
+
+
+    <!--CounterView-->
+    <color name="counterview_removedrawable_disabled">#c7c7c7</color>
+    <color name="shop_cart_item_remove_color">#e8165d</color>
+    <color name="shop_cart_item_remove_background_color">#00000000</color>
+    <color name="shop_cart_item_background_color">#FFF</color>
+    <color name="shop_cart_item_text_color">#011e2e</color>
+    <color name="shop_cart_item_divider">#f7f7f7</color>
+    <color name="shop_cart_item_price_detail_row_background_color">#f4f4f4</color>
+    <color name="shop_cart_item_divider_color">#c8c8c8</color>
+    <color name="buy_progress_bar_selected_text_color">#1ebf39</color>
+    <color name="buy_progress_bar_unselected_text_color">#979797</color>
+    <color name="buy_progress_bar_unselected_line_color">#f7f7f7</color>
+    <color name="buy_progress_bar_background_color">#FFF</color>
+    <color name="shop_cart_fragment_toolbar_color">#27292b</color>
+    <color name="shop_cart_top_item_delete_title_color">#2f3133</color>
+    <color name="shop_cart_top_item_title_color">#011e2e</color>
+
+
+
+
+    <!--AddressFieldView-->
+    <color name="addressfield_title_text">#939390</color>
+    <color name="addressfield_value_text">#011e2e</color>
+    <color name="addressfield_editvalue_background_color">#ffffff</color>
+
+    <color name="addaddress_confirm_button_text_color">#ffffff</color>
+    <color name="addaddress_cancel_button_text_color">#fc7a1e</color>
+
+    <!-- order summary view -->
+    <color name="order_summary_divider_color">#f7f7f7</color>
+    <color name="order_summary_total_score_text_color">#011e2e</color>
+    <color name="order_summary_total_price_text_color">#2f3133</color>
+    <color name="order_summary_total_price_value_color">#2f3133</color>
+    <color name="order_summary_total_price_value_description_color">#2f3133</color>
+    <color name="order_summary_total_price_container_back_color">#f7f7f7</color>
+    <color name="order_summary_button_text_color">#ffffff</color>
+    <color name="order_summary_receipt_items_text_color">#011e2e</color>
+    <color name="shop_cart_payment_method_item_submit_discount_text_color">#fc7a1e</color>
+    <color name="shop_cart_payment_method_item_submit_enable_background_color">#fc7a1e</color>
+    <color name="shop_cart_payment_method_item_discount_color">#011e2e</color>
+    <color name="shop_cart_payment_method_item_discount_color_unchecked">#979797</color>
+    <color name="shop_cart_payment_method_item_discount_code_background_color">#f7f7f7</color>
+    <color name="shop_cart_payment_method_item_deposit_message_color">#e8165d</color>
+    <color name="shop_cart_payment_method_item_add_deposit_message_color">#fc7a1e</color>
+    <color name="shop_cart_payment_method_item_discount_code_color">#011e2e</color>
+    <color name="shop_cart_payment_method_deposit_color">#2f3133</color>
+
+
+    <!-- add address view -->
+    <color name="add_address_fragment_toolbar_back_color">#27292b</color>
+
+    <color name="select_address_button_text_color">#fc7a1e</color>
+    <color name="add_address_view_select_button_background_stroke_color">#939390</color>
+    <color name="add_address_view_add_button_text_color">#2f3133</color>
+    <color name="key_value_text_view_default_text_color">#011e2e</color>
+    <color name="address_detail_view_title_text_color">#011e2e</color>
+    <color name="address_detail_view_receiver_view_key_text_color">#707070</color>
+    <color name="address_detail_view_receiver_view_value_text_color">#011e2e</color>
+
+    <color name="delivery_detail_view_title_text_color">#011e2e</color>
+
+
+    <!--shop cart-->
+    <color name="shopcart_toolbar_background">#27292b</color>
+    <color name="shopcart_detail_address_card_back_color">#ffffff</color>
+    <color name="shopcart_detail_address_card_back_disabled_color">#29707070</color>
+    <color name="shopcart_deliverymethod_title">#011e2e</color>
+    <color name="deliveryoptions_selectedoption_description_text">#231935</color>
+    <color name="deliveryoptions_selectedoption_description_disabled_text">#707070</color>
+
+    <color name="shop_cart_remove_product_dialog_background_color">#FFF</color>
+    <color name="shop_cart_remove_product_dialog_description_color">#231935</color>
+    <color name="shop_cart_remove_product_dialog_remove_background_color">#fee9db</color>
+    <color name="shop_cart_remove_product_dialog_remove_background_border_color">#fccfae</color>
+    <color name="shop_cart_remove_product_dialog_keep_background_color">#fc7a1e</color>
+    <color name="shop_cart_remove_product_dialog_keep_text_color">#FFF</color>
+    <color name="shop_cart_remove_product_dialog_remove_text_color">#fc7a1e</color>
+    <color name="shop_cart_confirm_info_summary_background">#FFF</color>
+    <color name="shop_cart_confirmation_info_summary_title_color">#011e2e</color>
+    <color name="shop_cart_confirmation_pay_title_color">#011e2e</color>
+    <color name="shop_cart_payment_method_background_color">#FFF</color>
+    <color name="shop_cart_payment_method_item_add_deposit_background_color">#00FFFFFF</color>
+    <color name="shop_cart_payment_method_item_add_deposit_background_stroke_color">#fc7a1e</color>
+    <color name="shop_cart_payment_method_item_radio_message_color">#231935</color>
+    <color name="shop_cart_payment_method_item_radio_color">#231935</color>
+    <color name="shop_cart_payment_method_item_radio_selected_color">#231935</color>
+    <color name="shop_cart_depisit_enable">#2f3133</color>
+    <color name="shop_cart_depisit_disable">#686868</color>
+
+
+
+    <!-- Order Transaction Item -->
+    <color name="order_transaction_type_success_color">#82ac26</color>
+    <color name="order_transaction_type_unknown_color">#ffc400</color>
+    <color name="order_transaction_type_failed_color">#ff0101</color>
+
+    <!--Order Transaction Detail-->
+    <color name="order_transaction_detail_title_text_color">#011e2e</color>
+    <color name="order_transaction_detail_items_text_color">#011e2e</color>
+    <color name="order_transaction_detail_items_value_text_color">#231935</color>
+    <color name="order_transaction_detail_delivery_info_text_color">#fc7a1e</color>
+    <color name="order_transaction_detail_status_text_color">#fc7a1e</color>
+    <color name="order_transaction_detail_delivery_info_text_main_color">#011e2e</color>
+    <color name="order_transaction_detail_status_background_color">#ffe8cc</color>
+
+
+    <!--order transaction product-->
+    <color name="order_transaction_product_item_price_detail_row_background_color">#f4f4f4</color>
+    <color name="order_transaction_product_item_text_color">#011e2e</color>
+    <color name="order_transaction_detail_more_items_button_text_color">#ffffff</color>
+    <color name="store_main_page_background_color">#f7f7f7</color>
+    <color name="store_main_page_category_title_color">#231935</color>
+    <color name="store_main_page_category_more_text_color">#fc7a1e</color>
+    <color name="shop_cart_item_lack_text_color">#e8165d</color>
+    <color name="shop_cart_item_lack_text_background_color">#f4f4f4</color>
+    <color name="shop_cart_item_lack_back_stroke_color">#e8165d</color>
+    <color name="off_price_text_view_line_color">#fa3f52</color>
+
+
+
+    <!--Shop Receipt-->
+    <color name="shop_receipt_button_detail_text_color">#ffffff</color>
+    <color name="shop_receipt_button_detail_back_color">#fc7a1e</color>
+    <color name="shop_receipt_button_mainpage_text_color">#fc7a1e</color>
+    <color name="shop_receipt_button_mainpage_back_color">#ffcc80</color>
+    <color name="shop_receipt_text_color">#231935</color>
+    <color name="delivery_detail_view_title_text_disabled_color">#939390</color>
+
+    <!-- Landing-->
+    <color name="landing_service_list_title_text_color">#2f3133</color>
+
+    <color name="landing_service_item_title_active_text_color">#fc7a1e</color>
+    <color name="landing_service_item_title_selected_text_color">#f24c00</color>
+    <color name="landing_service_item_title_active_shadow_color">#ffeed6</color>
+    <color name="landing_service_item_title_inactive_text_color">#9f9f9f</color>
+
+    <color name="splash_error_view_title_text_color">#fc7a1e</color>
+    <color name="splash_error_view_description_text_color">#2f3133</color>
+    <color name="splash_error_view_second_button_text_color">#fc7a1e</color>
+
+    <color name="bottomnav_selected_tab_shadow_color">#ffeed6</color>
+
+
+    <color name="dialog_recently_changes_title_color">#2f3133</color>
+
+
+    <color name="mobile_list_brand_item_title_text_color">#2f3133</color>
+    <color name="mobile_list_product_item_title_back_color">#fc7a1e</color>
+
+    <color name="follow_order_toolbar_background">#27292b</color>
+    <color name="follow_order_list_header_text_color">#fc7a1e</color>
+    <color name="follow_order_list_header_separator_color">#c8c8c8</color>
+    <color name="follow_order_list_item_text_color">#011e2e</color>
+    <color name="follow_order_list_item_detail_back_color">#f9f9f9</color>
+    <color name="follow_order_list_item_detail_button">#dde8c4</color>
+    <color name="follow_order_status_button_text_enable">#1ebf39</color>
+    <color name="follow_order_status_button_text_disable">#979797</color>
+    <color name="follow_order_pair_view_key_color">#231935</color>
+    <color name="follow_order_detail_button_text_color">#1ebf39</color>
+</resources>

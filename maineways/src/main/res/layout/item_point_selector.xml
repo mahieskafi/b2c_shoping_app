@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/point_selector_line_background"/>
+
+    <View
+        android:id="@+id/progress_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/point_selector_progress_line_background"/>
+
+    <TextView
+        android:id="@+id/point_5_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_5_number"/>
+
+    <TextView
+        android:id="@+id/point_5_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_5_text"/>
+
+    <TextView
+        android:id="@+id/point_4_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_4_number"/>
+
+    <TextView
+        android:id="@+id/point_4_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_4_text"/>
+
+    <TextView
+        android:id="@+id/point_3_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_3_number"/>
+
+    <TextView
+        android:id="@+id/point_3_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_3_text"/>
+
+    <TextView
+        android:id="@+id/point_2_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_2_number"/>
+
+    <TextView
+        android:id="@+id/point_2_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_2_text"/>
+
+    <TextView
+        android:id="@+id/point_1_number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_1_number"/>
+
+    <TextView
+        android:id="@+id/point_1_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/item_point_selector_item_1_text"/>
+
+</merge>

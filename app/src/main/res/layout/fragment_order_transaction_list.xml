@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <com.srp.eways.ui.view.EmptyView
+        android:id="@+id/emptyview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/filtered_product_emptyview_margin_side"
+        android:layout_marginTop="@dimen/filtered_product_emptyview_margin_top"
+        android:layout_marginEnd="@dimen/filtered_product_emptyview_margin_side"
+        android:visibility="gone" />
+
+    <com.srp.eways.ui.view.LoadingStateView
+        android:id="@+id/loadingstateview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/filtered_product_loadingstateview_margin_side"
+        android:layout_marginEnd="@dimen/filtered_product_loadingstateview_margin_side"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/order_transaction_list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"/>
+
+</LinearLayout>

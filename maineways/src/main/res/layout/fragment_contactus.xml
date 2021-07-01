@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <com.srp.eways.ui.view.toolbar.WeiredToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/contact_us_toolbar_height"
+        android:clipToPadding="false" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/contact_us_standard_margin"
+        android:layout_marginTop="@dimen/contact_us_margin_top"
+        android:layout_marginRight="@dimen/contact_us_standard_margin"
+        android:layout_marginBottom="@dimen/contact_us_margin_top"
+        android:background="@color/white"
+        card_view:cardCornerRadius="@dimen/contact_us_corner_radius"
+        card_view:cardElevation="@dimen/contact_us_elevation">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/contact_us_image_margin"
+                    app:srcCompat="@drawable/ic_logo_eways" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_phone_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible">
+
+                    <com.srp.eways.ui.view.ShadowLayout
+                        android:id="@+id/image_phonenumber_company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+
+
+                        app:sl_shadow_angle="90"
+                        app:sl_shadow_color="#dedfdf"
+                        app:sl_shadow_distance="0dp"
+                        app:sl_shadow_radius="10dp"
+                        app:sl_shadowed="true">
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:layout_margin="@dimen/contact_us_standard_margin"
+                            android:background="@drawable/phone_and_operator_select_contact_background"
+                            android:scaleType="center"
+                            app:srcCompat="@drawable/ic_phone" />
+                    </com.srp.eways.ui.view.ShadowLayout>
+
+                    <TextView
+                        android:id="@+id/txt_number_company_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/image_phonenumber_company"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="-16dp"
+                        android:fontFamily="@font/iran_yekan"
+                        android:text="@string/contact_us_phonenumber_company_title"
+                        android:textColor="@color/contact_us_text_color"
+                        android:textSize="@dimen/contact_us_title_text_size" />
+
+                    <TextView
+                        android:id="@+id/txt_number_company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/contact_us_standard_margin"
+                        android:fontFamily="@font/iran_yekan"
+                        android:text="@string/contact_us_phone_number"
+                        android:textColor="@color/contact_us_text_color"
+                        android:textSize="@dimen/contact_us_text_size" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <com.srp.eways.ui.view.ShadowLayout
+                        android:id="@+id/image_phonenumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+
+
+                        app:sl_shadow_angle="90"
+                        app:sl_shadow_color="#dedfdf"
+                        app:sl_shadow_distance="0dp"
+                        app:sl_shadow_radius="10dp"
+                        app:sl_shadowed="true">
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:layout_margin="@dimen/contact_us_standard_margin"
+                            android:background="@drawable/phone_and_operator_select_contact_background"
+                            android:scaleType="center"
+                            app:srcCompat="@drawable/ic_support" />
+                    </com.srp.eways.ui.view.ShadowLayout>
+
+                    <TextView
+                        android:id="@+id/txt_number_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/image_phonenumber"
+                        android:layout_marginRight="-16dp"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/iran_yekan"
+                        android:text="@string/contact_us_phonenumber_title"
+                        android:textColor="@color/contact_us_text_color"
+                        android:textSize="@dimen/contact_us_title_text_size" />
+
+                    <TextView
+                        android:id="@+id/txt_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/contact_us_standard_margin"
+                        android:fontFamily="@font/iran_yekan"
+                        android:text="@string/contact_us_phone_number"
+                        android:textColor="@color/contact_us_text_color"
+                        android:textSize="@dimen/contact_us_text_size" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <com.srp.eways.ui.view.ShadowLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+
+                        app:sl_shadow_angle="90"
+                        app:sl_shadow_color="#dedfdf"
+                        app:sl_shadow_distance="0dp"
+                        app:sl_shadow_radius="10dp"
+                        app:sl_shadowed="true">
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:layout_margin="@dimen/contact_us_standard_margin"
+                            android:background="@drawable/phone_and_operator_select_contact_background"
+                            android:scaleType="center"
+                            app:srcCompat="@drawable/ic_email" />
+                    </com.srp.eways.ui.view.ShadowLayout>
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/contact_us_standard_margin"
+                        android:fontFamily="@font/iran_yekan"
+                        android:text="@string/contact_us_email_id"
+                        android:textColor="@color/contact_us_text_color"
+                        android:textSize="@dimen/contact_us_text_size" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_telegram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <com.srp.eways.ui.view.ShadowLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+
+                        app:sl_shadow_angle="90"
+                        app:sl_shadow_color="#dedfdf"
+                        app:sl_shadow_distance="0dp"
+                        app:sl_shadow_radius="10dp"
+                        app:sl_shadowed="true">
+
+                        <ImageView
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:layout_margin="@dimen/contact_us_standard_margin"
+                            android:background="@drawable/phone_and_operator_select_contact_background"
+                            android:scaleType="center"
+                            app:srcCompat="@drawable/ic_telegram" />
+                    </com.srp.eways.ui.view.ShadowLayout>
+
+                    <TextView
+                        android:id="@+id/telegram"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/contact_us_standard_margin"
+                        android:fontFamily="@font/iran_yekan"
+                        android:text=" @eways_sales"
+                        android:textColor="@color/contact_us_text_color"
+                        android:textSize="@dimen/contact_us_text_size" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

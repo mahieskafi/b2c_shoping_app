@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/bill_payment_type_bank_item_margin_bottom"
+    android:layout_marginTop="@dimen/bill_payment_type_bank_item_margin_top"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|bottom">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bank_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/bill_payment_type_bank_item_icon_height"
+        android:layout_marginBottom="@dimen/bill_payment_type_bank_item_icon_margin_bottom"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bank_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

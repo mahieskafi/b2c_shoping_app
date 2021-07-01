@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/rootview_charge_a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:nestedScrollingEnabled="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/buycharge_rootview_paddingbottom"
+
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="خرید شارژ و بسته اینترنت"
+            android:fontFamily="@font/iran_yekan_medium"
+            android:paddingTop="16dp"
+            android:layout_marginBottom="-15dp"
+            android:layout_marginRight="@dimen/buycharge_emptyview_margin_start"
+            android:layout_marginLeft="@dimen/buycharge_emptyview_margin_end"
+            android:textColor="#000000"
+            android:gravity="right"/>
+
+        <com.srp.eways.ui.view.EmptyView
+            android:id="@+id/emptyview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/buycharge_emptyview_margin_start"
+            android:layout_marginTop="@dimen/buycharge_emptyview_margin_top"
+            android:layout_marginEnd="@dimen/buycharge_emptyview_margin_end" />
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/buycharge_emptyview_margin_top"
+            android:layout_marginStart="@dimen/buycharge_loadingstateview_marginstart"
+            android:layout_marginEnd="@dimen/buycharge_loadingstateview_marginend"
+            />
+
+        <LinearLayout
+            android:id="@+id/container_leveloptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:layout_marginTop="@dimen/buycharge_container_chargeoptions_margin_top"
+
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/top_inquiries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:clipChildren="false"
+            android:orientation="vertical"/>
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/button_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/buycharge_rootview_paddingbottom"
+            android:visibility="gone"
+            />
+
+        <com.srp.eways.ui.confirmtransaction.ChargePaymentDetailView
+            android:id="@+id/payment_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</ScrollView>

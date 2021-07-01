@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/ewaysphonebook_fragment_searchview_container_height">
+
+        <com.srp.eways.ui.view.EmptyView
+            android:id="@+id/emptyview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="@dimen/userphonebook_emptyview_margin_start"
+            android:layout_marginTop="@dimen/userphonebook_emptyview_margin_top"
+            android:layout_marginEnd="@dimen/userphonebook_emptyview_margin_end"
+            android:visibility="gone" />
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/buycharge_loadingstateview_marginstart"
+            android:layout_marginEnd="@dimen/buycharge_loadingstateview_marginend"
+            android:gravity="center"
+            android:visibility="gone" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/contactlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/container_searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:background="#f7f7f7">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/eways_phone_book_search_view_container_background" />
+
+        <com.srp.eways.ui.view.SearchView
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ewaysphonebook_fragment_searchview_height"
+            android:layout_marginStart="@dimen/ewaysphonebook_fragment_searchview_margin_start"
+            android:layout_marginTop="@dimen/ewaysphonebook_fragment_searchview_margin_top"
+            android:layout_marginEnd="@dimen/ewaysphonebook_fragment_searchview_margin_end"
+            android:layout_marginBottom="@dimen/ewaysphonebook_fragment_searchview_margin_bottom" />
+    </LinearLayout>
+</FrameLayout>

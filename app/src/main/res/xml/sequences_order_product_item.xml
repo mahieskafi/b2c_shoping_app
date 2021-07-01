@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="22w"/>
+        <Span id="price_image_divider" size="@dimen/shop_cart_item_price_image_divider_width"/>
+        <Span size="12w"/>
+    </Horizontal>
+
+    <Vertical  start="start@product_image"  end="end@product_image">
+        <Span size="8dp"/>
+        <Span id="price_image_divider" size="1w"/>
+        <Span size="8dp"/>
+    </Vertical>
+
+
+    <Horizontal start="end@price_image_divider">
+        <Span size="@dimen/shop_cart_item_margin_side"/>
+        <Span id="product_image" size="1w"/>
+        <Span size="@dimen/shop_cart_item_margin_side"/>
+    </Horizontal>
+
+    <Horizontal end="start@price_image_divider">
+        <Span size="@dimen/shop_cart_item_name_margin_left"/>
+        <Span id="product_name" size="1w"/>
+        <Span size="@dimen/shop_cart_item_margin_side"/>
+    </Horizontal>
+
+
+    <Horizontal end="start@price_image_divider">
+        <Span size="8dp"/>
+        <Span id="order_id_background" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@order_id_background" end="end@order_id_background">
+        <Span size="30dp"/>
+        <Span id="order_id" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="order_id_text" size="wrap"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Vertical start="start@order_id_background" end="end@order_id_background">
+        <Span size="1w"/>
+        <Span id="order_id" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@order_id_background" end="end@order_id_background">
+        <Span size="1w"/>
+        <Span id="order_id_text" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <!--count-->
+    <Horizontal  end="start@price_image_divider">
+        <Span size="8dp"/>
+        <Span id="count_background" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@count_background" end="end@count_background">
+        <Span size="30dp"/>
+        <Span id="count" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="count_text" size="wrap"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Vertical start="start@count_background" end="end@count_background">
+        <Span size="1w"/>
+        <Span id="count_text" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@count_background" end="end@count_background">
+        <Span size="1w"/>
+        <Span id="count" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <!--unit price-->
+    <Horizontal  end="end@price_image_divider">
+        <Span size="8dp"/>
+        <Span id="unit_price_background" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@unit_price_background" end="end@unit_price_background">
+        <Span size="8dp"/>
+        <Span id="unit_price_suffix" size="wrap"/>
+        <Span size="@dimen/shop_cart_item_price_detail_row_standard_margin"/>
+        <Span id="unit_price" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="unit_price_text" size="wrap"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Vertical >
+        <Span size="14dp"/>
+        <Span id="product_name" size="wrap"/>
+        <Span size="10dp"/>
+        <Span id="order_id_background" size="20dp"/>
+        <Span id="count_background" size="20dp"/>
+        <Span id="unit_price_background" size="20dp" />
+        <Span id="total_price_background" size="20dp" />
+        <Span size="14dp"/>
+    </Vertical>
+
+    <Vertical start="start@unit_price_background" end="end@unit_price_background">
+        <Span size="1w"/>
+        <Span id="unit_price" size="wrap" />
+        <Span size="1w" />
+    </Vertical>
+    <Vertical start="start@unit_price" end="end@unit_price">
+        <Span size="1w"/>
+        <Span id="unit_price_suffix" size="wrap" />
+        <Span size="1w"/>
+    </Vertical>
+    <Vertical start="start@unit_price" end="end@unit_price">
+        <Span size="1w"/>
+        <Span id="unit_price_text" size="wrap" />
+        <Span size="1w"/>
+    </Vertical>
+
+    <!-- total price-->
+    <Horizontal  end="end@price_image_divider">
+        <Span size="8dp"/>
+        <Span id="total_price_background" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@total_price_background" end="end@total_price_background">
+        <Span size="8dp"/>
+        <Span id="total_price_suffix" size="wrap"/>
+        <Span size="@dimen/shop_cart_item_price_detail_row_standard_margin"/>
+        <Span id="total_price" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="total_price_text" size="wrap"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Vertical start="start@total_price_background" end="end@total_price_background">
+        <Span size="1w"/>
+        <Span id="total_price" size="wrap" />
+        <Span size="1w" />
+    </Vertical>
+    <Vertical start="start@total_price" end="end@total_price">
+        <Span size="1w"/>
+        <Span id="total_price_suffix" size="wrap" />
+        <Span size="1w"/>
+    </Vertical>
+    <Vertical start="start@total_price" end="end@total_price">
+        <Span size="1w"/>
+        <Span id="total_price_text" size="wrap" />
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <Vertical>
+        <Span size="@dimen/shop_cart_item_remove_margin_top"/>
+        <Span size="@dimen/shop_cart_item_image_margin_top"/>
+        <Span id="product_image" size="@dimen/shop_cart_item_image_height"/>
+        <Span size="@dimen/shop_cart_item_image_margin_bottom"/>
+        <Span size="14dp"/>
+    </Vertical>
+
+</Sequences>

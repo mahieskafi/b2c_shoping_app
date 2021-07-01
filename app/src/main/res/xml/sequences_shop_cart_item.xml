@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span id="row_background" size="86%"/>
+        <Span size="18dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="row_stock_background" size="86%"/>
+        <Span size="18dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="1dp"/>
+        <Span id="stock_divider" size="85%"/>
+        <Span size="1dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@row_stock_background" end="end@row_stock_background">
+        <Span size="1w"/>
+        <Span id="stock_text_error" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@row_background">
+        <Span size="10dp"/>
+        <Span id="product_name" size="63%row_background"/>
+        <Span size="10dp"/>
+        <Span id="divider" size="2dp"/>
+    </Horizontal>
+
+    <Horizontal start="end@divider" end="end@row_background">
+        <Span id="product_image" size="98%"/>
+    </Horizontal>
+
+    <Horizontal start="end@row_background">
+        <Span size="8dp"/>
+        <Span id="counterview" size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@counterview" end="end@counterview">
+        <Span size="1w"/>
+        <Span id="remove_product_icon" size="30dp"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@row_background" >
+        <Span size="12dp"/>
+        <Span id="lack_text" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@row_background" end="start@divider" >
+        <Span size="9dp"/>
+        <Span id="unit_price_background" size="1w"/>
+        <Span size="9dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@unit_price_background" end="end@unit_price_background" >
+        <Span id="unit_price_suffix" size="wrap"/>
+        <Span size="5dp"/>
+        <Span id="unit_price" size="wrap"/>
+    </Horizontal>
+
+    <Horizontal start="end@unit_price"  end="end@product_name" >
+        <Span id="unit_price_text" size="1w"/>
+    </Horizontal>
+
+
+    <Horizontal start="start@row_background" end="start@divider" >
+        <Span size="9dp"/>
+        <Span id="total_price_background" size="1w"/>
+        <Span size="9dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@total_price_background" end="end@total_price_background" >
+        <Span id="total_price_suffix" size="wrap"/>
+        <Span size="5dp"/>
+        <Span id="total_price" size="wrap"/>
+    </Horizontal>
+
+    <Horizontal start="end@unit_price"  end="end@product_name" >
+        <Span id="total_price_text" size="1w"/>
+    </Horizontal>
+
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <Vertical start="start@unit_price_background" end="end@unit_price_background">
+        <Span size="1w"/>
+        <Span id="unit_price" size="wrap" />
+        <Span size="1w" />
+    </Vertical>
+    <Vertical start="start@unit_price_background" end="end@unit_price_background">
+        <Span size="1w"/>
+        <Span id="unit_price_suffix" size="wrap" />
+        <Span size="1w"/>
+    </Vertical>
+    <Vertical start="start@unit_price_background" end="end@unit_price_background">
+        <Span size="1w"/>
+        <Span id="unit_price_text" size="wrap" />
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@total_price_background" end="end@total_price_background">
+        <Span size="1w"/>
+        <Span id="total_price" size="wrap" />
+        <Span size="1w" />
+    </Vertical>
+    <Vertical start="start@total_price_background" end="end@total_price_background">
+        <Span size="1w"/>
+        <Span id="total_price_suffix" size="wrap" />
+        <Span size="1w"/>
+    </Vertical>
+    <Vertical start="start@total_price_background" end="end@total_price_background">
+        <Span size="1w"/>
+        <Span id="total_price_text" size="wrap" />
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <Vertical start="end@product_name" end="end@divider">
+        <Span size="1w"/>
+        <Span id="unit_price_background" size="wrap" />
+        <Span size="25dp"/>
+        <Span id="total_price_background" size="wrap" />
+        <Span size="10dp"/>
+    </Vertical>
+
+
+    <Vertical >
+        <Span size="20dp"/>
+        <Span id="product_name" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="end@divider">
+        <Span size="10dp"/>
+        <Span id="stock_divider" size="1dp" />
+    </Vertical>
+
+
+    <Vertical start="start@row_background" end="end@row_background">
+        <Span size="8dp"/>
+        <Span id="product_image" size="1w"/>
+        <Span size="8dp"/>
+    </Vertical>
+
+    <Vertical start="start@row_background" end="end@row_background">
+        <Span size="15dp"/>
+        <Span id="divider" size="1w"/>
+        <Span size="15dp"/>
+    </Vertical>
+
+    <Vertical>
+        <Span id="row_background" size="137dp"/>
+    </Vertical>
+
+    <Vertical>
+        <Span id="row_stock_background" size="158dp"/>
+    </Vertical>
+
+    <Vertical start="end@stock_divider" end="end@row_stock_background">
+        <Span size="1w"/>
+        <Span id="stock_text_error" size="wrap" />
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <Vertical start="end@counterview">
+        <Span size="7dp"/>
+        <Span id="remove_product_icon" size="30dp"/>
+    </Vertical>
+
+
+    <Vertical >
+        <Span id="counterview" size="100dp"/>
+    </Vertical>
+
+
+    <Vertical  start="end@product_name" end="end@row_background">
+        <Span size="1w"/>
+        <Span id="lack_text" size="1w"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+</Sequences>

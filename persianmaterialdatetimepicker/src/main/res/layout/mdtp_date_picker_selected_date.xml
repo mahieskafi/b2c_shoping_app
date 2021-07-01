@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/day_picker_selected_date_layout"
+    android:layout_width="@dimen/mdtp_date_picker_component_width"
+    android:layout_height="@dimen/mdtp_selected_date_height"
+    android:layout_weight="1"
+    android:background="@color/mdtp_accent_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.mohamadamin.persianmaterialdatetimepicker.AccessibleLinearLayout
+        android:id="@+id/date_picker_month_and_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:textColor="@color/mdtp_date_picker_selector">
+
+
+
+        <TextView
+            android:id="@+id/date_picker_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:duplicateParentState="true"
+            android:gravity="center_horizontal|bottom"
+            android:includeFontPadding="false"
+            android:textColor="@color/mdtp_date_picker_selector"
+            android:textSize="@dimen/mdtp_selected_date_month_size"
+            tools:text="May" />
+
+        <TextView
+            android:id="@+id/date_picker_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:duplicateParentState="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/mdtp_date_picker_selector"
+            android:textSize="@dimen/mdtp_selected_date_day_size"
+            tools:text="15" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="11dp">
+
+            <ImageView
+                android:id="@+id/ic_backward"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_backward"
+                android:layout_centerVertical="true"
+                android:scaleType="center"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/date_picker_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:layout_centerInParent="true"
+                android:textColor="@color/mdtp_white"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/mdtp_selected_date_year_size"
+                tools:text="2015" />
+
+            <ImageView
+                android:id="@+id/ic_forward"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_forward"
+                android:layout_centerVertical="true"
+                android:scaleType="center"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+    </com.mohamadamin.persianmaterialdatetimepicker.AccessibleLinearLayout>
+
+</LinearLayout>

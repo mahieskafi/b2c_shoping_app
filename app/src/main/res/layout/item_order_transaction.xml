@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/view_container"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_marginBottom="@dimen/item_charge_transaction_standard_margin"
+    android:layout_marginLeft="@dimen/item_charge_transaction_standard_margin"
+    android:layout_marginRight="@dimen/item_charge_transaction_standard_margin"
+    android:layout_marginTop="1dp"
+    android:elevation="@dimen/item_charge_transaction_elevation"
+    android:clipChildren="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <com.yashoid.sequencelayout.SequenceLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        custom:sequences="@xml/sequences_order_transaction_item">
+        <View
+            android:id="@+id/back1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/item_charge_transaction_elevation"
+            android:background="@drawable/transaction_item_back1" />
+
+        <View
+            android:id="@+id/back2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/transaction_item_back2"
+            android:elevation="@dimen/item_charge_transaction_elevation"/>
+
+        <ImageView
+            android:id="@+id/transaction_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/item_charge_transaction_elevation"
+            android:src="@drawable/navigation_drawer_profile_icon"/>
+
+        <TextView
+            android:id="@+id/transaction_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/item_charge_transaction_elevation"/>
+
+        <TextView
+            android:id="@+id/payment_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/item_charge_transaction_elevation"/>
+
+        <ImageView
+            android:id="@+id/transaction_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navigation_drawer_profile_icon"
+            android:elevation="@dimen/item_charge_transaction_elevation"/>
+
+        <ImageView
+            android:id="@+id/transaction_date_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/navigation_drawer_profile_icon"
+            android:elevation="@dimen/item_charge_transaction_elevation"/>
+
+        <TextView
+            android:id="@+id/transaction_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/item_charge_transaction_elevation" />
+
+        <ImageView
+            android:id="@+id/transaction_time_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/item_charge_transaction_elevation"
+            android:src="@drawable/navigation_drawer_profile_icon"/>
+
+        <TextView
+            android:id="@+id/transaction_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/item_charge_transaction_elevation"/>
+
+        <TextView
+            android:id="@+id/transaction_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/item_charge_transaction_elevation"/>
+
+        <TextView
+            android:id="@+id/transaction_value_suffix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/item_charge_transaction_elevation"/>
+
+    </com.yashoid.sequencelayout.SequenceLayout>
+
+</FrameLayout>

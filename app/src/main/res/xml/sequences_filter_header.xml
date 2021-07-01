@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Horizontal>
+        <Span size="1w" />
+        <Span id="text_title_availability" size ="wrap"/>
+    </Horizontal>
+
+    <Vertical>
+        <!--        <Span size="@dimen/filter_header_title_availability_margin_top_bottom" />-->
+        <Span id="text_title_availability" size ="wrap"/>
+        <Span size="@dimen/filter_header_title_availability_margin_top_bottom" />
+    </Vertical>
+
+    <Horizontal>
+        <Span id="radio_group" size ="1w"/>
+    </Horizontal>
+
+    <Vertical start="end@text_title_availability">
+        <Span size="@dimen/filter_header_title_availability_margin_top_bottom" />
+        <Span id="radio_group" size ="wrap"/>
+        <Span size="@dimen/filter_header_title_availability_margin_top_bottom" />
+    </Vertical>
+
+    <Horizontal>
+        <Span size="1w" />
+        <Span id="text_title_cost_value" size ="wrap"/>
+        <Span size="@dimen/filter_header_title_cost_currency_margin_right" />
+        <Span id="text_title_cost" size ="wrap"/>
+    </Horizontal>
+
+    <Vertical start="end@radio_group">
+        <Span size="@dimen/filter_header_title_availability_margin_top_bottom" />
+        <Span id="text_title_cost" size ="wrap"/>
+        <Span size="@dimen/filter_header_title_availability_margin_top_bottom" />
+    </Vertical>
+
+    <Vertical start="end@radio_group">
+        <Span size="@dimen/filter_header_title_availability_margin_top_bottom" />
+        <Span id="text_title_cost_value" size ="wrap"/>
+        <Span size="@dimen/filter_header_title_availability_margin_top_bottom" />
+    </Vertical>
+
+    <Horizontal>
+        <Span id="filter_cost_list_view" size ="1w"/>
+    </Horizontal>
+
+    <Vertical start="end@text_title_cost">
+        <Span size="@dimen/filter_header_title_cost_list_margin_top" />
+        <Span id="filter_cost_list_view" size ="wrap"/>
+        <Span size="@dimen/filter_header_title_cost_list_margin_top" />
+    </Vertical>
+
+    <Horizontal>
+        <Span id="search_view" size ="1w"/>
+    </Horizontal>
+
+    <Vertical start="end@filter_cost_list_view">
+        <Span size="@dimen/filter_header_search_margin_sides" />
+        <Span id="search_view" size ="@dimen/filter_header_search_height_size"/>
+        <Span size="@dimen/filter_header_search_margin_sides" />
+    </Vertical>
+</Sequences>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/container_productgeneralinfocard"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/productdetail_guarantee_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/productdetail_guaranteecontainer_padding_vertical"
+        android:paddingLeft="@dimen/productdetail_guaranteecontainer_padding_horizontal"
+        android:paddingRight="@dimen/productdetail_guaranteecontainer_padding_horizontal"
+        android:paddingBottom="@dimen/productdetail_guaranteecontainer_padding_vertical"
+        android:background="#f3f3f3"
+        android:visibility="gone"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_guarantee"
+            android:layout_width="@dimen/productdetail_guaranteecontainer_image_width"
+            android:layout_height="@dimen/productdetail_guaranteecontainer_image_width"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+
+            app:srcCompat="@drawable/ic_guarantee"
+            android:visibility="gone"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_guarantee_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toLeftOf="@+id/image_guarantee"
+            android:layout_alignTop="@+id/image_guarantee"
+            android:layout_marginRight="@dimen/productdetail_guaranteecontainer_title_margin_right"
+            android:layout_marginTop="@dimen/productdetail_guaranteecontainer_title_margin_top"
+
+            android:fontFamily="@font/iran_yekan"
+            android:textSize="@dimen/productdetail_guaranteecontainer_title_text"
+            android:textColor="@color/productdetail_guaranteecontainer_title"
+            android:text="@string/productdetail_guaranteecontainer_guarantee_title"
+            android:visibility="gone"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_guarantee_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toLeftOf="@+id/text_guarantee_title"
+            android:layout_alignTop="@+id/text_guarantee_title"
+            android:layout_marginRight="@dimen/productdetail_guaranteecontainer_value_margin_right"
+
+            android:fontFamily="@font/iran_yekan"
+            android:textSize="@dimen/productdetail_guaranteecontainer_value_text"
+            android:textColor="@color/productdetail_guaranteecontainer_value"
+            tools:text="شش ماهه توسن سیستم"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:paddingTop="@dimen/productdetail_guaranteecontainer_padding_vertical"
+        android:paddingLeft="@dimen/productdetail_guaranteecontainer_padding_horizontal"
+        android:paddingRight="@dimen/productdetail_guaranteecontainer_padding_horizontal"
+        android:paddingBottom="@dimen/productdetail_guaranteecontainer_padding_vertical"
+        android:background="#f3f3f3"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_seller"
+            android:layout_width="@dimen/productdetail_guaranteecontainer_image_width"
+            android:layout_height="@dimen/productdetail_guaranteecontainer_image_width"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/productdetail_guaranteecontainer_image_seller_margin_top"
+
+            app:srcCompat="@drawable/ic_seller"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_seller_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toLeftOf="@+id/image_seller"
+            android:layout_alignTop="@+id/image_seller"
+            android:layout_marginTop="@dimen/productdetail_guaranteecontainer_title_margin_top"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+
+            android:fontFamily="@font/iran_yekan"
+            android:textSize="@dimen/productdetail_guaranteecontainer_title_text"
+            android:textColor="@color/productdetail_guaranteecontainer_title_text"
+            android:text="@string/productdetail_guaranteecontainer_seller_title"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_seller_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toLeftOf="@+id/text_seller_title"
+            android:layout_alignTop="@+id/text_seller_title"
+            android:layout_marginRight="6dp"
+
+            android:fontFamily="@font/iran_yekan"
+            android:textSize="@dimen/productdetail_guaranteecontainer_value_text"
+            android:textColor="@color/productdetail_guaranteecontainer_value_text"
+            tools:text="ایویز"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

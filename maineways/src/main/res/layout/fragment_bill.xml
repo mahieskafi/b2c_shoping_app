@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.srp.eways.ui.view.toolbar.WeiredToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bill_fragment_toolbar_height"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:elevation="@dimen/toolbar_elevation" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bill_page_tabbar_height"
+            android:background="@color/bill_page_tabbar_background"
+            android:elevation="4dp"
+            app:tabMode="fixed" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container_loading_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:visibility="gone">
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/buycharge_loadingstateview_marginstart"
+            android:layout_marginEnd="@dimen/buycharge_loadingstateview_marginend" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_container_technical"
+        android:background="#f3f3f3"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="13sp"
+        android:textColor="#707070"
+        android:fontFamily="@font/iran_yekan"
+        android:textDirection="rtl"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineHeight="20dp"
+
+        android:textSize="13sp"
+        android:textColor="#2f3133"
+        android:fontFamily="@font/iran_yekan"
+        android:gravity="right"
+        />
+</merge>

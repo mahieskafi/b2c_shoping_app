@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.srp.eways.ui.view.weiredtab.WeiredTabView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/weiredtab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:weiredtab_icon1="@drawable/ic_transactions"
+        app:weiredtab_icon2="@drawable/ic_inquairy"
+        app:weiredtab_icon3="@drawable/ic_charge"
+        app:weiredtab_title1="@string/charge_weiredtab_tab3_title"
+        app:weiredtab_title2="@string/charge_weiredtab_tab2_title"
+        app:weiredtab_title3="@string/charge_weiredtab_tab1_title"
+    />

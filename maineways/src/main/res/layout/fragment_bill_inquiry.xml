@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/root_view_bill_inquiry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/select_bill_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="38dp"
+                android:layout_marginRight="16dp" />
+
+            <com.srp.eways.ui.bill.inquiry.views.SelectBillTypeView
+                android:id="@+id/select_bill_type"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="@dimen/bill_inquiry_item_elevation" />
+
+            <LinearLayout
+                android:id="@+id/bill_inquiry_number_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/bill_inquiry_number_view_height"
+                    android:background="@drawable/bill_inquiry_number_background"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:elevation="@dimen/bill_inquiry_item_elevation">
+
+                    <com.srp.eways.ui.view.input.InputElement
+                        android:id="@+id/phone_pre_number"
+                        android:layout_width="@dimen/bill_inquiry_number_pre_phone_width"
+                        android:layout_height="@dimen/input_element_default_height"
+                        android:layout_marginLeft="@dimen/bill_inquiry_number_pre_phone_margin_left"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toLeftOf="@+id/bill_number"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.srp.eways.ui.view.input.InputElement
+                        android:id="@+id/bill_number"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/input_element_default_height"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="@dimen/bill_inquiry_number_margin_right"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@+id/phone_pre_number"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <com.srp.eways.ui.view.button.ButtonElement
+                    android:id="@+id/inquiry"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/buttonelement_default_height"
+                    android:layout_marginTop="28dp"
+                    app:button_font="@font/iran_yekan_light" />
+
+            </LinearLayout>
+
+            <com.srp.eways.ui.bill.inquiry.views.BillInquiryDetailView
+                android:id="@+id/detail_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="@dimen/bill_inquiry_number_margin_right"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:visibility="gone" />
+
+            <com.srp.eways.ui.view.bill.paymenttype.BillPaymentTypeView
+                android:id="@+id/bill_payment_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

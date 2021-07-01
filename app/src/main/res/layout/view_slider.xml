@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    custom:cardCornerRadius="16dp">
+
+    <com.srp.eways.ui.banner.BannerListView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+
+        android:layout_gravity="center">
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            custom:selected_drawable="@drawable/banner_indicator_selected"
+            custom:unselected_drawable="@drawable/banner_indicator_default" />
+    </com.srp.eways.ui.banner.BannerListView>
+
+</androidx.cardview.widget.CardView>

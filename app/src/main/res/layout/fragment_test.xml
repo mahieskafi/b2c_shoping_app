@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.store.TestFragment"
+    android:background="@color/background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:id="@+id/root">
+
+    <!--<com.srp.ewayspanel.ui.view.toolbar.FilterToolbar-->
+        <!--android:id="@+id/filter_toolbar_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="56dp"-->
+
+        <!--android:layout_gravity="top" />-->
+
+    <!--<com.srp.ewayspanel.ui.view.store.filter.FilterHeaderView-->
+        <!--android:id="@+id/filter_header_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+<!--    <com.srp.eways.ui.view.LoadingStateView-->
+<!--        android:id="@+id/loadingstateview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center"/>-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ggg"
+        android:id="@+id/btnnn"
+        />
+
+</LinearLayout>

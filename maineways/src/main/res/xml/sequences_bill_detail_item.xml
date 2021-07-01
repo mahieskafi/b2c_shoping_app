@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="bill_icon_background" size="@dimen/bill_item_icon_background_width"/>
+        <Span size="@dimen/bill_item_icon_background_margin"/>
+    </Horizontal>
+
+    <Horizontal start="start@bill_icon_background" end="end@bill_icon_background">
+        <Span size="1w"/>
+        <Span id="bill_icon" size="@dimen/bill_item_icon_width"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+
+    <Horizontal end="start@bill_icon_background">
+        <Span id="delete_bill_icon" size="@dimen/bill_item_delete_button_width"/>
+        <Span size="1w"/>
+        <Span id="bill_time" size="wrap"/>
+        <Span size="@dimen/bill_item_time_margin_left"/>
+        <Span id="bill_date" size="wrap"/>
+        <Span size="@dimen/bill_item_name_margin_left"/>
+        <Span id="bill_name" size="wrap"/>
+        <Span size="@dimen/bill_item_name_margin_right"/>
+    </Horizontal>
+
+    <Horizontal end="start@bill_icon_background">
+        <Span size="10dp"/>
+        <Span id="bill_price_prefix" size="wrap"/>
+        <Span size="1dp"/>
+        <Span id="bill_price" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="bill_number" size="wrap"/>
+        <Span size="8dp"/>
+        <Span id="bill_number_title" size="wrap"/>
+        <Span size="12dp"/>
+    </Horizontal>
+
+
+    <Vertical>
+        <Span size="@dimen/bill_item_icon_background_margin"/>
+        <Span id="bill_icon_background" size="1w"/>
+        <Span size="@dimen/bill_item_icon_background_margin"/>
+    </Vertical>
+
+    <Vertical start="start@bill_icon_background" end="end@bill_icon_background">
+        <Span size="1w"/>
+        <Span id="bill_icon" size="@dimen/bill_item_icon_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <Vertical>
+        <Span id="delete_bill_icon" size="@dimen/bill_item_delete_button_height"/>
+        <Span size="8dp"/>
+        <Span id="bill_price_prefix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <Vertical start="start@delete_bill_icon" end="end@delete_bill_icon">
+        <Span size="1w"/>
+        <Span id="bill_time" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@delete_bill_icon" end="end@delete_bill_icon">
+        <Span size="1w"/>
+        <Span id="bill_date" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@delete_bill_icon" end="end@delete_bill_icon">
+        <Span size="1w"/>
+        <Span id="bill_name" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <Vertical start="start@bill_price_prefix" >
+        <Span id="bill_price" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="start@bill_price_prefix" >
+        <Span id="bill_number" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="start@bill_price_prefix" >
+        <Span id="bill_number_title" size="wrap"/>
+    </Vertical>
+
+</Sequences>

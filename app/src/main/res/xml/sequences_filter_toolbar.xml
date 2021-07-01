@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Horizontal>
+        <Span size="@dimen/filter_toolbar_icon_exit_margin_left" />
+        <Span
+            id="image_exit_icon"
+            size="@dimen/filter_toolbar_icon_exit_size" />
+        <Span size="@dimen/filter_toolbar_icon_exit_margin_right" />
+    </Horizontal>
+
+    <Horizontal start="end@image_exit_icon">
+        <Span size="@dimen/filter_toolbar_icon_exit_margin_right" />
+        <Span id="text_cancel_filter" size="wrap" />
+        <Span size="@dimen/filter_toolbar_cancel_all_text_margin_right" />
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="1w" />
+        <Span id="text_title" size="wrap" />
+        <Span size="1w" />
+    </Horizontal>
+
+    <Vertical>
+        <Span size="1w" />
+        <Span id="image_exit_icon" size="@dimen/filter_toolbar_icon_exit_size" />
+        <Span size="1w" />
+    </Vertical>
+
+    <Vertical>
+        <Span size="1w" />
+        <Span
+            id="text_cancel_filter"
+            size="wrap" />
+        <Span size="1w" />
+    </Vertical>
+
+    <Vertical>
+        <Span size="1w" />
+        <Span
+            id="text_title"
+            size="wrap" />
+        <Span size="1w" />
+    </Vertical>
+</Sequences>

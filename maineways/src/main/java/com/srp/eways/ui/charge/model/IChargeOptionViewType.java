@@ -1,0 +1,23 @@
+package com.srp.eways.ui.charge.model;
+
+public interface IChargeOptionViewType {
+
+    int VIEWTYPE_OPERATOR = 0;
+
+    int VIEWTYPE_RADIOBUTTON_ONECOLUMN = 1;
+
+    int VIEWTYPE_TAB = 2;
+
+    int VIEWTYPE_RADIOBUTTON_TWOCOLUMN = 3;
+
+
+    int VIEWTYPE_RADIOBUTTON_ONECOLUMN_ADDABLE = 4;
+
+    int VIEWTYPE_IRANCELL_SPECIALOFFER_LOADING = 5;
+    int VIEWTYPE_IRANCELL_SPECIALOFFER_FAILED = 6;
+    int VIEWTYPE_IRANCELL_SPECIALOFFER_EMPTY = 7;
+    int VIEWTYPE_IRANCELL_SPECIALOFFER_CHOICE = 8;
+
+    int getViewType();
+
+}

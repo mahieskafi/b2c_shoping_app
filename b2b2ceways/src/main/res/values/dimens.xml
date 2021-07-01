@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Login-->
+    <dimen name="login_header_height">160dp</dimen>
+    <dimen name="login_container_padding">16dp</dimen>
+    <dimen name="login_input_height">40dp</dimen>
+    <dimen name="login_button_height">40dp</dimen>
+    <dimen name="login_button_margin_bottom">64dp</dimen>
+    <dimen name="login_button_background_corner">20dp</dimen>
+    <dimen name="login_input_elevation_size">2dp</dimen>
+    <dimen name="login_error_text_size">12sp</dimen>
+
+    <dimen name="login_phone_number_input_text_size">18sp</dimen>
+    <dimen name="login_phone_number_input_margin_top">112dp</dimen>
+    <dimen name="login_phone_number_button_text_size">20sp</dimen>
+    <dimen name="login_phone_number_alert_text_margin_top">5dp</dimen>
+
+    <dimen name="login_register_input_elements_margin_top">24dp</dimen>
+    <dimen name="login_register_password_alert_text_margin_top">5dp</dimen>
+    <dimen name="login_register_password_alert_text_size">12sp</dimen>
+    <dimen name="login_register_re_password_input_margin_top">6dp</dimen>
+    <dimen name="login_register_gender_input_margin_top">6dp</dimen>
+    <dimen name="login_register_family_input_margin_top">6dp</dimen>
+    <dimen name="login_register_input_elements_text_size">18sp</dimen>
+    <dimen name="login_register_button_text_size">20sp</dimen>
+    <dimen name="login_register_button_element_margin_top">40dp</dimen>
+    <dimen name="login_register_name_margin_top">66dp</dimen>
+    <dimen name="login_presenter_code_input_margin_bottom">2dp</dimen>
+
+    <dimen name="login_otp_button_text_size">20sp</dimen>
+    <dimen name="login_otp_title_text_size">20sp</dimen>
+    <dimen name="login_otp_title_margin_top">33dp</dimen>
+    <dimen name="login_otp_sub_title_text_size">14sp</dimen>
+    <dimen name="login_otp_sub_title_margin_top">23dp</dimen>
+    <dimen name="login_otp_text_size">18sp</dimen>
+    <dimen name="login_otp_text_margin_top">18dp</dimen>
+    <dimen name="login_otp_text_error_margin_top">8dp</dimen>
+    <dimen name="login_otp_timer_margin_top">11dp</dimen>
+    <dimen name="login_otp_error_text_size">12sp</dimen>
+    <dimen name="login_otp_timer_text_size">18sp</dimen>
+    <dimen name="login_otp_timer_height">40dp</dimen>
+    <dimen name="login_otp_timer_corner_radius">20dp</dimen>
+    <dimen name="login_otp_timer_stroke_width">1dp</dimen>
+    <dimen name="login_otp_password_linear_margin_top">27dp</dimen>
+    <dimen name="login_otp_password_edit_text_margin_top">26dp</dimen>
+    <dimen name="login_otp_password_error_margin_top">8dp</dimen>
+    <dimen name="login_otp_button_margin_top">32dp</dimen>
+    <dimen name="login_otp_input_elements_text_size">18sp</dimen>
+    <dimen name="login_otp_timer_button_elevation">1dp</dimen>
+
+
+    <dimen name="charge_fragment_toolbar_elevation">4dp</dimen>
+    <dimen name="charge_fragment_banner_elevation">3.99dp</dimen>
+    <dimen name="bannerheight">132dp</dimen>
+    <dimen name="chargefragment_solid_tabbar_default_textsize">14sp</dimen>
+    <dimen name="chargefragment_solid_tabbar_height">72dp</dimen>
+
+
+</resources>

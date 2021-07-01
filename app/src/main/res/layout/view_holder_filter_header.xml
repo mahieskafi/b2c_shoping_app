@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.srp.ewayspanel.ui.view.store.filter.FilterHeaderView
+        android:id="@+id/filter_header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.srp.eways.ui.view.EmptyView
+        android:id="@+id/emptyview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/store_emptyview_margin_start"
+        android:layout_marginTop="@dimen/store_emptyview_margin_top"
+        android:layout_marginEnd="@dimen/store_emptyview_margin_start" />
+
+    <com.srp.eways.ui.view.LoadingStateView
+        android:id="@+id/loadingstateview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="@dimen/store_loadingstateview_marginstart"
+        android:layout_marginTop="@dimen/store_emptyview_margin_top"
+        android:layout_marginEnd="@dimen/store_loadingstateview_marginend" />
+</LinearLayout>

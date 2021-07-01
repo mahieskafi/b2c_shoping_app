@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/follow_order_list_header_height"
+        android:layout_marginLeft="@dimen/follow_order_list_item_sides_margin"
+        android:layout_marginRight="@dimen/follow_order_list_item_sides_margin"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical|left"
+            android:text="@string/follow_order_list_header_detail_title"
+
+            android:textColor="@color/follow_order_list_header_text_color"
+            android:textSize="@dimen/follow_order_list_header_text_size"
+            app:fontFamily="@font/iran_yekan_bold" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:text="@string/follow_order_list_header_amount_title"
+
+            android:textColor="@color/follow_order_list_header_text_color"
+            android:textSize="@dimen/follow_order_list_header_text_size"
+            app:fontFamily="@font/iran_yekan_bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical|right"
+            android:text="@string/follow_order_list_header_status_title"
+
+            android:textColor="@color/follow_order_list_header_text_color"
+            android:textSize="@dimen/follow_order_list_header_text_size"
+            app:fontFamily="@font/iran_yekan_bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:text="@string/follow_order_list_header_id_title"
+
+            android:textColor="@color/follow_order_list_header_text_color"
+            android:textSize="@dimen/follow_order_list_header_text_size"
+            app:fontFamily="@font/iran_yekan_bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/follow_order_list_header_separator_height"
+        android:background="@color/follow_order_list_header_separator_color" />
+</LinearLayout>

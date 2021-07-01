@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal start="start@row_background">
+        <Span id="off_value" size="34dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="row_background" size="86%"/>
+        <Span size="18dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@row_background">
+        <Span size="10dp"/>
+        <Span id="product_name" size="63%row_background"/>
+        <Span size="10dp"/>
+        <Span id="divider" size="2dp"/>
+    </Horizontal>
+
+    <Horizontal start="end@divider" end="end@row_background">
+        <Span id="product_image" size="98%"/>
+    </Horizontal>
+
+
+    <Horizontal start="end@row_background">
+        <Span size="8dp"/>
+        <Span id="product_count" size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@product_count" end="end@product_count">
+        <Span size="1w"/>
+        <Span id="delete_product" size="30dp"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+
+    <Horizontal start="start@row_background" end="start@divider">
+        <Span size="12dp"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="4dp"/>
+        <Span id="price" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="point" size="wrap"/>
+        <Span size="6dp"/>
+        <Span id="star_point" size="17dp"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+
+    <Horizontal end="end@star_point">
+        <Span id="buy_error_text" size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@row_background">
+        <Span size="12dp"/>
+        <Span id="availability_error_text" size="wrap"/>
+    </Horizontal>
+
+    <Horizontal end="end@product_image">
+        <Span id="click_helper" size="1w"/>
+    </Horizontal>
+
+    <Horizontal  start="start@row_background">
+        <Span size="12dp"/>
+        <Span id="price_before_off" size="wrap"/>
+    </Horizontal>
+
+    <Vertical id="seq1">
+        <Span id="off_value" size="34dp"/>
+    </Vertical>
+
+
+    <Vertical start="end@off_value">
+        <Span size="3dp"/>
+        <Span id="product_name" size="wrap"/>
+    </Vertical>
+
+
+    <Vertical  start="end@product_name" >
+        <Span size="8dp"/>
+        <Span id="price_before_off" size="wrap"/>
+    </Vertical>
+
+    <Vertical id="seq" start="end@price_before_off">
+        <Span size="6dp"/>
+        <Span id="point" size="wrap"/>
+    </Vertical>
+
+    <Vertical  start="start@point" end="end@point">
+        <Span id="star_point" size="17dp"/>
+    </Vertical>
+
+    <Vertical start="start@point" end="end@point">
+        <Span id="price" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="start@point" end="end@point">
+        <Span size="1w"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical  start="end@point" end="end@row_background">
+        <Span size="3dp"/>
+        <Span id="buy_error_text" size="wrap"/>
+    </Vertical>
+
+
+    <Vertical  start="end@point" end="end@row_background">
+        <Span size="3dp"/>
+        <Span id="availability_error_text" size="wrap"/>
+    </Vertical>
+
+
+
+    <Vertical start="start@row_background" end="end@row_background">
+        <Span size="8dp"/>
+        <Span id="product_image" size="122dp"/>
+        <Span size="8dp"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="1dp"/>
+        <Span id="divider" size="99%"/>
+        <Span size="1dp"/>
+    </Vertical>
+
+    <Vertical>
+        <Span id="row_background" size="100%"/>
+    </Vertical>
+
+
+    <Vertical >
+        <Span id="click_helper" size="1w"/>
+    </Vertical>
+
+
+    <Vertical start="end@product_count">
+        <Span size="6dp"/>
+        <Span id="delete_product" size="30dp"/>
+    </Vertical>
+
+
+    <Vertical >
+        <Span id="product_count" size="103dp"/>
+        <Span size="7dp"/>
+    </Vertical>
+
+
+</Sequences>

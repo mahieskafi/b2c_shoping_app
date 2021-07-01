@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--Login -->
+    <color name="login_page_background_color">#f7f7f7</color>
+    <color name="login_error_color">#e8165d</color>
+
+    <color name="login_button_background_disabled">#9f9f9f</color>
+    <color name="login_button_background_enabled">#fc7a1e</color>
+
+    <color name="login_phone_number_button_text_color">#f7f7f7</color>
+    <color name="login_phone_number_input_hint_color">#939390</color>
+    <color name="login_phone_number_input_text_color">#231935</color>
+
+    <color name="login_register_button_text_color">#f7f7f7</color>
+    <color name="login_register_input_elements_hint_color">#939390</color>
+    <color name="login_register_input_elements_text_color">#231935</color>
+    <color name="login_register_password_alert_text_color">#fc7a1e</color>
+
+    <color name="login_otp_title_text_color">#231935</color>
+    <color name="login_otp_sub_title_text_color">#231935</color>
+    <color name="login_otp_text_color">#231935</color>
+    <color name="login_otp_pin_color">#9f9f9f</color>
+    <color name="login_otp_error_pin_color">#e8165d</color>
+    <color name="login_otp_error_color">#e8165d</color>
+    <color name="login_otp_button_text_color">#f7f7f7</color>
+    <color name="login_otp_timer_button_text_disable_color">#9f9f9f</color>
+    <color name="login_otp_timer_button_text_enable_color">#82ac26</color>
+    <color name="login_otp_timer_button_timer_text_color">#fc7a1e</color>
+    <color name="login_otp_timer_button_timer_stroke_animation_color">#fc7a1e</color>
+    <color name="login_otp_timer_button_timer_stroke_color">#FFF</color>
+    <color name="login_otp_input_elements_hint_color">#939390</color>
+    <color name="login_otp_input_elements_text_color">#231935</color>
+    <color name="login_otp_timer_button_background">#FFF</color>
+</resources>

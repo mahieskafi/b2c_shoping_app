@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span id="colaps_background" size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@colaps_background" end="end@colaps_background">
+        <Span size="10dp"/>
+        <Span id="type_title" size="1w"/>
+        <Span size="10dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@colaps_background" end="end@colaps_background">
+        <Span size="1dp"/>
+        <Span id="type_title_divider" size="1w"/>
+        <Span size="1dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@colaps_background" end="end@colaps_background">
+        <Span size="16dp"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="4dp"/>
+        <Span id="price" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="title" size="wrap"/>
+        <Span size="12dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@colaps_background" end="end@colaps_background">
+        <Span size="16dp"/>
+        <Span id="time" size="wrap"/>
+        <Span size="12dp"/>
+        <Span id="date" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@title" end="end@title">
+        <Span size="1w"/>
+        <Span id="bill_id" size="wrap"/>
+        <Span size="2dp"/>
+        <Span id="bill_id_title" size="wrap"/>
+    </Horizontal>
+
+    <Horizontal start="start@colaps_background" end="end@colaps_background">
+        <Span size="1w"/>
+        <Span id="more" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+
+    <Horizontal start="start@colaps_background" end="end@colaps_background">
+        <Span id="more_container" size="1w"/>
+    </Horizontal>
+
+<!-- -&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#;&#45;&#45;&#45;&#45;&#45;&#45;-->
+
+    <Vertical end="end@more">
+        <Span id="colaps_background" size="1w"/>
+    </Vertical>
+
+    <Vertical >
+        <Span size="6dp"/>
+        <Span id="type_title" size="wrap"/>
+        <Span size="8dp"/>
+        <Span id="type_title_divider" size="0.5dp"/>
+        <Span size="10dp"/>
+        <Span id="title" size="wrap"/>
+        <Span size="14dp"/>
+        <Span id="bill_id_title" size="wrap"/>
+    </Vertical>
+
+
+    <Vertical start="start@title" end="end@title">
+        <Span size="1w"/>
+        <Span id="price" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@title" end="end@title">
+        <Span size="1w"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+    <Vertical start="start@bill_id_title" end="end@bill_id_title">
+        <Span size="1w"/>
+        <Span id="bill_id" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@bill_id_title" end="end@bill_id_title">
+        <Span size="1w"/>
+        <Span id="date" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@bill_id_title" end="end@bill_id_title">
+        <Span size="1w"/>
+        <Span id="time" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="end@bill_id" >
+        <Span size="4dp"/>
+        <Span id="more" size="wrap"/>
+        <Span size="8dp"/>
+    </Vertical>
+
+    <Vertical id="seq" start="end@more" >
+        <Span size="9dp"/>
+        <Span id="more_container" size="0dp"/>
+    </Vertical>
+
+</Sequences>

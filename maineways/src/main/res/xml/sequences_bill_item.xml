@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span id="detail" size="1w"/>
+        <Span size="10dp"/>
+        <Span id="checkbox" size="@dimen/bill_item_checkbox_width"/>
+<!--        <Span id="checkbox" size="36dp"/>-->
+        <Span size="1dp"/>
+    </Horizontal>
+
+
+    <Vertical>
+        <Span size="1w"/>
+        <Span id="detail" size="@dimen/bill_item_detail_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start ="start@detail">
+        <Span id="checkbox" size="@dimen/bill_item_checkbox_height"/>
+    </Vertical>
+
+</Sequences>

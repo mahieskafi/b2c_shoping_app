@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/button_navigationdrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="@dimen/weird_toolbar_drawer_padding"
+        app:srcCompat="@drawable/ic_navigation_drawer"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="@dimen/weird_toolbar_back_padding"
+        android:scaleType="center"
+        app:srcCompat="@drawable/ic_navigate_up"
+
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_titleicon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/weird_toolbar_title_text_size"
+        android:textColor="@color/weird_toolbar_title_text_color"
+        app:fontFamily="@font/iran_yekan"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_deposittitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/weird_toolbar_deposit_title_text_color"
+        android:textSize="@dimen/weird_toolbar_deposit_title_text_size"
+        app:fontFamily="@font/iran_yekan"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_depositvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/weird_toolbar_deposit_value_text_color"
+        android:textSize="@dimen/weird_toolbar_deposit_value_text_size"
+        app:fontFamily="@font/iran_yekan"
+        android:background="@drawable/deposit_background"
+        android:gravity="center"/>
+
+    <View
+        android:id="@+id/helper_deposit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#88ff0000"/>
+
+    <ImageView
+        android:id="@+id/shop_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:visibility="invisible"
+        android:src="@drawable/ic_shop"/>
+
+<!--    <androidx.appcompat.widget.SearchView-->
+<!--        android:id="@+id/search_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/weird_toolbar_search_background"-->
+<!--        android:gravity="right"-->
+<!--        android:imeOptions="actionSearch"-->
+<!--        app:iconifiedByDefault="false"/>-->
+
+    <com.srp.eways.ui.view.input.InputElement
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:visibility="invisible"
+        android:gravity="right"/>
+
+    <TextView
+        android:id="@+id/shop_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:visibility="invisible"
+        android:fontFamily="@font/iran_yekan"/>
+
+    <com.srp.eways.ui.view.toolbar.HorizontalDottedProgress
+        android:id="@+id/shop_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="store_filtered_product_list_column_count">2</integer>
+
+    <integer name="landing_service_list_column_count">3</integer>
+
+</resources>

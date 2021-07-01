@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.srp.eways.ui.view.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title_availability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/filter_header_title_availability_text_color"
+        android:textSize="@dimen/filter_header_title_availability_text_size"
+        app:fontFamily="@font/iran_yekan_bold" />
+
+    <com.srp.ewayspanel.ui.view.store.filter.TwoColumnFilterRadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/filter_header_title_cost_text_size" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title_cost_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/filter_header_title_cost_currency_text_size" />
+
+    <com.srp.ewayspanel.ui.view.store.filter.FilterCostListView
+        android:id="@+id/filter_cost_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</merge>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/payment_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="اطلاعات پرداخت" />
+
+    <com.srp.eways.ui.view.bill.paymenttype.BillPaymentInfoView
+        android:id="@+id/payment_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/bill_payment_type_info_margin_side"
+        android:layout_marginTop="@dimen/bill_payment_type_info_margin_top"
+        android:layout_marginRight="@dimen/bill_payment_type_info_margin_side"
+        android:clipToPadding="false" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bank_card"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bill_payment_type_bank_card_height"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:visibility="visible"
+        app:cardCornerRadius="@dimen/bill_payment_type_bank_card_radius"
+        app:cardElevation="@dimen/bill_payment_type_bank_card_elevation">
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/bill_payment_type_button_margin_sides"
+        android:layout_marginRight="@dimen/bill_payment_type_button_margin_sides"
+        android:layout_marginTop="@dimen/bill_payment_type_button_margin_top"
+        >
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/save_button"
+            android:layout_width="@dimen/bill_payment_type_save_button_width"
+            android:layout_height="@dimen/buttonelement_default_height"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="@dimen/bill_payment_type_payment_button_margin_left"
+            android:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/save_button_description_icon"
+            android:layout_width="@dimen/bill_payment_type_save_description_icon_size"
+            android:layout_height="@dimen/bill_payment_type_save_description_icon_size"
+            android:layout_below="@+id/save_button"
+            android:layout_alignEnd="@+id/save_button"
+            android:layout_marginTop="@dimen/bill_payment_type_save_description_icon_margin_top" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/save_button_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/save_button"
+            android:layout_alignStart="@+id/save_button"
+            android:layout_marginRight="@dimen/bill_payment_type_save_description_margin_right"
+            android:layout_toStartOf="@+id/save_button_description_icon"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/bill_inquiry_detail_save_button_description"
+            android:maxWidth="@dimen/bill_payment_type_save_description_max_width"
+            android:maxLines="3" />
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/btn_payment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bill_payment_type_button_height"
+            android:layout_toEndOf="@+id/save_button" />
+    </RelativeLayout>
+
+
+</LinearLayout>

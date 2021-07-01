@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="16dp"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="4dp"/>
+        <Span id="price" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="title" size="wrap"/>
+        <Span size="10dp"/>
+        <Span id="radio" size="32dp"/>
+        <Span size="16dp"/>
+    </Horizontal>
+
+
+    <Vertical>
+        <Span size="10dp"/>
+        <Span id="radio" size="20dp"/>
+        <Span size="10dp"/>
+    </Vertical>
+
+    <Vertical strat="start@radio" end="end@radio">
+        <Span size="1w"/>
+        <Span size="6dp"/>
+        <Span id="title" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical strat="start@radio" end="end@radio">
+        <Span size="1w"/>
+        <Span size="6dp"/>
+        <Span id="price" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical strat="start@radio" end="end@radio">
+        <Span size="1w"/>
+        <Span size="6dp"/>
+        <Span id="price_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+</Sequences>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="login_username_has_clear">false</bool>
+    <bool name="login_password_has_clear">false</bool>
+    <bool name="login_button_has_icon">false</bool>
+
+    <bool name="sale_report_date_has_clear">false</bool>
+    <bool name="sale_report_toolbar_has_deposit">false</bool>
+    <bool name="sale_report_button_has_icon">false</bool>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/receipt_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/status_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/bill_receipt_single_icon_margin_top" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/bill_receipt_single_title_margin_top" />
+
+        <com.srp.eways.ui.bill.inquiry.views.KeyValuePairView
+            android:id="@+id/detail_key_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/bill_receipt_single_detail_margin_side"
+            android:layout_marginTop="@dimen/bill_receipt_single_detail_margin_top"
+            android:layout_marginRight="@dimen/bill_receipt_single_detail_margin_side"
+            android:layout_marginBottom="@dimen/bill_receipt_single_add_margin_top"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/actions_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/bill_receipt_single_add_margin_left"
+        android:layout_marginRight="@dimen/bill_receipt_single_add_margin_left"
+        android:layout_marginBottom="@dimen/bill_receipt_single_add_margin_bottom"
+        android:orientation="horizontal">
+
+<!--        <androidx.appcompat.widget.AppCompatImageButton-->
+<!--            android:id="@+id/add_button"-->
+<!--            android:layout_width="@dimen/bill_receipt_single_add_button_width"-->
+<!--            android:layout_height="@dimen/bill_receipt_single_add_button_height"-->
+<!--            android:layout_alignParentLeft="true" />-->
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/bill_receipt_single_share_button_margin_left"
+            android:layout_toLeftOf="@+id/share_button" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/add_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/bill_receipt_single_add_description_margin_left"
+            android:layout_toRightOf="@+id/add_button" />
+
+    </RelativeLayout>
+</LinearLayout>

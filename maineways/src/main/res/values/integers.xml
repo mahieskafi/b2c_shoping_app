@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="abtesting_designmodel">0</integer>
+
+
+    <integer name="item_receipt_sum_weight">2</integer>
+    <integer name="item_receipt_data_weight">1</integer>
+    <integer name="item_receipt_title_weight">1</integer>
+
+    <integer name="charge_inquiry_input_date_weight">2</integer>
+    <integer name="charge_inquiry_end_date_weight">1</integer>
+    <integer name="charge_inquiry_start_date_weight">1</integer>
+
+    <integer name="confirm_transaction_container_weight">2</integer>
+    <integer name="confirm_transaction_back_weight">1</integer>
+    <integer name="confirm_transaction_confirm_weight">1</integer>
+
+    <integer name="confirm_dialog_button_container_weight">2</integer>
+    <integer name="confirm_dialog_button_cancel_weight">1</integer>
+    <integer name="confirm_dialog_button_confirm_weight">1</integer>
+    <integer name="confirm_dialog_text_min_lines">3</integer>
+</resources>

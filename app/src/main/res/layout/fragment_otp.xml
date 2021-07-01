@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f7f7f7">
+
+    <View
+        android:id="@+id/login_header"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/verification_header_height" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/verification_logo_margin_top" />
+
+    <LinearLayout
+        android:layout_below="@+id/login_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:fontFamily="@font/iran_yekan" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/subtitle_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_otp_sub_title_margin_top"
+            android:gravity="center"
+            tools:text="0999999"
+            app:fontFamily="@font/iran_yekan" />
+
+        <com.srp.ewayspanel.ui.view.verification.OtpEditText
+            android:id="@+id/otp_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/verification_otp_text_margin_top"
+            android:layout_marginHorizontal="90dp"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:fontFamily="@font/iran_yekan_light"
+            android:inputType="number"
+            android:textIsSelectable="false"
+            android:visibility="visible"
+            app:pinCharacterSpacing="13dp"
+            app:pinLineStroke="@dimen/login_otp_timer_stroke_width"
+            app:pinLineColors="@color/login_otp_pin_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="32dp"
+            android:layout_marginHorizontal="10dp"
+            android:weightSum="2">
+
+        <com.srp.ewayspanel.ui.view.verification.TimerButton
+            android:id="@+id/timer_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:layout_height="@dimen/login_otp_timer_height" />
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/change_number_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:layout_height="@dimen/login_button_height"
+            custom:button_font="@font/iran_yekan_light" />
+
+        </LinearLayout>
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:visibility="gone"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/toast_error_verify_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:visibility="invisible"
+            >
+
+        <TextView
+            android:id="@+id/toast_error_text"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/verify_code_toast_background"
+            android:text="کد وارد شده صحیح نمیباشد."
+            android:fontFamily="@font/iran_yekan"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:paddingRight="50dp"
+            android:gravity="center_vertical"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignRight="@+id/toast_error_text"
+            android:layout_alignTop="@+id/toast_error_text"
+            android:layout_margin="9dp"
+            app:srcCompat="@drawable/ic_verify_code_error"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

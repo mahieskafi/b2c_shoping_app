@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="card_icon" size="@dimen/item_no_data_shop_cart_icon_width"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="top_text" size="wrap"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span size="100dp"/>
+        <Span id="card_icon" size="wrap" />
+    </Vertical>
+
+
+    <Vertical start="end@card_icon" >
+        <Span size="20dp"/>
+        <Span id="top_text" size="wrap"/>
+        <Span size="16dp"/>
+    </Vertical>
+
+
+</Sequences>

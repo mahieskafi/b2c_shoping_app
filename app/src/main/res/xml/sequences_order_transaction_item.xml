@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span id="back1" size="1w"/>
+        <Span size="@dimen/item_order_transaction_back1_margin_right"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="back2" size="@dimen/item_order_transaction_back2_width"/>
+    </Horizontal>
+
+    <Vertical>
+        <Span id="back1" size="@dimen/item_order_transaction_back1_height"/>
+    </Vertical>
+
+    <Vertical start="start@back1" end="end@back1">
+        <Span id="back2" size="@dimen/item_order_transaction_back2_height"/>
+    </Vertical>
+
+
+    <Horizontal>
+        <Span size="@dimen/order_transaction_item_open_detail_icon_margin_sides"/>
+        <Span id="transaction_detail" size="@dimen/order_transaction_item_open_detail_icon_size"/>
+        <Span size="@dimen/order_transaction_item_open_detail_icon_margin_sides"/>
+        <Span id="payment_number" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="transaction_type" size="wrap"/>
+        <Span size="@dimen/item_order_transaction_result_margin_left"/>
+        <Span id="transaction_result" size="@dimen/item_order_transaction_result_width"/>
+        <Span size="@dimen/item_order_transaction_result_margin_right"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="@dimen/item_order_transaction_value_suffix_margin_left"/>
+        <Span id="transaction_value_suffix" size="wrap"/>
+        <Span size="@dimen/item_order_transaction_value_margin_left"/>
+        <Span id="transaction_value" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="transaction_date" size="wrap"/>
+        <Span size="@dimen/item_order_transaction_date_icon_margin_left"/>
+        <Span id="transaction_date_icon" size="@dimen/item_order_transaction_date_icon_width"/>
+        <Span size="@dimen/item_order_transaction_date_icon_margin_right"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="transaction_time" size="wrap"/>
+        <Span size="@dimen/item_order_transaction_time_icon_margin_left"/>
+        <Span id="transaction_time_icon" size="@dimen/item_order_transaction_time_icon_width"/>
+        <Span size="@dimen/item_order_transaction_time_icon_margin_right"/>
+    </Horizontal>
+
+
+    <Vertical start="start@back1" end="end@back1">
+        <Span size="@dimen/item_order_transaction_result_margin_top"/>
+        <Span id="transaction_result" size="@dimen/item_order_transaction_result_height"/>
+        <Span size="1w"/>
+        <Span id="transaction_date_icon" size="@dimen/item_order_transaction_date_icon_height"/>
+        <Span size="@dimen/item_order_transaction_date_icon_margin_bottom"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_result" end="end@transaction_result">
+        <Span id="transaction_type" size="wrap"/>
+    </Vertical>
+
+
+    <Vertical start="start@back1" end="end@back1">
+        <Span size="@dimen/item_order_transaction_phone_margin_top"/>
+        <Span id="transaction_detail" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="start@back1" end="end@back1">
+        <Span size="@dimen/item_order_transaction_phone_margin_top"/>
+        <Span id="payment_number" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_date" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_time_icon" size="@dimen/item_order_transaction_time_icon_height"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_time" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_value" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@transaction_date_icon" end="end@transaction_date_icon">
+        <Span size="1w"/>
+        <Span id="transaction_value_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+
+
+</Sequences>

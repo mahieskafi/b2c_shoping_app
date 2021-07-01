@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal id="horizontal_seq">
+        <Span size="0dp"/>
+        <Span id="content_view" size="1w"/>
+        <Span size="0dp"/>
+        <Span size="8dp"/>
+        <Span id="indicator_icon" size="16dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@content_view" end="end@content_view">
+        <Span size="8dp"/>
+        <Span id="item_name" size="1w"/>
+        <Span size="8dp"/>
+        <Span id="divider" size="1dp"/>
+        <Span id="drop_icon" size="32dp"/>
+    </Horizontal>
+
+    <Horizontal end="start@indicator_icon">
+        <Span id="background" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal end="start@indicator_icon">
+        <Span id="helper_background" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal start="start@content_view" end="end@content_view">
+        <Span size="8dp"/>
+        <Span id="bottom_divider" size="1w"/>
+        <Span size="8dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span id="helper" size="0dp"/>
+    </Horizontal>
+
+
+    <Vertical start="start@content_view" end="end@content_view">
+        <Span size="16dp"/>
+        <Span id="helper_background" size="1w"/>
+    </Vertical>
+
+    <Vertical id="vertical_seq">
+        <Span id="helper" size="8dp"/>
+        <Span id="content_view" size="32dp"/>
+    </Vertical>
+
+    <Vertical id="background_vertical_seq" start="start@helper" end="end@content_view">
+        <Span id="background" size="100%"/>
+    </Vertical>
+
+<!--    <Vertical start="start@content_view" end="end@content_view">-->
+<!--        <Span size="1w"/>-->
+<!--        <Span id="helper" size="wrap"/>-->
+<!--        <Span size="1w"/>-->
+<!--    </Vertical>-->
+
+<!--    <Vertical start="start@content_view" end="end@content_view">-->
+<!--        <Span size="1w"/>-->
+<!--        <Span id="helper2" size="wrap"/>-->
+<!--        <Span size="1w"/>-->
+<!--    </Vertical>-->
+
+    <Vertical start="start@content_view" end="end@content_view">
+        <Span size="1w"/>
+        <Span id="indicator_icon" size="16dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@content_view" end="end@content_view">
+        <Span size="1w"/>
+        <Span id="drop_icon" size="32dp"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@content_view" end="end@content_view">
+        <Span size="4dp"/>
+        <Span id="divider" size="1w"/>
+        <Span size="4dp"/>
+    </Vertical>
+
+    <Vertical start="start@content_view" end="end@content_view">
+        <Span size="1w"/>
+        <Span id="item_name" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@content_view" end="end@content_view">
+        <Span size="1w"/>
+        <Span id="bottom_divider" size="1dp"/>
+    </Vertical>
+
+</Sequences>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="ماوس"
+        android:gravity="right"
+        android:textAlignment="gravity"/>
+
+
+    <TextView
+        android:id="@+id/point"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="right"
+        android:text="550000"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/price_suffix"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+    <View
+        android:id="@+id/click_helper"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/shop_item_divider_color"/>
+
+    <com.srp.ewayspanel.ui.view.CounterView2
+        android:id="@+id/product_count"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/delete_product"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star_point"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/buy_error_text"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/availability_error_text"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="invisible"/>
+
+    <com.srp.ewayspanel.ui.view.OffPriceTextView
+        android:id="@+id/price_before_off"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="right|center_vertical"
+        android:text="650000"/>
+
+    <TextView
+        android:id="@+id/off_value"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|center_horizontal" />
+
+</merge>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.srp.eways.ui.survey.SurveyActivity">
+
+    <com.srp.eways.ui.view.toolbar.WeiredToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/survey_toolbar_height"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/start_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/start_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/survey_start_page_icon_margin_top"
+                android:layout_marginBottom="@dimen/survey_start_page_icon_margin_bottom"/>
+
+            <TextView
+                android:id="@+id/start_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/survey_start_page_margin_side"/>
+
+            <TextView
+                android:id="@+id/start_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/survey_start_page_margin_side"
+                android:layout_marginTop="@dimen/survey_start_page_title_margin_top"/>
+
+            <TextView
+                android:id="@+id/start_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="@dimen/survey_start_page_margin_side"
+                android:lineSpacingExtra="8sp"/>
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/start_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/survey_start_page_button_height"
+                android:layout_marginTop="@dimen/survey_start_page_button_margin_top"
+                android:layout_marginRight="@dimen/survey_start_page_margin_side"
+                android:layout_marginLeft="@dimen/survey_start_page_margin_side"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/question_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.srp.eways.ui.survey.SurveyQuestionIndicator
+                android:id="@+id/question_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_survey_point_selector_height"
+                android:layout_marginTop="@dimen/survey_question_indicator_margin_top"
+                android:layout_marginRight="@dimen/survey_question_indicator_margin_side"
+                android:layout_marginLeft="@dimen/survey_question_indicator_margin_side"/>
+
+            <TextView
+                android:id="@+id/question_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/survey_question_margin_side"
+                android:layout_marginTop="@dimen/survey_question_number_margin_top"/>
+
+            <TextView
+                android:id="@+id/question_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/survey_question_margin_side"
+                android:layout_marginTop="@dimen/survey_question_text_margin_top"
+                android:layout_marginLeft="@dimen/survey_question_margin_side"
+                android:layout_marginBottom="@dimen/survey_question_text_margin_bottom"/>
+
+            <FrameLayout
+                android:id="@+id/question_answer_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+            </FrameLayout>
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/question_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/survey_question_button_height"
+                android:layout_marginTop="@dimen/survey_question_page_button_margin_top"
+                android:layout_marginRight="@dimen/survey_question_margin_side"
+                android:layout_marginLeft="@dimen/survey_question_margin_side"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/end_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/end_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/survey_end_icon_margin_top"
+                android:layout_marginBottom="@dimen/survey_end_icon_margin_bottom"/>
+
+            <TextView
+                android:id="@+id/end_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/end_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/survey_end_margin_side"
+                android:layout_marginLeft="@dimen/survey_end_margin_side"
+                android:layout_marginTop="@dimen/survey_end_description_margin_top"/>
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/end_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/survey_end_button_height"
+                android:layout_marginTop="@dimen/survey_end_page_button_margin_top"
+                android:layout_marginRight="@dimen/survey_end_margin_side"
+                android:layout_marginLeft="@dimen/survey_end_margin_side"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

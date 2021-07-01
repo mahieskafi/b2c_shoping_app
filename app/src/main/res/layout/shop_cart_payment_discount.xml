@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    custom:cardCornerRadius="8dp"
+    custom:cardElevation="0dp"
+    android:background="@drawable/address_detail_card_backgound"
+    android:padding="16dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp"
+        android:gravity="right|center_vertical">
+
+        <TextView
+            android:id="@+id/discount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="25dp"
+            android:text="کد تخفیف دارم"/>
+
+        <CheckBox
+            android:id="@+id/discount_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@drawable/custome_login_checkbox"
+            android:gravity="right"/>
+
+        <ImageView
+            android:id="@+id/discount_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible"
+            android:layout_gravity="right"
+            custom:srcCompat="@drawable/ic_check" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="15dp"
+        android:weightSum="1">
+
+        <com.srp.eways.ui.view.button.ButtonElement
+            android:id="@+id/submit_discount_code"
+            android:layout_width="94dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="40dp"
+            android:visibility="gone"
+            />
+
+        <com.srp.eways.ui.view.input.InputElement
+            android:id="@+id/discount_code_value"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:gravity="right|center_vertical"
+            android:maxLines="1"
+            android:hint="کد تخفیف"
+            android:paddingLeft="@dimen/shop_cart_payment_method_item_discount_input_padding"
+            android:paddingRight="@dimen/shop_cart_payment_method_item_discount_input_padding"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="40dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

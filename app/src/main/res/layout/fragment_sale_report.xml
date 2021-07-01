@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sale_report_date_container_sides_margin"
+        android:layout_marginTop="@dimen/sale_report_date_container_top_bottom_margin"
+        android:layout_marginRight="@dimen/sale_report_date_container_sides_margin"
+        android:layout_marginBottom="@dimen/sale_report_date_container_top_bottom_margin"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="1">
+
+        <com.srp.eways.ui.view.input.InputElement
+            android:id="@+id/end_date"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sale_report_date_input_height"
+            android:layout_marginRight="@dimen/sale_report_date_margin"
+            android:layout_weight="0.5"
+            android:imeOptions="actionDone"
+            custom:font="@font/iran_yekan_light" />
+
+        <com.srp.eways.ui.view.input.InputElement
+            android:id="@+id/start_date"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sale_report_date_input_height"
+            android:layout_marginLeft="@dimen/sale_report_date_margin"
+            android:layout_weight="0.5"
+            android:imeOptions="actionDone"
+            custom:font="@font/iran_yekan_light" />
+    </LinearLayout>
+
+    <com.srp.eways.ui.view.button.ButtonElement
+        android:id="@+id/b_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sale_report_button_height"
+        android:layout_marginLeft="@dimen/sale_report_button_sides_margin"
+        android:layout_marginRight="@dimen/sale_report_button_sides_margin"
+        custom:button_font="@font/iran_yekan_light" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sale_report_list_margin_sides"
+        android:layout_marginTop="@dimen/sale_report_list_margin"
+        android:layout_marginBottom="@dimen/sale_report_list_margin"
+        android:layout_marginEnd="@dimen/sale_report_list_margin_sides"
+        android:clipToPadding="false"
+        android:clipChildren="false">
+
+        <com.srp.eways.ui.view.EmptyView
+            android:id="@+id/emptyview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:visibility="gone" />
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:visibility="gone" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/list_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_summaries"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</LinearLayout>

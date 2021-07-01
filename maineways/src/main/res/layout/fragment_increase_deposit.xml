@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/increase_deposit_standard_margin"
+                android:gravity="right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:fontFamily="@font/iran_yekan"
+                    android:gravity="center"
+                    android:text="@string/deposit_rial"
+                    android:textColor="@color/black_light"
+                    android:textSize="@dimen/increase_deposit_rial_text_size" />
+
+                <TextView
+                    android:id="@+id/txt_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/iran_yekan"
+                    android:text="@string/increase_deposit_select_value_text"
+                    android:textColor="@color/increase_deposit_message_color"
+                    android:textSize="@dimen/deposit_text_size" />
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/increase_deposit_standard_margin"
+                android:layout_marginRight="@dimen/increase_deposit_standard_margin"
+                android:background="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                card_view:cardCornerRadius="@dimen/increase_deposit_price_container_corner_radius"
+                card_view:cardElevation="@dimen/increase_deposit_price_container_elevation">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/increase_deposit_standard_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.srp.eways.ui.view.input.InputElement
+                            android:id="@+id/ie_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/increase_deposit_price_value_input_height"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            custom:font="@font/iran_yekan_light" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/increase_deposit_price_value_input_separator_height"
+                            android:layout_marginTop="@dimen/increase_deposit_standard_margin"
+                            android:background="@color/increase_deposit_price_value_input_separator_background" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bank_card"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="@dimen/increase_deposit_standard_margin"
+                android:background="@color/white"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:visibility="gone"
+                card_view:cardCornerRadius="@dimen/increase_deposit_price_container_corner_radius"
+                card_view:cardElevation="@dimen/increase_deposit_price_container_elevation">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_bank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center" />
+
+                <com.srp.eways.ui.view.LoadingStateView
+                    android:id="@+id/loadingstateview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp" />
+            </androidx.cardview.widget.CardView>
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/btn_payment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/increase_deposit_button_payment_height"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_margin="@dimen/increase_deposit_standard_margin"
+                custom:button_font="@font/iran_yekan_light" />
+        </LinearLayout>
+    </ScrollView>q
+</FrameLayout>

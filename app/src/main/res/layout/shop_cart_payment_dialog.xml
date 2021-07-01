@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="287dp"
+    android:layout_gravity="center_vertical"
+    card_view:cardCornerRadius="@dimen/confirm_transaction_corner_radius"
+    card_view:cardElevation="@dimen/confirm_transaction_elevation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="19dp">
+
+        <LinearLayout
+            android:id="@+id/button_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bill_confirm_dialog_button_height"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="20dp"
+            android:weightSum="@integer/confirm_dialog_button_container_weight">
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/b_cancel"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bill_confirm_dialog_button_height"
+                android:layout_marginRight="5.5dp"
+                android:layout_weight="@integer/confirm_dialog_button_cancel_weight" />
+
+            <com.srp.eways.ui.view.button.ButtonElement
+                android:id="@+id/b_confirm"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/bill_confirm_dialog_button_height"
+                android:layout_marginLeft="5.5dp"
+                android:layout_weight="@integer/confirm_dialog_button_confirm_weight" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="19dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/icon"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                tools:src="@drawable/ic_bill_dialog_smile_mark" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="11sp"
+                android:gravity="center_horizontal"
+                android:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center_horizontal"
+                android:visibility="visible"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

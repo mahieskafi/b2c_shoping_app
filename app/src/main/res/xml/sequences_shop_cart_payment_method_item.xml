@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+
+    <Horizontal>
+        <Span size="5dp"/>
+        <Span id="discount_container" size="1w"/>
+        <Span size="5dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="5dp"/>
+        <Span id="deposit_container" size="1w"/>
+        <Span size="5dp"/>
+    </Horizontal>
+
+    <Horizontal>
+        <Span size="7dp"/>
+        <Span id="pay_title_text" size="1w"/>
+        <Span size="5dp"/>
+    </Horizontal>
+
+
+
+    <Vertical >
+        <Span id="discount_container" size="wrap"/>
+        <Span size="18dp"/>
+        <Span id="pay_title_text" size="wrap"/>
+        <Span size="8dp"/>
+        <Span id="deposit_container" size="wrap"/>
+        <Span size="8dp"/>
+    </Vertical>
+
+</Sequences>

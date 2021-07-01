@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="1w"/>
+        <Span id="status_icon" size="22dp"/>
+        <Span size="12dp"/>
+    </Horizontal>
+
+
+    <Horizontal end="start@status_icon">
+        <Span size="10dp"/>
+        <Span id="bill_id" size="wrap"/>
+        <Span size="8dp"/>
+        <Span id="bill_id_suffix" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="bill_name" size="wrap"/>
+        <Span size="10dp"/>
+    </Horizontal>
+
+
+    <Horizontal end="start@status_icon">
+        <Span size="10dp"/>
+        <Span id="pay_id" size="wrap"/>
+        <Span size="8dp"/>
+        <Span id="pay_id_suffix" size="wrap"/>
+        <Span size="1w"/>
+        <Span id="bill_price_suffix" size="wrap"/>
+        <Span size="4dp"/>
+        <Span id="bill_price" size="wrap"/>
+        <Span size="10dp"/>
+    </Horizontal>
+
+
+    <Vertical>
+        <Span size="22dp"/>
+        <Span id="status_icon" size="22dp"/>
+        <Span size="28dp"/>
+    </Vertical>
+
+
+    <Vertical>
+        <Span size="14dp"/>
+        <Span id="bill_name" size="wrap"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="1w"/>
+        <Span id="bill_price" size="wrap"/>
+        <Span size="18dp"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="14dp"/>
+        <Span id="bill_id" size="wrap"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="1w"/>
+        <Span id="pay_id" size="wrap"/>
+        <Span size="18dp"/>
+    </Vertical>
+
+
+    <Vertical start="start@bill_price" end="end@bill_price">
+        <Span size="1w"/>
+        <Span id="bill_price_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@bill_id" end="end@bill_id">
+        <Span size="1w"/>
+        <Span id="bill_id_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+    <Vertical start="start@pay_id" end="end@pay_id">
+        <Span size="1w"/>
+        <Span id="pay_id_suffix" size="wrap"/>
+        <Span size="1w"/>
+    </Vertical>
+
+</Sequences>

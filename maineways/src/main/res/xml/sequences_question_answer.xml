@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="@dimen/question_answer_main_margin"/>
+        <Span size="1w"/>
+        <Span id="answer_text" size="wrap"/>
+        <Span id="selector_image" size="@dimen/question_answer_selector_width"/>
+    </Horizontal>
+
+
+    <Vertical>
+        <Span id="selector_image" size="@dimen/question_answer_selector_height"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="4dp"/>
+        <Span id="answer_text" size="wrap"/>
+        <Span size="@dimen/question_answer_main_margin"/>
+    </Vertical>
+
+</Sequences>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:clipChildren="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+
+        android:orientation="vertical">
+
+        <com.srp.eways.ui.view.toolbar.WeiredToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/deposit_toolbar_height"
+            android:clipToPadding="false" />
+
+        <LinearLayout
+            android:id="@+id/f_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/deposit_container_margin_left"
+            android:layout_marginTop="@dimen/deposit_container_margin_top"
+            android:layout_marginRight="@dimen/deposit_container_margin_right"
+            android:layout_marginBottom="@dimen/deposit_container_margin_bottom"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/deposit_container_frame_margin_right"
+                android:background="@drawable/deposit_background"
+                android:gravity="center"
+                android:paddingLeft="@dimen/deposit_container_frame_padding_left"
+                android:paddingRight="@dimen/deposit_container_frame_padding_right">
+
+                <TextView
+                    android:id="@+id/txt_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/iran_yekan"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/deposit_value_text_size" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/iran_yekan"
+                android:gravity="center"
+                android:text="@string/deposit_value_credit_text_end"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/deposit_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/iran_yekan"
+                android:gravity="center"
+                android:text="@string/deposit_rial"
+                android:textColor="@color/black_light"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/iran_yekan"
+                android:gravity="center"
+                android:text="@string/deposit_value_credit_text_start"
+                android:textColor="@color/black_light"
+                android:textSize="@dimen/deposit_text_size" />
+
+        </LinearLayout>
+
+        <com.srp.eways.ui.view.charge.a.ChargeOptionsTabViewA
+            android:id="@+id/tab_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/deposit_standard_margin"
+            android:layout_marginRight="@dimen/deposit_standard_margin" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:visibility="gone">
+
+        <com.srp.eways.ui.view.LoadingStateView
+            android:id="@+id/loadingstateview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/buycharge_loadingstateview_marginstart"
+
+            android:layout_marginEnd="@dimen/buycharge_loadingstateview_marginend" />
+    </FrameLayout>
+</FrameLayout>

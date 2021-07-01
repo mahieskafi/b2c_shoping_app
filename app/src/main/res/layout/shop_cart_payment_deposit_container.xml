@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    custom:cardCornerRadius="8dp"
+    custom:cardElevation="0dp"
+    android:background="@drawable/address_detail_card_backgound">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+            <LinearLayout
+                android:id="@+id/deposit_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/switch_linear"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="12dp"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_value_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    tools:text="@string/rial" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_deposit_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="1654654654" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/deposit_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    tools:text="@string/shop_cart_deposit_title" />
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/switch_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/deposit_linear"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="-2dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/switch_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="switch"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:checked="false"
+                android:theme="@style/SwitchCompatTheme" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

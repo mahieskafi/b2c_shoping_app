@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <view class="com.srp.eways.ui.bill.archive.billitemview.DetailBillItemView$BillIconBackground"
+        android:id="@+id/bill_icon_background"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bill_icon"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bill_name"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bill_date"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bill_time"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bill_number_title"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bill_number"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bill_price_prefix"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/bill_price"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/delete_bill_icon"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+</merge>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sequences>
+
+    <Horizontal>
+        <Span size="@dimen/survey_image_selector_item_view_margin_left"/>
+        <Span id="image_view1" size="1w"/>
+        <Span size="@dimen/survey_image_selector_item_view_margin_middle"/>
+        <Span id="image_view2" size="1w"/>
+        <Span size="@dimen/survey_image_selector_item_view_margin_right"/>
+    </Horizontal>
+
+    <Horizontal start="start@image_view1" end="end@image_view1">
+        <Span size="1w"/>
+        <Span id="image_name1" size="wrap"/>
+        <Span size="@dimen/survey_image_selector_item_view_icon_margin_left"/>
+        <Span id="image_select_icon1" size="@dimen/survey_image_selector_item_view_icon_width"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+    <Horizontal start="start@image_view2" end="end@image_view2">
+        <Span size="1w"/>
+        <Span id="image_name2" size="wrap"/>
+        <Span size="@dimen/survey_image_selector_item_view_icon_margin_left"/>
+        <Span id="image_select_icon2" size="@dimen/survey_image_selector_item_view_icon_width"/>
+        <Span size="1w"/>
+    </Horizontal>
+
+
+    <Vertical>
+        <Span size="@dimen/survey_image_selector_item_view_margin_top"/>
+        <Span id="image_view1" size="264dp"/>
+        <Span size="@dimen/survey_image_selector_item_view_name_margin_top"/>
+        <Span id="image_name1" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="start@image_name1" end="end@image_name1">
+        <Span id="image_select_icon1" size="@dimen/survey_image_selector_item_view_icon_height"/>
+    </Vertical>
+
+    <Vertical>
+        <Span size="@dimen/survey_image_selector_item_view_margin_top"/>
+        <Span id="image_view2" size="264dp"/>
+        <Span size="@dimen/survey_image_selector_item_view_name_margin_top"/>
+        <Span id="image_name2" size="wrap"/>
+    </Vertical>
+
+    <Vertical start="start@image_name2" end="end@image_name2">
+        <Span id="image_select_icon2" size="@dimen/survey_image_selector_item_view_icon_height"/>
+    </Vertical>
+
+
+</Sequences>
